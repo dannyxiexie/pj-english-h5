@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>音标-拼写学习 Demo</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="app-header">
+    <div class="brand">
+      <div class="logo">ABC</div>
+      <div>
+        <div class="title">音标 × 拼写 × 词汇</div>
+        <div class="subtitle">本地离线 H5 Demo（美式音标）</div>
+      </div>
+    </div>
+    <div class="header-actions">
+      <button id="voiceTest" class="btn ghost">测试发音</button>
+    </div>
+  </header>
+
+  <main class="app">
+    <aside class="sidebar">
+      <div class="section-title">课次</div>
+      <div id="unitList" class="unit-list"></div>
+    </aside>
+
+    <section class="content">
+      <div id="unitHeader" class="unit-header"></div>
+
+      <div class="panel">
+        <div class="panel-title">词汇（点击发音）</div>
+        <div id="vocabList" class="chip-list"></div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-title">音标与拼写（点击音标）</div>
+        <div id="soundGrid" class="sound-grid"></div>
+      </div>
+
+      <div class="panel detail" id="soundDetail">
+        <div class="panel-title">音标详情</div>
+        <div class="detail-body">
+          <div class="detail-left">
+            <div class="ipa" id="detailIpa">/ɑr/</div>
+            <div class="detail-label" id="detailLabel">-ar (car)</div>
+            <button id="detailPlay" class="btn">播放音标</button>
+          </div>
+          <div class="detail-right">
+            <div class="detail-row"><span class="detail-key">拼写</span><span id="detailSpelling">-ar</span></div>
+            <div class="detail-row"><span class="detail-key">例词</span></div>
+            <div id="detailWords" class="chip-list"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel note">
+        <div class="panel-title">说明</div>
+        <div class="note-body">
+          当前 Demo 使用浏览器的语音合成功能播放发音（需要点击触发）。正式版本可替换为本地音频文件以获得更稳定的离线体验。
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
