@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>音标-拼写学习 Demo</title>
+  <title>Amy的可爱英语帮手</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -12,7 +12,7 @@
       <div class="logo">ABC</div>
       <div>
         <div class="title">音标 × 拼写 × 词汇</div>
-        <div class="subtitle">本地离线 H5 Demo（美式音标）</div>
+        <div class="subtitle">Amy的可爱英语帮手</div>
       </div>
     </div>
     <div class="header-actions">
@@ -22,43 +22,99 @@
 
   <main class="app">
     <aside class="sidebar">
-      <div class="section-title">课次</div>
-      <div id="unitList" class="unit-list"></div>
+      <details class="group" open>
+        <summary>四年级下学期</summary>
+        <div id="unitList" class="unit-list"></div>
+      </details>
+
+      <details class="group" open>
+        <summary>薄弱专项</summary>
+        <div class="unit-list">
+          <button class="unit-item" data-view="weakness-study">学习页</button>
+          <button class="unit-item" data-view="weakness-quiz">测试页</button>
+        </div>
+      </details>
     </aside>
 
     <section class="content">
-      <div id="unitHeader" class="unit-header"></div>
+      <div id="unitView" class="view">
+        <div id="unitHeader" class="unit-header"></div>
 
-      <div class="panel">
-        <div class="panel-title">词汇（点击发音）</div>
-        <div id="vocabList" class="chip-list"></div>
-      </div>
+        <div class="panel">
+          <div class="panel-title">词汇（点击发音）</div>
+          <div id="vocabList" class="chip-list"></div>
+        </div>
 
-      <div class="panel">
-        <div class="panel-title">音标与拼写（点击音标）</div>
-        <div id="soundGrid" class="sound-grid"></div>
-      </div>
+        <div class="panel">
+          <div class="panel-title">音标与拼写（点击音标）</div>
+          <div id="soundGrid" class="sound-grid"></div>
+        </div>
 
-      <div class="panel detail" id="soundDetail">
-        <div class="panel-title">音标详情</div>
-        <div class="detail-body">
-          <div class="detail-left">
-            <div class="ipa" id="detailIpa">/ɑr/</div>
-            <div class="detail-label" id="detailLabel">-ar (car)</div>
-            <button id="detailPlay" class="btn">播放音标</button>
+        <div class="panel detail" id="soundDetail">
+          <div class="panel-title">音标详情</div>
+          <div class="detail-body">
+            <div class="detail-left">
+              <div class="ipa" id="detailIpa">/ɑr/</div>
+              <div class="detail-label" id="detailLabel">-ar (car)</div>
+              <button id="detailPlay" class="btn">播放音标</button>
+            </div>
+            <div class="detail-right">
+              <div class="detail-row"><span class="detail-key">拼写</span><span id="detailSpelling">-ar</span></div>
+              <div class="detail-row"><span class="detail-key">例词</span></div>
+              <div id="detailWords" class="chip-list"></div>
+            </div>
           </div>
-          <div class="detail-right">
-            <div class="detail-row"><span class="detail-key">拼写</span><span id="detailSpelling">-ar</span></div>
-            <div class="detail-row"><span class="detail-key">例词</span></div>
-            <div id="detailWords" class="chip-list"></div>
+        </div>
+
+        <div class="panel note">
+          <div class="panel-title">说明</div>
+          <div class="note-body">
+            点击卡片即可发音。iPad 上需要先点击按钮或卡片，语音才会播放。
           </div>
         </div>
       </div>
 
-      <div class="panel note">
-        <div class="panel-title">说明</div>
-        <div class="note-body">
-          当前 Demo 使用浏览器的语音合成功能播放发音（需要点击触发）。正式版本可替换为本地音频文件以获得更稳定的离线体验。
+      <div id="weaknessStudyView" class="view hidden">
+        <div class="unit-header">薄弱专项 · 学习页</div>
+
+        <div class="panel">
+          <div class="panel-title">序数词 1–10（点击发音）</div>
+          <div id="ordinalList" class="study-grid"></div>
+        </div>
+
+        <div class="panel">
+          <div class="panel-title">星期几（点击发音）</div>
+          <div id="weekdayList" class="study-grid"></div>
+        </div>
+
+        <div class="panel">
+          <div class="panel-title">上午 / 下午（点击发音）</div>
+          <div id="ampmList" class="study-grid"></div>
+        </div>
+      </div>
+
+      <div id="weaknessQuizView" class="view hidden">
+        <div class="unit-header">薄弱专项 · 测试页</div>
+
+        <div class="panel">
+          <div class="panel-title">选择题模式</div>
+          <div class="quiz-tabs">
+            <button class="tab-btn" data-quiz="ordinal">序数词</button>
+            <button class="tab-btn" data-quiz="weekday">星期几</button>
+            <button class="tab-btn" data-quiz="ampm">上午/下午</button>
+          </div>
+
+          <div class="quiz-body">
+            <div class="quiz-card" id="quizCard">
+              <div class="quiz-image" id="quizImage">1st</div>
+              <div class="quiz-prompt" id="quizPrompt">请选择对应的英文</div>
+            </div>
+            <div id="quizOptions" class="quiz-options"></div>
+            <div class="quiz-actions">
+              <div id="quizFeedback" class="quiz-feedback"></div>
+              <button id="quizNext" class="btn">下一题</button>
+            </div>
+          </div>
         </div>
       </div>
     </section>
