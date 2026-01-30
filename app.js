@@ -144,6 +144,7 @@ const quizPromptEl = document.getElementById("quizPrompt");
 const quizOptionsEl = document.getElementById("quizOptions");
 const quizFeedbackEl = document.getElementById("quizFeedback");
 const quizNextBtn = document.getElementById("quizNext");
+const confettiEl = document.getElementById("confetti");
 
 let activeUnit = units[0];
 let activeSound = units[0].sounds[0];
@@ -350,6 +351,12 @@ function renderQuiz() {
       const isCorrect = option === quizState.question.answer;
       btn.classList.add(isCorrect ? "correct" : "wrong");
       quizFeedbackEl.textContent = isCorrect ? "答对啦！" : `再试试，正确答案是 ${quizState.question.answer}`;
+      if (isCorrect) {
+        playCorrectSound();
+        launchConfetti();
+      } else {
+        playWrongSound();
+      }
       speakText(option);
       quizState.question = null;
     });
@@ -392,6 +399,50 @@ function speakText(text) {
   utterance.rate = 0.95;
   utterance.pitch = 1.0;
   window.speechSynthesis.speak(utterance);
+}
+
+function playTone(freq, durationMs, type, gainValue) {
+  const AudioCtx = window.AudioContext || window.webkitAudioContext;
+  if (!AudioCtx) return;
+  const ctx = new AudioCtx();
+  const osc = ctx.createOscillator();
+  const gain = ctx.createGain();
+  osc.type = type || "sine";
+  osc.frequency.value = freq;
+  gain.gain.value = gainValue || 0.08;
+  osc.connect(gain);
+  gain.connect(ctx.destination);
+  osc.start();
+  gain.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime + durationMs / 1000);
+  osc.stop(ctx.currentTime + durationMs / 1000);
+}
+
+function playCorrectSound() {
+  playTone(880, 120, "triangle", 0.12);
+  setTimeout(() => playTone(1200, 140, "triangle", 0.12), 120);
+  setTimeout(() => playTone(1560, 160, "triangle", 0.12), 260);
+}
+
+function playWrongSound() {
+  playTone(220, 220, "sawtooth", 0.14);
+  setTimeout(() => playTone(180, 240, "sawtooth", 0.14), 140);
+}
+
+function launchConfetti() {
+  if (!confettiEl) return;
+  confettiEl.innerHTML = "";
+  const colors = ["#ff6b6b", "#6c63ff", "#2ec4b6", "#f59e0b", "#f472b6"];
+  const count = 50;
+  for (let i = 0; i < count; i++) {
+    const piece = document.createElement("div");
+    piece.className = "confetti-piece";
+    piece.style.left = Math.random() * 100 + "%";
+    piece.style.background = colors[i % colors.length];
+    piece.style.animationDelay = Math.random() * 0.2 + "s";
+    piece.style.transform = `translate3d(0, -10vh, 0) rotate(${Math.random() * 360}deg)`;
+    confettiEl.appendChild(piece);
+  }
+  setTimeout(() => { confettiEl.innerHTML = ""; }, 1600);
 }
 
 voiceTestBtn.addEventListener("click", () => speakText("Hello, welcome to the phonics demo."));
