@@ -91,19 +91,18 @@ button.active,
 
 .app.theme-magic {
   --app-bg:
-    radial-gradient(circle at 14% 10%, rgba(240, 205, 105, 0.22), transparent 28%),
-    radial-gradient(circle at 86% 14%, rgba(106, 205, 255, 0.22), transparent 30%),
-    linear-gradient(145deg, #231a36 0%, #193444 48%, #3b2346 100%);
-  --surface: #fff8e8;
-  --surface-soft: rgba(255, 248, 232, 0.82);
-  --panel: #fffaf0;
-  --text: #241b2f;
-  --muted: #7b637e;
-  --border: #d6b870;
-  --accent: #7b4cc2;
-  --accent-soft: #f1e8ff;
-  --book-title: #fff8df;
-  --chip: #f4e9c7;
+    linear-gradient(90deg, rgba(78, 42, 35, 0.12), transparent 16%, transparent 84%, rgba(78, 42, 35, 0.12)),
+    linear-gradient(180deg, #3b2144 0%, #5f442a 42%, #2f463b 100%);
+  --surface: #ead7aa;
+  --surface-soft: rgba(232, 210, 161, 0.84);
+  --panel: #e6cf9a;
+  --text: #2b1f16;
+  --muted: #725840;
+  --border: #a17a42;
+  --accent: #6b3b8f;
+  --accent-soft: #d9c08b;
+  --book-title: #f2dfad;
+  --chip: #d8bd7d;
   --danger: #b33b63;
 }
 
@@ -149,6 +148,7 @@ button.active,
   display: flex;
   gap: 8px;
   flex: 0 0 auto;
+  overflow-x: auto;
 }
 
 .reader-shell {
@@ -304,10 +304,12 @@ button.active,
 
 .app.theme-magic .book-page {
   padding: 36px 28px 64px;
-  border: 1px solid rgba(214, 184, 112, 0.5);
+  border: 1px solid rgba(126, 85, 42, 0.5);
   border-radius: 8px;
-  background: rgba(255, 248, 232, 0.9);
-  box-shadow: 0 20px 56px rgba(12, 10, 22, 0.28);
+  background:
+    linear-gradient(90deg, rgba(111, 72, 35, 0.08), transparent 12%, transparent 88%, rgba(111, 72, 35, 0.08)),
+    linear-gradient(180deg, #ead7aa 0%, #dec38a 52%, #e7d0a0 100%);
+  box-shadow: 0 20px 56px rgba(33, 18, 20, 0.34);
 }
 
 .book-page h1 {
@@ -351,17 +353,20 @@ button.active,
   background: var(--accent-soft);
 }
 
-.character-token {
-  color: var(--character-color);
+.color-list-token {
+  color: var(--word-color);
   font-weight: 800;
-  text-decoration-line: underline;
-  text-decoration-color: color-mix(in srgb, var(--character-color) 42%, transparent);
-  text-decoration-thickness: 0.12em;
-  text-underline-offset: 0.16em;
 }
 
-.character-token:active {
-  background: color-mix(in srgb, var(--character-color) 16%, transparent);
+.color-list-token:active {
+  background: color-mix(in srgb, var(--word-color) 16%, transparent);
+}
+
+.collected-token {
+  text-decoration-line: underline;
+  text-decoration-color: #d33b3b;
+  text-decoration-thickness: 0.13em;
+  text-underline-offset: 0.18em;
 }
 
 .illustration-block {
@@ -599,12 +604,36 @@ button.active,
   gap: 10px;
 }
 
-.character-settings {
+.color-add-form {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 54px auto;
+  gap: 10px;
+  align-items: center;
+}
+
+.color-add-form input[type="text"],
+.color-add-form input:not([type]) {
+  min-height: 40px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--text);
+  padding: 0 12px;
+}
+
+.color-add-form input[type="color"],
+.color-row input[type="color"] {
+  width: 48px;
+  height: 36px;
+  padding: 2px;
+}
+
+.color-settings {
   display: grid;
   gap: 10px;
 }
 
-.character-row {
+.color-row {
   min-height: 48px;
   display: grid;
   grid-template-columns: minmax(0, 1fr) 54px auto;
@@ -614,30 +643,25 @@ button.active,
   border-top: 1px solid var(--border);
 }
 
-.character-row:first-child {
+.color-row:first-child {
   border-top: 0;
 }
 
-.character-row span {
+.color-row span {
   display: inline-flex;
   align-items: center;
   gap: 10px;
   min-width: 0;
   font-weight: 800;
+  color: var(--word-color);
 }
 
-.character-row i {
+.color-row i {
   width: 18px;
   height: 18px;
   border-radius: 999px;
-  background: var(--character-color);
-  box-shadow: 0 0 0 3px color-mix(in srgb, var(--character-color) 18%, transparent);
-}
-
-.character-row input[type="color"] {
-  width: 48px;
-  height: 36px;
-  padding: 2px;
+  background: var(--word-color);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--word-color) 18%, transparent);
 }
 
 .theme-choice {
@@ -671,9 +695,9 @@ button.active,
 
 .theme-swatch-magic {
   background:
-    radial-gradient(circle at 18% 10%, rgba(255, 220, 132, 0.5), transparent 30%),
-    linear-gradient(145deg, #28183d, #1b5662 55%, #6b3a83);
-  color: #fff8df;
+    linear-gradient(90deg, rgba(87, 54, 28, 0.2), transparent 20%, transparent 82%, rgba(87, 54, 28, 0.18)),
+    linear-gradient(145deg, #d9bd7b, #ecd8a8 55%, #c59a54);
+  color: #2b1f16;
 }
 
 .vocab-grid {

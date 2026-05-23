@@ -81,7 +81,7 @@ books/my-book-id/source/images/
 
 `cover` 可以指向这本书图片文件夹里的某一张图，也可以指向 `public/` 下的占位封面。
 
-`characters` 是可选的人物表。`name` 和 `aliases` 会用于阅读页人物名标色；颜色可以在应用的设置页继续调整。
+`characters` 是可选的初始颜色清单。`name` 和 `aliases` 会在第一次打开这本书时导入“颜色清单”，之后可以在应用里的“颜色清单”页面继续手工添加、改色或删除。
 
 ## 5. 运行导入
 

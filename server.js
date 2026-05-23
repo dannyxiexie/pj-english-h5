@@ -39,6 +39,19 @@ const localDefinitions = {
   scales: "鳞片；鱼、蛇、龙等身上的片状覆盖物；也可表示天平或刻度。"
 };
 
+const partOfSpeechLabels = {
+  noun: "名词",
+  verb: "动词",
+  adjective: "形容词",
+  adverb: "副词",
+  pronoun: "代词",
+  preposition: "介词",
+  conjunction: "连词",
+  determiner: "限定词",
+  interjection: "感叹词",
+  numeral: "数词"
+};
+
 const usageBank = {
   look: [
     { phrase: "look at", meaning: "看；看着" },
@@ -117,6 +130,25 @@ const usageBank = {
 };
 
 const cleanWord = (word = "") => word.toLowerCase().replace(/[^a-z'-]/g, "");
+const isGenericMeaning = (meaning = "") => meaning.startsWith("结合这句话");
+const formatPartOfSpeech = (partOfSpeech = "") => {
+  const normalized = String(partOfSpeech).toLowerCase().trim();
+  if (!normalized) return "";
+  return partOfSpeechLabels[normalized] ? `${partOfSpeechLabels[normalized]} ${normalized}` : partOfSpeech;
+};
+const inferPartOfSpeech = (word, sentence, dictionaryPart = "") => {
+  const normalized = cleanWord(word);
+  const words = sentenceWords(sentence).map((item) => cleanWord(item));
+  const index = words.findIndex((item) => item === normalized);
+  const previous = words[index - 1] || "";
+  const next = words[index + 1] || "";
+  if (normalized.endsWith("ing") || normalized.endsWith("ed")) return "动词 verb";
+  if (["a", "an", "the", "this", "that", "these", "those", "my", "your", "his", "her", "its", "their"].includes(previous)) {
+    return "名词 noun";
+  }
+  if (normalized.endsWith("s") && ["me", "you", "him", "her", "it", "us", "them"].includes(next)) return "动词 verb";
+  return formatPartOfSpeech(dictionaryPart);
+};
 
 const particles = new Set([
   "about",
@@ -185,7 +217,10 @@ const lemmaCandidates = (word) => {
     candidates.push(`${stem}e`);
     if (stem.at(-1) === stem.at(-2)) candidates.push(stem.slice(0, -1));
   }
-  if (normalized.endsWith("s") && normalized.length > 3) {
+  if (/(ches|shes|sses|xes|zes|oes)$/.test(normalized) && normalized.length > 4) {
+    candidates.push(normalized.slice(0, -2));
+  }
+  if (normalized.endsWith("s") && normalized.length > 3 && !/(ss|is|us|ous)$/.test(normalized)) {
     candidates.push(normalized.slice(0, -1));
   }
   return [...new Set(candidates.filter(Boolean))];
@@ -195,6 +230,16 @@ const bestLemma = (word) =>
   lemmaCandidates(word).find((candidate) => usageBank[candidate]) ||
   lemmaCandidates(word).find((candidate) => localDefinitions[candidate]) ||
   cleanWord(word);
+
+const dictionaryLemma = (word) => {
+  const normalized = cleanWord(word);
+  const best = bestLemma(word);
+  if (best !== normalized) return best;
+  if (/(ing|ed|ies|ches|shes|sses|xes|zes|oes)$/.test(normalized)) {
+    return lemmaCandidates(word).find((candidate) => candidate !== normalized) || normalized;
+  }
+  return normalized;
+};
 
 const contextualDefinition = (word, sentence = "") => {
   const normalized = cleanWord(word);
@@ -273,24 +318,30 @@ const fetchDictionaryUsage = async (word) => {
     const response = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${encodeURIComponent(word)}`, {
       signal: controller.signal
     });
-    if (!response.ok) return { examples: [], phonetic: null, phoneticUs: null };
+    if (!response.ok) return { examples: [], phonetic: null, phoneticUs: null, partOfSpeech: null, definition: null };
     const entries = await response.json();
-    if (!Array.isArray(entries)) return { examples: [], phonetic: null, phoneticUs: null };
+    if (!Array.isArray(entries)) return { examples: [], phonetic: null, phoneticUs: null, partOfSpeech: null, definition: null };
     const examples = entries
       .flatMap((entry) => entry.meanings || [])
       .flatMap((meaning) => meaning.definitions || [])
       .map((definition) => definition.example)
       .filter(Boolean)
       .slice(0, 8);
+    const meanings = entries.flatMap((entry) => entry.meanings || []);
+    const partOfSpeech = meanings.find((meaning) => meaning.partOfSpeech)?.partOfSpeech || null;
+    const definition =
+      meanings
+        .flatMap((meaning) => meaning.definitions || [])
+        .find((item) => item.definition)?.definition || null;
     const phonetics = entries.flatMap((entry) => entry.phonetics || []);
     const phoneticUs =
       phonetics.find((item) => item.text && /-us\.mp3|us\.mp3|en\/.*-us/i.test(item.audio || ""))?.text ||
       phonetics.find((item) => item.text && /us/i.test(item.sourceUrl || ""))?.text ||
       null;
     const phonetic = phoneticUs || phonetics.find((item) => item.text)?.text || entries[0]?.phonetic || null;
-    return { examples, phonetic, phoneticUs };
+    return { examples, phonetic, phoneticUs, partOfSpeech, definition };
   } catch {
-    return { examples: [], phonetic: null, phoneticUs: null };
+    return { examples: [], phonetic: null, phoneticUs: null, partOfSpeech: null, definition: null };
   } finally {
     clearTimeout(timeout);
   }
@@ -308,6 +359,22 @@ const fetchJsonWithTimeout = async (url, ms = 3500) => {
   } finally {
     clearTimeout(timeout);
   }
+};
+
+const fetchChineseTranslation = async (text) => {
+  const normalized = String(text || "").trim();
+  if (!normalized) return "";
+  const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-CN&dt=t&q=${encodeURIComponent(normalized)}`;
+  const data = await fetchJsonWithTimeout(url, 3000);
+  const translated = Array.isArray(data?.[0])
+    ? data[0]
+        .map((item) => item?.[0])
+        .filter(Boolean)
+        .join("")
+        .trim()
+    : "";
+  if (!translated || translated.toLowerCase() === normalized.toLowerCase()) return "";
+  return translated;
 };
 
 const fetchDatamuseUsage = async (lemma) => {
@@ -341,16 +408,23 @@ const enrichUsage = async (payload, base) => {
   const word = String(payload.word || "");
   const normalized = cleanWord(word);
   const lemma = bestLemma(word);
+  const lookupLemma = dictionaryLemma(word);
   const currentPhraseRows = phraseFromCurrentSentence(word, payload.sentence);
   const isTipOfWing = lemma === "tip" && /wing|wings/i.test(payload.sentence || "");
   const isCreatureScale = lemma === "scale" && /dragon|dragons|fish|snake|reptile|tail|shiny|red|brown|white|yellow|blue/i.test(payload.sentence || "");
   const shouldUseDatamuse = !isCreatureScale && (Boolean(usageBank[lemma]) || currentPhraseRows.length > 0);
-  const [dictionary, originalDictionary, datamuse] = await Promise.all([
-    fetchDictionaryUsage(lemma),
-    normalized && normalized !== lemma ? fetchDictionaryUsage(normalized) : Promise.resolve(null),
-    shouldUseDatamuse ? fetchDatamuseUsage(lemma) : Promise.resolve([])
+  const [dictionary, originalDictionary, datamuse, translatedWord] = await Promise.all([
+    fetchDictionaryUsage(lookupLemma),
+    normalized && normalized !== lookupLemma ? fetchDictionaryUsage(normalized) : Promise.resolve(null),
+    shouldUseDatamuse ? fetchDatamuseUsage(lemma) : Promise.resolve([]),
+    localDefinitions[normalized] || localDefinitions[lemma] ? Promise.resolve("") : fetchChineseTranslation(normalized || word)
   ]);
   const phoneticSource = originalDictionary?.phonetic || originalDictionary?.phoneticUs ? originalDictionary : dictionary;
+  const partOfSpeech = inferPartOfSpeech(word, payload.sentence || "", dictionary.partOfSpeech || originalDictionary?.partOfSpeech || base.partOfSpeech || "");
+  const contextualMeaning =
+    translatedWord && isGenericMeaning(base.contextualMeaning)
+      ? `${translatedWord}；结合当前句子使用。`
+      : base.contextualMeaning;
   const phrases = uniqueByPhrase([
     ...currentPhraseRows,
     ...(usageBank[lemma] || []),
@@ -361,8 +435,10 @@ const enrichUsage = async (payload, base) => {
   return {
     ...base,
     normalizedWord: cleanWord(word),
+    contextualMeaning,
     pronunciationHint: phoneticSource.phonetic ? `音标：${phoneticSource.phonetic}` : base.pronunciationHint,
     phoneticUs: phoneticSource.phoneticUs || base.phoneticUs || "",
+    partOfSpeech,
     phrases,
     examples: uniqueByPhrase(dictionary.examples.map((example) => ({ phrase: example, meaning: "" })))
       .map((item) => item.phrase)
@@ -386,6 +462,7 @@ const fallbackLookup = ({ word, sentence }) => {
     sentenceTranslation: sentenceCn,
     pronunciationHint: "点击发音按钮播放英文读音。",
     phoneticUs: "",
+    partOfSpeech: "",
     phrases: uniqueByPhrase([...phraseFromCurrentSentence(word, sentence), ...(usageBank[lemma] || [])]).slice(0, 3),
     examples: sentence ? [sentence] : []
   };
@@ -422,8 +499,9 @@ app.post("/api/lookup", async (req, res) => {
     const prompt = [
       "你是一个给中国小学生讲英文分级读物的老师。",
       "请只返回 JSON，不要 Markdown。",
-      "字段必须包含：contextualMeaning, sentenceTranslation, pronunciationHint, phrases, examples。",
+      "字段必须包含：contextualMeaning, sentenceTranslation, pronunciationHint, partOfSpeech, phrases, examples。",
       "contextualMeaning 用中文解释这个词在当前句子里的意思，优先上下文，不要罗列所有词典义。",
+      "partOfSpeech 写这个词在当前句子里的词性，用中文加英文，例如：名词 noun、动词 verb、形容词 adjective。",
       "phrases 给 0-3 个真实、自然、常见的用法或固定搭配，每项包含 phrase 和 meaning。",
       "不要用 word about、word with、word in 这种模板硬凑；如果没有可靠搭配，phrases 返回空数组。",
       "examples 最多 2 条，优先使用当前句子或非常短的英文例句。",
@@ -461,6 +539,7 @@ app.post("/api/lookup", async (req, res) => {
       ...parsed,
       phrases: uniqueByPhrase([...(parsed.phrases || []), ...(fallback.phrases || [])]).slice(0, 3),
       phoneticUs: parsed.phoneticUs || fallback.phoneticUs || "",
+      partOfSpeech: parsed.partOfSpeech || fallback.partOfSpeech || "",
       word,
       normalizedWord: cleanWord(word),
       source: "llm+dictionary"

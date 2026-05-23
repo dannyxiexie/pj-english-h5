@@ -7,7 +7,9 @@ import {
   ArchiveRestore,
   Download,
   ListChecks,
+  Palette,
   Play,
+  Plus,
   Settings,
   Trash2,
   Upload,
@@ -17,7 +19,7 @@ import {
 import "../styles.css";
 
 const APP_STORAGE_PREFIX = "family-reader:v2";
-const LOOKUP_CACHE_VERSION = "lookup-v3";
+const LOOKUP_CACHE_VERSION = "lookup-v4";
 const LONG_PRESS_MS = 520;
 
 const presets = {
@@ -85,12 +87,7 @@ const setStored = (storageKey, value) => {
 };
 
 const normalizeWord = (word = "") => word.toLowerCase().replace(/[^a-z'-]/g, "");
-const normalizeCharacterWord = (word = "") => normalizeWord(word).replace(/(?:'s|')$/i, "");
-const characterKey = (character) =>
-  (character.id || character.name || "")
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/(^-|-$)/g, "");
+const normalizeColorWord = (word = "") => normalizeWord(word).replace(/(?:'s|')$/i, "");
 
 const hashText = (text = "") => {
   let hash = 0;
@@ -109,9 +106,15 @@ const clientFallbackLookup = (word, sentence) => ({
   sentenceTranslation: sentence ? "稍后会显示这句话的中文解释。" : "",
   pronunciationHint: "可以先点发音按钮听英文读音。",
   phoneticUs: "",
+  partOfSpeech: "",
   phrases: [],
   examples: sentence ? [sentence] : []
 });
+
+const emptyColorList = {
+  seededBookId: null,
+  entries: {}
+};
 
 function useStoredState(key, fallback, prefix = APP_STORAGE_PREFIX) {
   const storageKey = fullStorageKey(prefix, key);
@@ -153,7 +156,7 @@ function App() {
   const [view, setView] = useState("reader");
   const bookStoragePrefix = selectedBookId ? `${APP_STORAGE_PREFIX}:books:${selectedBookId}` : `${APP_STORAGE_PREFIX}:books:none`;
   const [settings, setSettings] = useStoredState("displaySettings", defaultSettings, bookStoragePrefix);
-  const [characterSettings, setCharacterSettings] = useStoredState("characterSettings", {}, bookStoragePrefix);
+  const [colorList, setColorList] = useStoredState("colorList", emptyColorList, bookStoragePrefix);
   const [progress, setProgress] = useStoredState("progress", {}, bookStoragePrefix);
   const [vocabulary, setVocabulary] = useStoredState("vocabulary", {}, bookStoragePrefix);
   const [lookupCache, setLookupCache] = useStoredState("lookupCache", {}, bookStoragePrefix);
@@ -164,7 +167,11 @@ function App() {
   const longPressRef = useRef(null);
   const restoredRef = useRef(false);
 
-  const activeSettings = settings.preset === "custom" ? settings.custom : presets[settings.preset] || presets.shared;
+  const displayPresets = {
+    handheld: { ...presets.handheld, ...(settings.displayPresets?.handheld || {}) },
+    shared: { ...presets.shared, ...(settings.displayPresets?.shared || {}) }
+  };
+  const activeSettings = settings.preset === "custom" ? settings.custom : displayPresets[settings.preset] || displayPresets.shared;
   const activeOrientation = orientations[settings.orientation] || orientations.portrait;
   const effectiveSettings = {
     ...activeOrientation,
@@ -173,27 +180,45 @@ function App() {
     imageWidth: settings.preset === "custom" ? settings.custom.imageWidth : activeOrientation.imageWidth
   };
 
-  const characterMap = useMemo(() => {
-    const rows = book?.characters || [];
+  const colorMap = useMemo(() => {
     const map = new Map();
-    for (const character of rows) {
-      const id = characterKey(character);
-      const color = characterSettings[id]?.color || character.color;
-      const names = [character.name, ...(character.aliases || [])];
-      for (const name of names) {
-        if (String(name).trim().includes(" ")) continue;
-        const normalized = normalizeCharacterWord(name);
-        if (normalized) map.set(normalized, { color, name: character.name });
-      }
+    for (const entry of Object.values(colorList.entries || {})) {
+      const normalized = normalizeColorWord(entry.word);
+      if (normalized && entry.color) map.set(normalized, { color: entry.color, label: entry.word });
     }
     return map;
-  }, [book, characterSettings]);
+  }, [colorList]);
 
   useEffect(() => {
     fetch("/data/books/catalog.json")
       .then((response) => response.json())
       .then(setCatalog);
   }, []);
+
+  useEffect(() => {
+    if (!book || colorList.seededBookId === book.id) return;
+    setColorList((current) => {
+      const entries = { ...(current.entries || {}) };
+      for (const character of book.characters || []) {
+        const names = [character.name, ...(character.aliases || [])];
+        for (const name of names) {
+          if (String(name).trim().includes(" ")) continue;
+          const normalized = normalizeColorWord(name);
+          if (!normalized || entries[normalized]) continue;
+          entries[normalized] = {
+            word: name,
+            normalizedWord: normalized,
+            color: character.color,
+            source: "book-initial"
+          };
+        }
+      }
+      return {
+        seededBookId: book.id,
+        entries
+      };
+    });
+  }, [book, colorList.seededBookId, setColorList]);
 
   useEffect(() => {
     if (!selectedBookId) {
@@ -401,6 +426,7 @@ function App() {
       meaningCount: (previous?.meaningCount || 0) + (lookup.meaningFlag ? 1 : 0),
       pronunciationCount: (previous?.pronunciationCount || 0) + (lookup.pronunciationFlag ? 1 : 0),
       phoneticUs: lookup.data.phoneticUs || previous?.phoneticUs || "",
+      partOfSpeech: lookup.data.partOfSpeech || previous?.partOfSpeech || "",
       archivedAt: null,
       phrases: lookup.data.phrases || [],
       history: [
@@ -436,7 +462,7 @@ function App() {
       bookId: book?.id,
       progress,
       displaySettings: settings,
-      characterSettings,
+      colorList,
       vocabulary,
       lookupCache
     };
@@ -454,7 +480,7 @@ function App() {
     const data = JSON.parse(await file.text());
     if (data.progress) setProgress(data.progress);
     if (data.displaySettings) setSettings(data.displaySettings);
-    if (data.characterSettings) setCharacterSettings(data.characterSettings);
+    if (data.colorList) setColorList(data.colorList);
     if (data.vocabulary) setVocabulary(data.vocabulary);
     if (data.lookupCache) setLookupCache(data.lookupCache);
   };
@@ -505,6 +531,9 @@ function App() {
           </button>
           <button className={view === "vocab" ? "active" : ""} onClick={() => setView("vocab")}>
             <ListChecks size={18} /> 生词本
+          </button>
+          <button className={view === "colors" ? "active" : ""} onClick={() => setView("colors")}>
+            <Palette size={18} /> 颜色清单
           </button>
           <button className={view === "settings" ? "active" : ""} onClick={() => setView("settings")}>
             <Settings size={18} /> 设置
@@ -562,7 +591,8 @@ function App() {
                     block={block}
                     settings={settings}
                     blockRefs={blockRefs}
-                    characterMap={characterMap}
+                    colorMap={colorMap}
+                    vocabulary={vocabulary}
                     onWordDown={beginLongPress}
                     onWordCancel={cancelLongPress}
                   />
@@ -585,13 +615,11 @@ function App() {
       )}
 
       {view === "vocab" && <VocabularyPage vocabulary={vocabulary} setVocabulary={setVocabulary} onPlay={playPronunciation} />}
+      {view === "colors" && <ColorListPage colorList={colorList} setColorList={setColorList} />}
       {view === "settings" && (
         <SettingsPage
           settings={settings}
           setSettings={setSettings}
-          book={book}
-          characterSettings={characterSettings}
-          setCharacterSettings={setCharacterSettings}
           progress={progress}
           vocabulary={vocabulary}
           onExport={exportData}
@@ -641,7 +669,7 @@ function Bookshelf({ catalog, onOpen }) {
   );
 }
 
-function Block({ block, settings, blockRefs, characterMap, onWordDown, onWordCancel }) {
+function Block({ block, settings, blockRefs, colorMap, vocabulary, onWordDown, onWordCancel }) {
   const register = (element) => {
     if (element) blockRefs.current.set(block.id, element);
   };
@@ -688,12 +716,14 @@ function Block({ block, settings, blockRefs, characterMap, onWordDown, onWordCan
         <span className="sentence" key={sentence.sentenceId}>
           {sentence.tokens.map((token, index) => {
             if (token.type !== "word") return <span key={`${sentence.sentenceId}-${index}`}>{token.value}</span>;
-            const character = characterMap.get(normalizeCharacterWord(token.value));
+            const normalized = normalizeColorWord(token.value);
+            const colorEntry = colorMap.get(normalized);
+            const isCollected = Boolean(vocabulary[normalizeWord(token.value)]);
             return (
               <span
-                className={`word-token ${character ? "character-token" : ""}`}
-                style={character ? { "--character-color": character.color } : undefined}
-                title={character ? `人物：${character.name}` : undefined}
+                className={`word-token ${colorEntry ? "color-list-token" : ""} ${isCollected ? "collected-token" : ""}`}
+                style={colorEntry ? { "--word-color": colorEntry.color } : undefined}
+                title={colorEntry ? `颜色清单：${colorEntry.label}` : undefined}
                 key={`${sentence.sentenceId}-${token.tokenId}`}
                 onPointerDown={(event) => onWordDown(event, token.value, sentence.sentenceId)}
                 onPointerUp={onWordCancel}
@@ -722,7 +752,13 @@ function LookupPanel({ lookup, lookupState, vocabulary, onClose, onCollect, onPl
         <div>
           <span className="panel-kicker">{lookupState === "loading" ? "正在补充上下文解释" : data.source?.includes("llm") ? "上下文解释" : "快速解释"}</span>
           <h2>{lookup.word}</h2>
-          {data.phoneticUs && <p className="phonetic-line">美式 {data.phoneticUs}</p>}
+          {(data.phoneticUs || data.partOfSpeech) && (
+            <p className="phonetic-line">
+              {data.phoneticUs ? `美式 ${data.phoneticUs}` : ""}
+              {data.phoneticUs && data.partOfSpeech ? " · " : ""}
+              {data.partOfSpeech ? `词性 ${data.partOfSpeech}` : ""}
+            </p>
+          )}
         </div>
         <button className="icon-button" onClick={onClose} aria-label="关闭">
           <X size={20} />
@@ -870,7 +906,13 @@ function VocabularyPage({ vocabulary, setVocabulary, onPlay }) {
                 )}
               </div>
             </div>
-            {entry.phoneticUs && <p className="vocab-phonetic">美式 {entry.phoneticUs}</p>}
+            {(entry.phoneticUs || entry.partOfSpeech) && (
+              <p className="vocab-phonetic">
+                {entry.phoneticUs ? `美式 ${entry.phoneticUs}` : ""}
+                {entry.phoneticUs && entry.partOfSpeech ? " · " : ""}
+                {entry.partOfSpeech ? `词性 ${entry.partOfSpeech}` : ""}
+              </p>
+            )}
             <p>{entry.contextualMeaning}</p>
             <p className="english-sentence">{entry.sentence}</p>
             <div className="vocab-meta">
@@ -889,8 +931,100 @@ function VocabularyPage({ vocabulary, setVocabulary, onPlay }) {
   );
 }
 
-function SettingsPage({ settings, setSettings, book, characterSettings, setCharacterSettings, progress, vocabulary, onExport, onImport }) {
+function ColorListPage({ colorList, setColorList }) {
+  const [word, setWord] = useState("");
+  const [color, setColor] = useState("#1f6f68");
+  const entries = Object.values(colorList.entries || {}).sort((a, b) => a.word.localeCompare(b.word));
+
+  const addEntry = (event) => {
+    event.preventDefault();
+    const normalized = normalizeColorWord(word);
+    if (!normalized) return;
+    setColorList((current) => ({
+      ...current,
+      entries: {
+        ...(current.entries || {}),
+        [normalized]: {
+          word: word.trim(),
+          normalizedWord: normalized,
+          color,
+          source: "manual"
+        }
+      }
+    }));
+    setWord("");
+  };
+
+  const updateEntry = (entry, nextColor) => {
+    setColorList((current) => ({
+      ...current,
+      entries: {
+        ...(current.entries || {}),
+        [entry.normalizedWord]: {
+          ...entry,
+          color: nextColor,
+          source: entry.source || "manual"
+        }
+      }
+    }));
+  };
+
+  const deleteEntry = (entry) => {
+    setColorList((current) => {
+      const entriesNext = { ...(current.entries || {}) };
+      delete entriesNext[entry.normalizedWord];
+      return {
+        ...current,
+        entries: entriesNext
+      };
+    });
+  };
+
+  return (
+    <main className="page-view color-list-page">
+      <div className="page-title">
+        <h1>颜色清单</h1>
+        <p>{entries.length} 个词会按指定颜色显示</p>
+      </div>
+
+      <section className="settings-section">
+        <h2>添加单词</h2>
+        <form className="color-add-form" onSubmit={addEntry}>
+          <input value={word} onChange={(event) => setWord(event.target.value)} placeholder="输入英文单词" />
+          <input type="color" value={color} onChange={(event) => setColor(event.target.value)} aria-label="选择颜色" />
+          <button className="primary-button" type="submit">
+            <Plus size={18} /> 添加
+          </button>
+        </form>
+      </section>
+
+      <section className="settings-section">
+        <h2>清单</h2>
+        <div className="color-settings">
+          {entries.map((entry) => (
+            <label className="color-row" key={entry.normalizedWord}>
+              <span style={{ "--word-color": entry.color }}>
+                <i />
+                {entry.word}
+              </span>
+              <input type="color" value={entry.color} onChange={(event) => updateEntry(entry, event.target.value)} />
+              <button className="icon-button danger-button" type="button" onClick={() => deleteEntry(entry)} aria-label="删除">
+                <Trash2 size={18} />
+              </button>
+            </label>
+          ))}
+        </div>
+      </section>
+    </main>
+  );
+}
+
+function SettingsPage({ settings, setSettings, progress, vocabulary, onExport, onImport }) {
   const custom = settings.custom;
+  const displayPresets = {
+    handheld: { ...presets.handheld, ...(settings.displayPresets?.handheld || {}) },
+    shared: { ...presets.shared, ...(settings.displayPresets?.shared || {}) }
+  };
   const updateCustom = (key, value) => {
     setSettings((current) => ({
       ...current,
@@ -898,23 +1032,18 @@ function SettingsPage({ settings, setSettings, book, characterSettings, setChara
       custom: { ...current.custom, [key]: value }
     }));
   };
-  const setCharacterColor = (character, color) => {
-    const id = characterKey(character);
-    setCharacterSettings((current) => ({
+  const updatePreset = (presetKey, field, value) => {
+    setSettings((current) => ({
       ...current,
-      [id]: {
-        ...(current[id] || {}),
-        color
+      displayPresets: {
+        ...(current.displayPresets || {}),
+        [presetKey]: {
+          ...presets[presetKey],
+          ...(current.displayPresets?.[presetKey] || {}),
+          [field]: value
+        }
       }
     }));
-  };
-  const resetCharacterColor = (character) => {
-    const id = characterKey(character);
-    setCharacterSettings((current) => {
-      const next = { ...current };
-      delete next[id];
-      return next;
-    });
   };
 
   return (
@@ -967,25 +1096,17 @@ function SettingsPage({ settings, setSettings, book, characterSettings, setChara
       </section>
 
       <section className="settings-section">
-        <h2>人物颜色</h2>
-        <div className="character-settings">
-          {(book?.characters || []).map((character) => {
-            const id = characterKey(character);
-            const color = characterSettings[id]?.color || character.color;
-            return (
-              <label className="character-row" key={id || character.name}>
-                <span>
-                  <i style={{ "--character-color": color }} />
-                  {character.name}
-                </span>
-                <input type="color" value={color} onChange={(event) => setCharacterColor(character, event.target.value)} />
-                <button type="button" onClick={() => resetCharacterColor(character)}>
-                  重置
-                </button>
-              </label>
-            );
-          })}
-        </div>
+        <h2>手持模式</h2>
+        <Slider label="正文字号" value={displayPresets.handheld.fontSize} min={18} max={42} unit="px" onChange={(value) => updatePreset("handheld", "fontSize", value)} />
+        <Slider label="行距" value={displayPresets.handheld.lineHeight} min={1.45} max={2.2} step={0.05} onChange={(value) => updatePreset("handheld", "lineHeight", value)} />
+        <Slider label="段落间距" value={displayPresets.handheld.paragraphGap} min={10} max={42} unit="px" onChange={(value) => updatePreset("handheld", "paragraphGap", value)} />
+      </section>
+
+      <section className="settings-section">
+        <h2>共读模式</h2>
+        <Slider label="正文字号" value={displayPresets.shared.fontSize} min={18} max={42} unit="px" onChange={(value) => updatePreset("shared", "fontSize", value)} />
+        <Slider label="行距" value={displayPresets.shared.lineHeight} min={1.45} max={2.2} step={0.05} onChange={(value) => updatePreset("shared", "lineHeight", value)} />
+        <Slider label="段落间距" value={displayPresets.shared.paragraphGap} min={10} max={42} unit="px" onChange={(value) => updatePreset("shared", "paragraphGap", value)} />
       </section>
 
       <section className="settings-section">
