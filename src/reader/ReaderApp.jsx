@@ -19,7 +19,7 @@ import {
 import "../styles.css";
 
 const APP_STORAGE_PREFIX = "family-reader:v2";
-const LOOKUP_CACHE_VERSION = "lookup-v4";
+const LOOKUP_CACHE_VERSION = "lookup-v5";
 const LONG_PRESS_MS = 520;
 
 const presets = {
@@ -102,9 +102,10 @@ const clientFallbackLookup = (word, sentence) => ({
   word,
   normalizedWord: normalizeWord(word),
   source: "instant",
-  contextualMeaning: "正在结合上下文确认含义，先不要打断阅读。",
-  sentenceTranslation: sentence ? "稍后会显示这句话的中文解释。" : "",
-  pronunciationHint: "可以先点发音按钮听英文读音。",
+  baseWord: "",
+  contextualMeaning: "查询中...",
+  sentenceTranslation: "",
+  pronunciationHint: "",
   phoneticUs: "",
   partOfSpeech: "",
   phrases: [],
@@ -414,9 +415,9 @@ function App() {
     const next = {
       word: lookup.word,
       normalizedWord: key,
+      baseWord: lookup.data.baseWord || previous?.baseWord || key,
       contextualMeaning: lookup.data.contextualMeaning,
       sentence: lookup.context.sentence,
-      sentenceTranslation: lookup.data.sentenceTranslation,
       chapterId: chapter.id,
       chapterTitle: chapter.title,
       page: lookup.context.page,
@@ -752,8 +753,10 @@ function LookupPanel({ lookup, lookupState, vocabulary, onClose, onCollect, onPl
         <div>
           <span className="panel-kicker">{lookupState === "loading" ? "正在补充上下文解释" : data.source?.includes("llm") ? "上下文解释" : "快速解释"}</span>
           <h2>{lookup.word}</h2>
-          {(data.phoneticUs || data.partOfSpeech) && (
+          {(data.baseWord || data.phoneticUs || data.partOfSpeech) && (
             <p className="phonetic-line">
+              {data.baseWord && data.baseWord !== lookup.normalized ? `原型 ${data.baseWord}` : ""}
+              {data.baseWord && data.baseWord !== lookup.normalized && (data.phoneticUs || data.partOfSpeech) ? " · " : ""}
               {data.phoneticUs ? `美式 ${data.phoneticUs}` : ""}
               {data.phoneticUs && data.partOfSpeech ? " · " : ""}
               {data.partOfSpeech ? `词性 ${data.partOfSpeech}` : ""}
@@ -777,7 +780,6 @@ function LookupPanel({ lookup, lookupState, vocabulary, onClose, onCollect, onPl
       <section className="sentence-card">
         <label>原句</label>
         <p className="english-sentence">{lookup.context.sentence}</p>
-        <p>{data.sentenceTranslation}</p>
       </section>
 
       <section className="collect-box">
@@ -906,8 +908,10 @@ function VocabularyPage({ vocabulary, setVocabulary, onPlay }) {
                 )}
               </div>
             </div>
-            {(entry.phoneticUs || entry.partOfSpeech) && (
+            {(entry.baseWord || entry.phoneticUs || entry.partOfSpeech) && (
               <p className="vocab-phonetic">
+                {entry.baseWord && entry.baseWord !== entry.normalizedWord ? `原型 ${entry.baseWord}` : ""}
+                {entry.baseWord && entry.baseWord !== entry.normalizedWord && (entry.phoneticUs || entry.partOfSpeech) ? " · " : ""}
                 {entry.phoneticUs ? `美式 ${entry.phoneticUs}` : ""}
                 {entry.phoneticUs && entry.partOfSpeech ? " · " : ""}
                 {entry.partOfSpeech ? `词性 ${entry.partOfSpeech}` : ""}

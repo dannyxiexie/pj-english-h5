@@ -4,3 +4,4 @@ dist/
 .env
 *.log
 reader-screenshot.png
+books/*/source/images/*.png

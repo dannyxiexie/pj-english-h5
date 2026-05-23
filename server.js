@@ -131,6 +131,12 @@ const usageBank = {
 
 const cleanWord = (word = "") => word.toLowerCase().replace(/[^a-z'-]/g, "");
 const isGenericMeaning = (meaning = "") => meaning.startsWith("结合这句话");
+const cleanMeaning = (meaning = "") =>
+  String(meaning)
+    .replace(/[；;]\s*结合当前句子使用。?$/u, "")
+    .replace(/[；;]\s*结合这句话使用。?$/u, "")
+    .replace(/\s+/g, " ")
+    .trim();
 const formatPartOfSpeech = (partOfSpeech = "") => {
   const normalized = String(partOfSpeech).toLowerCase().trim();
   if (!normalized) return "";
@@ -142,7 +148,17 @@ const inferPartOfSpeech = (word, sentence, dictionaryPart = "") => {
   const index = words.findIndex((item) => item === normalized);
   const previous = words[index - 1] || "";
   const next = words[index + 1] || "";
+  const beforePrevious = words[index - 2] || "";
   if (normalized.endsWith("ing") || normalized.endsWith("ed")) return "动词 verb";
+  if (["am", "are", "is", "was", "were", "be", "been", "being", "can", "could", "do", "does", "did", "will", "would", "shall", "should", "may", "might", "must"].includes(previous)) {
+    return "动词 verb";
+  }
+  if (normalized.endsWith("s") && ["he", "she", "it", "this", "that", "drake", "worm", "griffith", "bo", "ana", "rori", "shu"].includes(previous)) {
+    return "动词 verb";
+  }
+  if (normalized.endsWith("s") && ["just", "not", "never", "always", "usually", "also"].includes(previous) && beforePrevious) {
+    return "动词 verb";
+  }
   if (["a", "an", "the", "this", "that", "these", "those", "my", "your", "his", "her", "its", "their"].includes(previous)) {
     return "名词 noun";
   }
@@ -235,10 +251,17 @@ const dictionaryLemma = (word) => {
   const normalized = cleanWord(word);
   const best = bestLemma(word);
   if (best !== normalized) return best;
-  if (/(ing|ed|ies|ches|shes|sses|xes|zes|oes)$/.test(normalized)) {
+  if (/(ing|ed|ies|ches|shes|sses|xes|zes|oes|s)$/.test(normalized)) {
     return lemmaCandidates(word).find((candidate) => candidate !== normalized) || normalized;
   }
   return normalized;
+};
+
+const translationQuery = (lemma, partOfSpeech) => {
+  if (!lemma) return "";
+  if (/verb/.test(partOfSpeech)) return `to ${lemma}`;
+  if (/noun/.test(partOfSpeech)) return `a ${lemma}`;
+  return lemma;
 };
 
 const contextualDefinition = (word, sentence = "") => {
@@ -413,18 +436,21 @@ const enrichUsage = async (payload, base) => {
   const isTipOfWing = lemma === "tip" && /wing|wings/i.test(payload.sentence || "");
   const isCreatureScale = lemma === "scale" && /dragon|dragons|fish|snake|reptile|tail|shiny|red|brown|white|yellow|blue/i.test(payload.sentence || "");
   const shouldUseDatamuse = !isCreatureScale && (Boolean(usageBank[lemma]) || currentPhraseRows.length > 0);
-  const [dictionary, originalDictionary, datamuse, translatedWord] = await Promise.all([
+  const [dictionary, originalDictionary, datamuse] = await Promise.all([
     fetchDictionaryUsage(lookupLemma),
     normalized && normalized !== lookupLemma ? fetchDictionaryUsage(normalized) : Promise.resolve(null),
-    shouldUseDatamuse ? fetchDatamuseUsage(lemma) : Promise.resolve([]),
-    localDefinitions[normalized] || localDefinitions[lemma] ? Promise.resolve("") : fetchChineseTranslation(normalized || word)
+    shouldUseDatamuse ? fetchDatamuseUsage(lemma) : Promise.resolve([])
   ]);
   const phoneticSource = originalDictionary?.phonetic || originalDictionary?.phoneticUs ? originalDictionary : dictionary;
   const partOfSpeech = inferPartOfSpeech(word, payload.sentence || "", dictionary.partOfSpeech || originalDictionary?.partOfSpeech || base.partOfSpeech || "");
+  const translatedWord =
+    localDefinitions[normalized] || localDefinitions[lookupLemma]
+      ? ""
+      : await fetchChineseTranslation(translationQuery(lookupLemma, partOfSpeech));
   const contextualMeaning =
     translatedWord && isGenericMeaning(base.contextualMeaning)
-      ? `${translatedWord}；结合当前句子使用。`
-      : base.contextualMeaning;
+      ? translatedWord
+      : cleanMeaning(base.contextualMeaning);
   const phrases = uniqueByPhrase([
     ...currentPhraseRows,
     ...(usageBank[lemma] || []),
@@ -435,6 +461,7 @@ const enrichUsage = async (payload, base) => {
   return {
     ...base,
     normalizedWord: cleanWord(word),
+    baseWord: lookupLemma,
     contextualMeaning,
     pronunciationHint: phoneticSource.phonetic ? `音标：${phoneticSource.phonetic}` : base.pronunciationHint,
     phoneticUs: phoneticSource.phoneticUs || base.phoneticUs || "",
@@ -457,9 +484,10 @@ const fallbackLookup = ({ word, sentence }) => {
   return {
     word,
     normalizedWord: normalized,
+    baseWord: dictionaryLemma(word),
     source: "local-fallback",
-    contextualMeaning: definition,
-    sentenceTranslation: sentenceCn,
+    contextualMeaning: cleanMeaning(definition),
+    sentenceTranslation: "",
     pronunciationHint: "点击发音按钮播放英文读音。",
     phoneticUs: "",
     partOfSpeech: "",
