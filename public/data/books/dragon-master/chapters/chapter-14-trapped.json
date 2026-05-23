@@ -21,15 +21,15 @@
       "id": "chapter-14-trapped-b0",
       "type": "paragraph",
       "page": 82,
-      "text": "rake ducks as dirt rains down. He closes his eyes tight. Then the shaking stops. Drake opens his eyes. All the candles have gone out. He looks behind him in the darkness. \"Worm, are you all right?\"",
+      "text": "Drake ducks as dirt rains down. He closes his eyes tight. Then the shaking stops. Drake opens his eyes. All the candles have gone out. He looks behind him in the darkness. \"Worm, are you all right?\"",
       "sentences": [
         {
           "sentenceId": "chapter-14-trapped-b0-s0",
-          "text": "rake ducks as dirt rains down.",
+          "text": "Drake ducks as dirt rains down.",
           "tokens": [
             {
               "type": "word",
-              "value": "rake",
+              "value": "Drake",
               "tokenId": "w0"
             },
             {

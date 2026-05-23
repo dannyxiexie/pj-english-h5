@@ -75,6 +75,9 @@ const stripRepeatedChapterHeading = (paragraph, title, isFirstParagraph) => {
   return leadingAllCaps ? paragraph.slice(leadingAllCaps[0].length).trim() : paragraph;
 };
 
+const fixKnownOcrWords = (paragraph) =>
+  paragraph.replace(/\bL?rake(?='s\b|\s+(?:doesn't|steps|dove|ducks|peers)\b)/g, "Drake");
+
 const readBookMeta = async (bookDirName) => {
   const metaPath = path.join(booksRoot, bookDirName, "book.config.json");
   try {
@@ -119,7 +122,7 @@ const parseMarkdown = (bookMeta, fileName, text, imageFiles) => {
       .filter((item) => item !== "_No OCR text on this page._");
 
     for (const rawParagraph of paragraphs) {
-      const paragraph = stripRepeatedChapterHeading(rawParagraph, title, paragraphIndex === 0);
+      const paragraph = fixKnownOcrWords(stripRepeatedChapterHeading(rawParagraph, title, paragraphIndex === 0));
       paragraphIndex += 1;
       if (!paragraph) continue;
       const sentences = splitSentences(paragraph).map((sentence, sentenceIndex) => ({

@@ -21,15 +21,15 @@
       "id": "chapter-4-worm-b0",
       "type": "paragraph",
       "page": 26,
-      "text": "rake peers inside the dark cave. A dragon sits inside. Well, this creature kind of looks like a dragon, Drake thinks. The dragon has brown scales that aren't shiny. He has two tiny wings. He has big, green eyes, and little ears. And he doesn't have legs! He looks like a big snake. The only dragon-like thing about him seems to be his long snout.",
+      "text": "Drake peers inside the dark cave. A dragon sits inside. Well, this creature kind of looks like a dragon, Drake thinks. The dragon has brown scales that aren't shiny. He has two tiny wings. He has big, green eyes, and little ears. And he doesn't have legs! He looks like a big snake. The only dragon-like thing about him seems to be his long snout.",
       "sentences": [
         {
           "sentenceId": "chapter-4-worm-b0-s0",
-          "text": "rake peers inside the dark cave.",
+          "text": "Drake peers inside the dark cave.",
           "tokens": [
             {
               "type": "word",
-              "value": "rake",
+              "value": "Drake",
               "tokenId": "w0"
             },
             {

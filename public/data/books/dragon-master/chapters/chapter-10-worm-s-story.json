@@ -21,15 +21,15 @@
       "id": "chapter-10-worm-s-story-b0",
       "type": "paragraph",
       "page": 61,
-      "text": "rake steps inside Worm's dark cave. Worm opens one eye. \"I need to shine your scales,\" Drake says. He is carrying a brush, a basket, and towels. Drake looks at Worm's brown scales. \"They're not shiny,\" he says. \"But I'll clean them anyway.\"",
+      "text": "Drake steps inside Worm's dark cave. Worm opens one eye. \"I need to shine your scales,\" Drake says. He is carrying a brush, a basket, and towels. Drake looks at Worm's brown scales. \"They're not shiny,\" he says. \"But I'll clean them anyway.\"",
       "sentences": [
         {
           "sentenceId": "chapter-10-worm-s-story-b0-s0",
-          "text": "rake steps inside Worm's dark cave.",
+          "text": "Drake steps inside Worm's dark cave.",
           "tokens": [
             {
               "type": "word",
-              "value": "rake",
+              "value": "Drake",
               "tokenId": "w0"
             },
             {

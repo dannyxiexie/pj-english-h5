@@ -21,15 +21,15 @@
       "id": "chapter-3-more-dragons-b0",
       "type": "paragraph",
       "page": 22,
-      "text": "rake's mind is spinning as he leaves the wizard's workshop. He follows Griffith to a big underground room. There are no windows. Torches hung on the walls. Drake sees Rori and Vulcan. He also sees two more kids - and two more dragons!",
+      "text": "Drake's mind is spinning as he leaves the wizard's workshop. He follows Griffith to a big underground room. There are no windows. Torches hung on the walls. Drake sees Rori and Vulcan. He also sees two more kids - and two more dragons!",
       "sentences": [
         {
           "sentenceId": "chapter-3-more-dragons-b0-s0",
-          "text": "rake's mind is spinning as he leaves the wizard's workshop.",
+          "text": "Drake's mind is spinning as he leaves the wizard's workshop.",
           "tokens": [
             {
               "type": "word",
-              "value": "rake's",
+              "value": "Drake's",
               "tokenId": "w0"
             },
             {

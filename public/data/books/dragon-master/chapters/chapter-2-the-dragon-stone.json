@@ -21,15 +21,15 @@
       "id": "chapter-2-the-dragon-stone-b0",
       "type": "paragraph",
       "page": 15,
-      "text": "Lrake dove away from the door. The fireball just misses him! \"Vulcan, stand down!\" he hears someone yell. Drake stands up. A red-haired girl is standing in the doorway.",
+      "text": "Drake dove away from the door. The fireball just misses him! \"Vulcan, stand down!\" he hears someone yell. Drake stands up. A red-haired girl is standing in the doorway.",
       "sentences": [
         {
           "sentenceId": "chapter-2-the-dragon-stone-b0-s0",
-          "text": "Lrake dove away from the door.",
+          "text": "Drake dove away from the door.",
           "tokens": [
             {
               "type": "word",
-              "value": "Lrake",
+              "value": "Drake",
               "tokenId": "w0"
             },
             {

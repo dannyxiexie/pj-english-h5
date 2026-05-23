@@ -21,15 +21,15 @@
       "id": "chapter-1-to-the-castle-b0",
       "type": "paragraph",
       "page": 8,
-      "text": "rake doesn't see the king's soldier coming. He is busy digging in the onion patch. He pulls out a fat, white onion. A worm crawls on it. Drake doesn't mind the worm. He is the son of a farmer. His family has been growing onions in the Kingdom of Bracken forever. He will spend his life digging up onions, whether he wants to or not.",
+      "text": "Drake doesn't see the king's soldier coming. He is busy digging in the onion patch. He pulls out a fat, white onion. A worm crawls on it. Drake doesn't mind the worm. He is the son of a farmer. His family has been growing onions in the Kingdom of Bracken forever. He will spend his life digging up onions, whether he wants to or not.",
       "sentences": [
         {
           "sentenceId": "chapter-1-to-the-castle-b0-s0",
-          "text": "rake doesn't see the king's soldier coming.",
+          "text": "Drake doesn't see the king's soldier coming.",
           "tokens": [
             {
               "type": "word",
-              "value": "rake",
+              "value": "Drake",
               "tokenId": "w0"
             },
             {
