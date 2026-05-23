@@ -47,8 +47,8 @@ const orientations = {
   },
   landscape: {
     label: "横屏",
-    pageWidth: 1180,
-    imageWidth: 86
+    pageWidth: 1380,
+    imageWidth: 94
   }
 };
 
@@ -1114,7 +1114,7 @@ function SettingsPage({ settings, setSettings, progress, vocabulary, onExport, o
         <Slider label="正文字号" value={custom.fontSize} min={18} max={42} unit="px" onChange={(value) => updateCustom("fontSize", value)} />
         <Slider label="行距" value={custom.lineHeight} min={1.45} max={2.2} step={0.05} onChange={(value) => updateCustom("lineHeight", value)} />
         <Slider label="段落间距" value={custom.paragraphGap} min={10} max={42} unit="px" onChange={(value) => updateCustom("paragraphGap", value)} />
-        <Slider label="页面宽度" value={custom.pageWidth} min={620} max={1280} unit="px" onChange={(value) => updateCustom("pageWidth", value)} />
+        <Slider label="页面宽度" value={custom.pageWidth} min={620} max={1600} unit="px" onChange={(value) => updateCustom("pageWidth", value)} />
         <Slider label="图片宽度" value={custom.imageWidth} min={50} max={100} unit="%" onChange={(value) => updateCustom("imageWidth", value)} />
         <Slider label="右侧面板" value={custom.panelWidth} min={320} max={520} unit="px" onChange={(value) => updateCustom("panelWidth", value)} />
         <label className="switch-row">

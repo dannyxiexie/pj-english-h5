@@ -167,7 +167,12 @@ button.active,
 }
 
 .app.orientation-landscape .book-page {
+  width: min(var(--page-width), calc(100% - 16px));
   padding-top: 26px;
+}
+
+.app.orientation-landscape .illustration-block {
+  margin-top: 12px;
 }
 
 .bookshelf {
