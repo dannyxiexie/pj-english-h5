@@ -1,0 +1,4013 @@
+{
+  "id": "chapter-7-a-strange-dream",
+  "title": "Chapter 7 - A Strange Dream",
+  "sourceFile": "books/dragon-master/source/markdown/chapter-7-a-strange-dream.md",
+  "blocks": [
+    {
+      "id": "chapter-7-a-strange-dream-page-42",
+      "type": "pageBreak",
+      "page": 42,
+      "label": "Page 42"
+    },
+    {
+      "id": "chapter-7-a-strange-dream-b0",
+      "type": "paragraph",
+      "page": 42,
+      "text": "A STRANGE DREAM he Dragon Masters jump to their feet. King Roland sweeps into the room. He is a big man, with red hair and a bushy beard. He walks right up to Drake. Drake is so nervous, he is shaking.",
+      "sentences": [
+        {
+          "sentenceId": "chapter-7-a-strange-dream-b0-s0",
+          "text": "A STRANGE DREAM he Dragon Masters jump to their feet.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "A",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "STRANGE",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "DREAM",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "he",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Dragon",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Masters",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "jump",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "to",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "their",
+              "tokenId": "w8"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "feet",
+              "tokenId": "w9"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-7-a-strange-dream-b0-s1",
+          "text": "King Roland sweeps into the room.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "King",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Roland",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "sweeps",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "into",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "room",
+              "tokenId": "w5"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-7-a-strange-dream-b0-s2",
+          "text": "He is a big man, with red hair and a bushy beard.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "He",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "is",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "a",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "big",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "man",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "with",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "red",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "hair",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "and",
+              "tokenId": "w8"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "a",
+              "tokenId": "w9"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "bushy",
+              "tokenId": "w10"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "beard",
+              "tokenId": "w11"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-7-a-strange-dream-b0-s3",
+          "text": "He walks right up to Drake.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "He",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "walks",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "right",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "up",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "to",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Drake",
+              "tokenId": "w5"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-7-a-strange-dream-b0-s4",
+          "text": "Drake is so nervous, he is shaking.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Drake",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "is",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "so",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "nervous",
+              "tokenId": "w3"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "he",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "is",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "shaking",
+              "tokenId": "w6"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-7-a-strange-dream-page-43",
+      "type": "pageBreak",
+      "page": 43,
+      "label": "Page 43"
+    },
+    {
+      "id": "chapter-7-a-strange-dream-b1",
+      "type": "paragraph",
+      "page": 43,
+      "text": "\"This is my new Dragon Master?\" he asks. \"Yes, Your Highness,\" say Griffith. The king frowns. \"He's scrawny.\" Drake feels like sinking into the floor. The king turns to Griffith. \"Explain this to me, wizard. My strongest men cannot control dragons. Why is it that these children can?\" \"It is the way of the Dragon Stone,\" Griffith says. \"It is a mystery, even to me.\" \"Hmph!\" snorts the king. \"Very well, then. I shall leave my army in your hands.\" Army? Drake wonders.",
+      "sentences": [
+        {
+          "sentenceId": "chapter-7-a-strange-dream-b1-s0",
+          "text": "\"This is my new Dragon Master?\"",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "This",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "is",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "my",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "new",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Dragon",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Master",
+              "tokenId": "w5"
+            },
+            {
+              "type": "punctuation",
+              "value": "?\"",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-7-a-strange-dream-b1-s1",
+          "text": "he asks.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "he",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "asks",
+              "tokenId": "w1"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-7-a-strange-dream-b1-s2",
+          "text": "\"Yes, Your Highness,\" say Griffith.",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Yes",
+              "tokenId": "w0"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Your",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Highness",
+              "tokenId": "w2"
+            },
+            {
+              "type": "punctuation",
+              "value": ",\"",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "say",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Griffith",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-7-a-strange-dream-b1-s3",
+          "text": "The king frowns.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "The",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "king",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "frowns",
+              "tokenId": "w2"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-7-a-strange-dream-b1-s4",
+          "text": "\"He's scrawny.\"",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "He's",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "scrawny",
+              "tokenId": "w1"
+            },
+            {
+              "type": "punctuation",
+              "value": ".\"",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-7-a-strange-dream-b1-s5",
+          "text": "Drake feels like sinking into the floor.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Drake",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "feels",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "like",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "sinking",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "into",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "floor",
+              "tokenId": "w6"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-7-a-strange-dream-b1-s6",
+          "text": "The king turns to Griffith.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "The",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "king",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "turns",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "to",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Griffith",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-7-a-strange-dream-b1-s7",
+          "text": "\"Explain this to me, wizard.",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Explain",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "this",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "to",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "me",
+              "tokenId": "w3"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "wizard",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-7-a-strange-dream-b1-s8",
+          "text": "My strongest men cannot control dragons.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "My",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "strongest",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "men",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "cannot",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "control",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "dragons",
+              "tokenId": "w5"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-7-a-strange-dream-b1-s9",
+          "text": "Why is it that these children can?\"",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Why",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "is",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "it",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "that",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "these",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "children",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "can",
+              "tokenId": "w6"
+            },
+            {
+              "type": "punctuation",
+              "value": "?\"",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-7-a-strange-dream-b1-s10",
+          "text": "\"It is the way of the Dragon Stone,\" Griffith says.",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "It",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "is",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "way",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "of",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Dragon",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Stone",
+              "tokenId": "w7"
+            },
+            {
+              "type": "punctuation",
+              "value": ",\"",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Griffith",
+              "tokenId": "w8"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "says",
+              "tokenId": "w9"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-7-a-strange-dream-b1-s11",
+          "text": "\"It is a mystery, even to me.\"",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "It",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "is",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "a",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "mystery",
+              "tokenId": "w3"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "even",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "to",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "me",
+              "tokenId": "w6"
+            },
+            {
+              "type": "punctuation",
+              "value": ".\"",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-7-a-strange-dream-b1-s12",
+          "text": "\"Hmph!\"",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Hmph",
+              "tokenId": "w0"
+            },
+            {
+              "type": "punctuation",
+              "value": "!\"",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-7-a-strange-dream-b1-s13",
+          "text": "snorts the king.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "snorts",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "king",
+              "tokenId": "w2"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-7-a-strange-dream-b1-s14",
+          "text": "\"Very well, then.",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Very",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "well",
+              "tokenId": "w1"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "then",
+              "tokenId": "w2"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-7-a-strange-dream-b1-s15",
+          "text": "I shall leave my army in your hands.\"",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "I",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "shall",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "leave",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "my",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "army",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "in",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "your",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "hands",
+              "tokenId": "w7"
+            },
+            {
+              "type": "punctuation",
+              "value": ".\"",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-7-a-strange-dream-b1-s16",
+          "text": "Army?",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Army",
+              "tokenId": "w0"
+            },
+            {
+              "type": "punctuation",
+              "value": "?",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-7-a-strange-dream-b1-s17",
+          "text": "Drake wonders.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Drake",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "wonders",
+              "tokenId": "w1"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-7-a-strange-dream-page-44",
+      "type": "pageBreak",
+      "page": 44,
+      "label": "Page 44"
+    },
+    {
+      "id": "chapter-7-a-strange-dream-b2",
+      "type": "paragraph",
+      "page": 44,
+      "text": "King Roland looks at Drake again. \"Do not lets me down, boy\" he says. Then he and the soldier leaves. Everyone sits back down. The king's words scare Drake. What will happen if I do let him down? Drake wonders. He has a feeling it willn't be good. Bo takes Drake to their room. There is a bed and a wooden chest for each of them. There is also a desk for them to share. A jug of water sits on a table. \"That is your bed,\" Bo says, pointing. Drake climbs into bed.",
+      "sentences": [
+        {
+          "sentenceId": "chapter-7-a-strange-dream-b2-s0",
+          "text": "King Roland looks at Drake again.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "King",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Roland",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "looks",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "at",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Drake",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "again",
+              "tokenId": "w5"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-7-a-strange-dream-b2-s1",
+          "text": "\"Do not lets me down, boy\" he says.",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Do",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "not",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "lets",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "me",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "down",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "boy",
+              "tokenId": "w5"
+            },
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "he",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "says",
+              "tokenId": "w7"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-7-a-strange-dream-b2-s2",
+          "text": "Then he and the soldier leaves.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Then",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "he",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "and",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "soldier",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "leaves",
+              "tokenId": "w5"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-7-a-strange-dream-b2-s3",
+          "text": "Everyone sits back down.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Everyone",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "sits",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "back",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "down",
+              "tokenId": "w3"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-7-a-strange-dream-b2-s4",
+          "text": "The king's words scare Drake.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "The",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "king's",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "words",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "scare",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Drake",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-7-a-strange-dream-b2-s5",
+          "text": "What will happen if I do let him down?",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "What",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "will",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "happen",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "if",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "I",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "do",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "let",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "him",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "down",
+              "tokenId": "w8"
+            },
+            {
+              "type": "punctuation",
+              "value": "?",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-7-a-strange-dream-b2-s6",
+          "text": "Drake wonders.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Drake",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "wonders",
+              "tokenId": "w1"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-7-a-strange-dream-b2-s7",
+          "text": "He has a feeling it willn't be good.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "He",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "has",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "a",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "feeling",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "it",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "willn't",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "be",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "good",
+              "tokenId": "w7"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-7-a-strange-dream-b2-s8",
+          "text": "Bo takes Drake to their room.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Bo",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "takes",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Drake",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "to",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "their",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "room",
+              "tokenId": "w5"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-7-a-strange-dream-b2-s9",
+          "text": "There is a bed and a wooden chest for each of them.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "There",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "is",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "a",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "bed",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "and",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "a",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "wooden",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "chest",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "for",
+              "tokenId": "w8"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "each",
+              "tokenId": "w9"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "of",
+              "tokenId": "w10"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "them",
+              "tokenId": "w11"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-7-a-strange-dream-b2-s10",
+          "text": "There is also a desk for them to share.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "There",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "is",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "also",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "a",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "desk",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "for",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "them",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "to",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "share",
+              "tokenId": "w8"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-7-a-strange-dream-b2-s11",
+          "text": "A jug of water sits on a table.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "A",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "jug",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "of",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "water",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "sits",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "on",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "a",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "table",
+              "tokenId": "w7"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-7-a-strange-dream-b2-s12",
+          "text": "\"That is your bed,\" Bo says, pointing.",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "That",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "is",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "your",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "bed",
+              "tokenId": "w3"
+            },
+            {
+              "type": "punctuation",
+              "value": ",\"",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Bo",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "says",
+              "tokenId": "w5"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "pointing",
+              "tokenId": "w6"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-7-a-strange-dream-b2-s13",
+          "text": "Drake climbs into bed.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Drake",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "climbs",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "into",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "bed",
+              "tokenId": "w3"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-7-a-strange-dream-page-45",
+      "type": "pageBreak",
+      "page": 45,
+      "label": "Page 45"
+    },
+    {
+      "id": "chapter-7-a-strange-dream-b3",
+      "type": "paragraph",
+      "page": 45,
+      "text": "The moon shone through a small window. Drake looks over at Bo. He is already sleeping peacefully. Drake soon drifts off to Sleep, too. All of the sudden, he is in a dark cave.",
+      "sentences": [
+        {
+          "sentenceId": "chapter-7-a-strange-dream-b3-s0",
+          "text": "The moon shone through a small window.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "The",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "moon",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "shone",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "through",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "a",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "small",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "window",
+              "tokenId": "w6"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-7-a-strange-dream-b3-s1",
+          "text": "Drake looks over at Bo.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Drake",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "looks",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "over",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "at",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Bo",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-7-a-strange-dream-b3-s2",
+          "text": "He is already sleeping peacefully.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "He",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "is",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "already",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "sleeping",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "peacefully",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-7-a-strange-dream-b3-s3",
+          "text": "Drake soon drifts off to Sleep, too.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Drake",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "soon",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "drifts",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "off",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "to",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Sleep",
+              "tokenId": "w5"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "too",
+              "tokenId": "w6"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-7-a-strange-dream-b3-s4",
+          "text": "All of the sudden, he is in a dark cave.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "All",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "of",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "sudden",
+              "tokenId": "w3"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "he",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "is",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "in",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "a",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "dark",
+              "tokenId": "w8"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "cave",
+              "tokenId": "w9"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-7-a-strange-dream-page-46",
+      "type": "pageBreak",
+      "page": 46,
+      "label": "Page 46"
+    },
+    {
+      "id": "chapter-7-a-strange-dream-b4",
+      "type": "paragraph",
+      "page": 46,
+      "text": "The air in the cave feels warm. It smells like the deep, rich dirt where the onions grow. Green eyes glow in the darkness. Worm! Worm is in the cave. And behind him are other dragons. They all has the same brown scales and green eyes.",
+      "sentences": [
+        {
+          "sentenceId": "chapter-7-a-strange-dream-b4-s0",
+          "text": "The air in the cave feels warm.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "The",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "air",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "in",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "cave",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "feels",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "warm",
+              "tokenId": "w6"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-7-a-strange-dream-b4-s1",
+          "text": "It smells like the deep, rich dirt where the onions grow.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "It",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "smells",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "like",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "deep",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "rich",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "dirt",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "where",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w8"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "onions",
+              "tokenId": "w9"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "grow",
+              "tokenId": "w10"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-7-a-strange-dream-b4-s2",
+          "text": "Green eyes glow in the darkness.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Green",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "eyes",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "glow",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "in",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "darkness",
+              "tokenId": "w5"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-7-a-strange-dream-b4-s3",
+          "text": "Worm!",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Worm",
+              "tokenId": "w0"
+            },
+            {
+              "type": "punctuation",
+              "value": "!",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-7-a-strange-dream-b4-s4",
+          "text": "Worm is in the cave.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Worm",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "is",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "in",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "cave",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-7-a-strange-dream-b4-s5",
+          "text": "And behind him are other dragons.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "And",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "behind",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "him",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "are",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "other",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "dragons",
+              "tokenId": "w5"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-7-a-strange-dream-b4-s6",
+          "text": "They all has the same brown scales and green eyes.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "They",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "all",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "has",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "same",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "brown",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "scales",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "and",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "green",
+              "tokenId": "w8"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "eyes",
+              "tokenId": "w9"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-7-a-strange-dream-page-47",
+      "type": "pageBreak",
+      "page": 47,
+      "label": "Page 47"
+    },
+    {
+      "id": "chapter-7-a-strange-dream-b5",
+      "type": "paragraph",
+      "page": 47,
+      "text": "Boom! A loud explosion shakes the cave. Smoke fills the air. Worm lets out a cry. The dragons slither across the cave floor, looking for a way out. Drake wakes up in his bed, dripping sweat. That is some nightmare, he thinks. It feels so real....",
+      "sentences": [
+        {
+          "sentenceId": "chapter-7-a-strange-dream-b5-s0",
+          "text": "Boom!",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Boom",
+              "tokenId": "w0"
+            },
+            {
+              "type": "punctuation",
+              "value": "!",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-7-a-strange-dream-b5-s1",
+          "text": "A loud explosion shakes the cave.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "A",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "loud",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "explosion",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "shakes",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "cave",
+              "tokenId": "w5"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-7-a-strange-dream-b5-s2",
+          "text": "Smoke fills the air.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Smoke",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "fills",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "air",
+              "tokenId": "w3"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-7-a-strange-dream-b5-s3",
+          "text": "Worm lets out a cry.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Worm",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "lets",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "out",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "a",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "cry",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-7-a-strange-dream-b5-s4",
+          "text": "The dragons slither across the cave floor, looking for a way out.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "The",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "dragons",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "slither",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "across",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "cave",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "floor",
+              "tokenId": "w6"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "looking",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "for",
+              "tokenId": "w8"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "a",
+              "tokenId": "w9"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "way",
+              "tokenId": "w10"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "out",
+              "tokenId": "w11"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-7-a-strange-dream-b5-s5",
+          "text": "Drake wakes up in his bed, dripping sweat.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Drake",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "wakes",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "up",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "in",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "his",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "bed",
+              "tokenId": "w5"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "dripping",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "sweat",
+              "tokenId": "w7"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-7-a-strange-dream-b5-s6",
+          "text": "That is some nightmare, he thinks.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "That",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "is",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "some",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "nightmare",
+              "tokenId": "w3"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "he",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "thinks",
+              "tokenId": "w5"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-7-a-strange-dream-b5-s7",
+          "text": "It feels so real....",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "It",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "feels",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "so",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "real",
+              "tokenId": "w3"
+            },
+            {
+              "type": "punctuation",
+              "value": "....",
+              "tokenId": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

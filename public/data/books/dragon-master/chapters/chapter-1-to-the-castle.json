@@ -1,0 +1,5636 @@
+{
+  "id": "chapter-1-to-the-castle",
+  "title": "Chapter 1 - To The Castle!",
+  "sourceFile": "books/dragon-master/source/markdown/chapter-1-to-the-castle.md",
+  "blocks": [
+    {
+      "id": "chapter-1-to-the-castle-page-8",
+      "type": "pageBreak",
+      "page": 8,
+      "label": "Page 8"
+    },
+    {
+      "id": "chapter-1-to-the-castle-b0",
+      "type": "paragraph",
+      "page": 8,
+      "text": "TO THE CASTLE! rake doesn't see the king's soldier coming. He is busy digging in the onion patch. He pulls out a fat, white onion. A worm crawls on it. Drake doesn't mind the worm. He is the son of a farmer. His family has been growing onions in the Kingdom of Bracken forever. He will spend his life digging up onions, whether he wants to or not.",
+      "sentences": [
+        {
+          "sentenceId": "chapter-1-to-the-castle-b0-s0",
+          "text": "TO THE CASTLE!",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "TO",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "THE",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "CASTLE",
+              "tokenId": "w2"
+            },
+            {
+              "type": "punctuation",
+              "value": "!",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b0-s1",
+          "text": "rake doesn't see the king's soldier coming.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "rake",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "doesn't",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "see",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "king's",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "soldier",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "coming",
+              "tokenId": "w6"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b0-s2",
+          "text": "He is busy digging in the onion patch.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "He",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "is",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "busy",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "digging",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "in",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "onion",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "patch",
+              "tokenId": "w7"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b0-s3",
+          "text": "He pulls out a fat, white onion.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "He",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "pulls",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "out",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "a",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "fat",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "white",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "onion",
+              "tokenId": "w6"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b0-s4",
+          "text": "A worm crawls on it.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "A",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "worm",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "crawls",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "on",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "it",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b0-s5",
+          "text": "Drake doesn't mind the worm.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Drake",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "doesn't",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "mind",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "worm",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b0-s6",
+          "text": "He is the son of a farmer.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "He",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "is",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "son",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "of",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "a",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "farmer",
+              "tokenId": "w6"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b0-s7",
+          "text": "His family has been growing onions in the Kingdom of Bracken forever.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "His",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "family",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "has",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "been",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "growing",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "onions",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "in",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Kingdom",
+              "tokenId": "w8"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "of",
+              "tokenId": "w9"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Bracken",
+              "tokenId": "w10"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "forever",
+              "tokenId": "w11"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b0-s8",
+          "text": "He will spend his life digging up onions, whether he wants to or not.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "He",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "will",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "spend",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "his",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "life",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "digging",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "up",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "onions",
+              "tokenId": "w7"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "whether",
+              "tokenId": "w8"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "he",
+              "tokenId": "w9"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "wants",
+              "tokenId": "w10"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "to",
+              "tokenId": "w11"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "or",
+              "tokenId": "w12"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "not",
+              "tokenId": "w13"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-1-to-the-castle-page-9",
+      "type": "pageBreak",
+      "page": 9,
+      "label": "Page 9"
+    },
+    {
+      "id": "chapter-1-to-the-castle-b1",
+      "type": "paragraph",
+      "page": 9,
+      "text": "Drake picks up the worm. \"Hello, little guy,\" he says. Then he puts the worm back in the dirt. \"Are you Drake?\" a loud voice asks behind him. Drake jumps and turns around. One of the king's soldiers ride up on a black horse. He has a yellow beard. His shirt has a gold dragon sewn on it - the symbol of King Roland the Bold. \"Yes, I'm Drake,\" Drake says, his voice shaking. Soldiers never come to the fields. Not unless a farmer is in trouble.",
+      "sentences": [
+        {
+          "sentenceId": "chapter-1-to-the-castle-b1-s0",
+          "text": "Drake picks up the worm.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Drake",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "picks",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "up",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "worm",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b1-s1",
+          "text": "\"Hello, little guy,\" he says.",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Hello",
+              "tokenId": "w0"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "little",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "guy",
+              "tokenId": "w2"
+            },
+            {
+              "type": "punctuation",
+              "value": ",\"",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "he",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "says",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b1-s2",
+          "text": "Then he puts the worm back in the dirt.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Then",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "he",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "puts",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "worm",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "back",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "in",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "dirt",
+              "tokenId": "w8"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b1-s3",
+          "text": "\"Are you Drake?\"",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Are",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "you",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Drake",
+              "tokenId": "w2"
+            },
+            {
+              "type": "punctuation",
+              "value": "?\"",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b1-s4",
+          "text": "a loud voice asks behind him.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "a",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "loud",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "voice",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "asks",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "behind",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "him",
+              "tokenId": "w5"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b1-s5",
+          "text": "Drake jumps and turns around.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Drake",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "jumps",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "and",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "turns",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "around",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b1-s6",
+          "text": "One of the king's soldiers ride up on a black horse.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "One",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "of",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "king's",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "soldiers",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "ride",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "up",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "on",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "a",
+              "tokenId": "w8"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "black",
+              "tokenId": "w9"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "horse",
+              "tokenId": "w10"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b1-s7",
+          "text": "He has a yellow beard.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "He",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "has",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "a",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "yellow",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "beard",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b1-s8",
+          "text": "His shirt has a gold dragon sewn on it - the symbol of King Roland the Bold.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "His",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "shirt",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "has",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "a",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "gold",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "dragon",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "sewn",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "on",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "it",
+              "tokenId": "w8"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "-",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w9"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "symbol",
+              "tokenId": "w10"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "of",
+              "tokenId": "w11"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "King",
+              "tokenId": "w12"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Roland",
+              "tokenId": "w13"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w14"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Bold",
+              "tokenId": "w15"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b1-s9",
+          "text": "\"Yes, I'm Drake,\" Drake says, his voice shaking.",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Yes",
+              "tokenId": "w0"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "I'm",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Drake",
+              "tokenId": "w2"
+            },
+            {
+              "type": "punctuation",
+              "value": ",\"",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Drake",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "says",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "his",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "voice",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "shaking",
+              "tokenId": "w7"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b1-s10",
+          "text": "Soldiers never come to the fields.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Soldiers",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "never",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "come",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "to",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "fields",
+              "tokenId": "w5"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b1-s11",
+          "text": "Not unless a farmer is in trouble.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Not",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "unless",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "a",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "farmer",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "is",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "in",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "trouble",
+              "tokenId": "w6"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-1-to-the-castle-page-10",
+      "type": "pageBreak",
+      "page": 10,
+      "label": "Page 10"
+    },
+    {
+      "id": "chapter-1-to-the-castle-b2",
+      "type": "paragraph",
+      "page": 10,
+      "text": "The soldier rides up to Drake. He reaches down and pulls him up onto his horse. \"Hey, what are you doing?\" Drake yells. The soldier doesn't answer. Drake's mother runs out of their hut. \"Wait! Where are you taking my boy?\" she yells. \"To King Roland,\" the soldier says. Drake's heart jumps a little. He has always wants to meet the king. \"But he's only eight!\" his mother yells. She marches up to the horse.",
+      "sentences": [
+        {
+          "sentenceId": "chapter-1-to-the-castle-b2-s0",
+          "text": "The soldier rides up to Drake.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "The",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "soldier",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "rides",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "up",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "to",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Drake",
+              "tokenId": "w5"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b2-s1",
+          "text": "He reaches down and pulls him up onto his horse.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "He",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "reaches",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "down",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "and",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "pulls",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "him",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "up",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "onto",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "his",
+              "tokenId": "w8"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "horse",
+              "tokenId": "w9"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b2-s2",
+          "text": "\"Hey, what are you doing?\"",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Hey",
+              "tokenId": "w0"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "what",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "are",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "you",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "doing",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": "?\"",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b2-s3",
+          "text": "Drake yells.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Drake",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "yells",
+              "tokenId": "w1"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b2-s4",
+          "text": "The soldier doesn't answer.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "The",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "soldier",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "doesn't",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "answer",
+              "tokenId": "w3"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b2-s5",
+          "text": "Drake's mother runs out of their hut.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Drake's",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "mother",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "runs",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "out",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "of",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "their",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "hut",
+              "tokenId": "w6"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b2-s6",
+          "text": "\"Wait!",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Wait",
+              "tokenId": "w0"
+            },
+            {
+              "type": "punctuation",
+              "value": "!",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b2-s7",
+          "text": "Where are you taking my boy?\"",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Where",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "are",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "you",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "taking",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "my",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "boy",
+              "tokenId": "w5"
+            },
+            {
+              "type": "punctuation",
+              "value": "?\"",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b2-s8",
+          "text": "she yells.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "she",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "yells",
+              "tokenId": "w1"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b2-s9",
+          "text": "\"To King Roland,\" the soldier says.",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "To",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "King",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Roland",
+              "tokenId": "w2"
+            },
+            {
+              "type": "punctuation",
+              "value": ",\"",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "soldier",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "says",
+              "tokenId": "w5"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b2-s10",
+          "text": "Drake's heart jumps a little.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Drake's",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "heart",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "jumps",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "a",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "little",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b2-s11",
+          "text": "He has always wants to meet the king.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "He",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "has",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "always",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "wants",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "to",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "meet",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "king",
+              "tokenId": "w7"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b2-s12",
+          "text": "\"But he's only eight!\"",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "But",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "he's",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "only",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "eight",
+              "tokenId": "w3"
+            },
+            {
+              "type": "punctuation",
+              "value": "!\"",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b2-s13",
+          "text": "his mother yells.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "his",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "mother",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "yells",
+              "tokenId": "w2"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b2-s14",
+          "text": "She marches up to the horse.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "She",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "marches",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "up",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "to",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "horse",
+              "tokenId": "w5"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-1-to-the-castle-page-11",
+      "type": "pageBreak",
+      "page": 11,
+      "label": "Page 11"
+    },
+    {
+      "id": "chapter-1-to-the-castle-b3",
+      "type": "paragraph",
+      "page": 11,
+      "text": "\"The king has chosen him,\" the soldier says. Chosen me for what? Drake wonders. He knows better than to ask the soldier questions. Peasants like Drake aren't allowed to speak unless spoken to. \"The king will take good care of him,\" the soldier says. Then he spurs on the horse, and speeds off. \"Drake, do as the king says!\" his mother calls out. Drake has never been on a horse before. He holds on tight. Drake's heart pumps fast as they race through the village. They race over the stone bridge. Finally, they stop in front of King Roland's castle.",
+      "sentences": [
+        {
+          "sentenceId": "chapter-1-to-the-castle-b3-s0",
+          "text": "\"The king has chosen him,\" the soldier says.",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "The",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "king",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "has",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "chosen",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "him",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": ",\"",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "soldier",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "says",
+              "tokenId": "w7"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b3-s1",
+          "text": "Chosen me for what?",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Chosen",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "me",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "for",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "what",
+              "tokenId": "w3"
+            },
+            {
+              "type": "punctuation",
+              "value": "?",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b3-s2",
+          "text": "Drake wonders.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Drake",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "wonders",
+              "tokenId": "w1"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b3-s3",
+          "text": "He knows better than to ask the soldier questions.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "He",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "knows",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "better",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "than",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "to",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "ask",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "soldier",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "questions",
+              "tokenId": "w8"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b3-s4",
+          "text": "Peasants like Drake aren't allowed to speak unless spoken to.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Peasants",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "like",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Drake",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "aren't",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "allowed",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "to",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "speak",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "unless",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "spoken",
+              "tokenId": "w8"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "to",
+              "tokenId": "w9"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b3-s5",
+          "text": "\"The king will take good care of him,\" the soldier says.",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "The",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "king",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "will",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "take",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "good",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "care",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "of",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "him",
+              "tokenId": "w7"
+            },
+            {
+              "type": "punctuation",
+              "value": ",\"",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w8"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "soldier",
+              "tokenId": "w9"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "says",
+              "tokenId": "w10"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b3-s6",
+          "text": "Then he spurs on the horse, and speeds off.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Then",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "he",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "spurs",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "on",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "horse",
+              "tokenId": "w5"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "and",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "speeds",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "off",
+              "tokenId": "w8"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b3-s7",
+          "text": "\"Drake, do as the king says!\"",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Drake",
+              "tokenId": "w0"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "do",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "as",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "king",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "says",
+              "tokenId": "w5"
+            },
+            {
+              "type": "punctuation",
+              "value": "!\"",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b3-s8",
+          "text": "his mother calls out.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "his",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "mother",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "calls",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "out",
+              "tokenId": "w3"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b3-s9",
+          "text": "Drake has never been on a horse before.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Drake",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "has",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "never",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "been",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "on",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "a",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "horse",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "before",
+              "tokenId": "w7"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b3-s10",
+          "text": "He holds on tight.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "He",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "holds",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "on",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "tight",
+              "tokenId": "w3"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b3-s11",
+          "text": "Drake's heart pumps fast as they race through the village.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Drake's",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "heart",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "pumps",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "fast",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "as",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "they",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "race",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "through",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w8"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "village",
+              "tokenId": "w9"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b3-s12",
+          "text": "They race over the stone bridge.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "They",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "race",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "over",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "stone",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "bridge",
+              "tokenId": "w5"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b3-s13",
+          "text": "Finally, they stop in front of King Roland's castle.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Finally",
+              "tokenId": "w0"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "they",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "stop",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "in",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "front",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "of",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "King",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Roland's",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "castle",
+              "tokenId": "w8"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-1-to-the-castle-page-12",
+      "type": "pageBreak",
+      "page": 12,
+      "label": "Page 12"
+    },
+    {
+      "id": "chapter-1-to-the-castle-page-13",
+      "type": "pageBreak",
+      "page": 13,
+      "label": "Page 13"
+    },
+    {
+      "id": "chapter-1-to-the-castle-b4",
+      "type": "paragraph",
+      "page": 13,
+      "text": "The soldier helps Drake climb down from the horse. He opens the castle door and gives Drake a shove. They pass paintings and statues and people in fancy clothes. The soldier stomps behind Drake as they walks through the halls. Drake wants to look at everything, but the soldier gives him a push whenever he slows down. Then they come to some stairs. They walks down... down... down. The soldier stops at a door. \"Where are we going?\" Drake finally asks. \"We are not going anywhere,\" the soldier says. \"Good luck.\" Then he runs back up the stairs. \"Hey! What do you mean?\" Drake yells. But he is all alone.",
+      "sentences": [
+        {
+          "sentenceId": "chapter-1-to-the-castle-b4-s0",
+          "text": "The soldier helps Drake climb down from the horse.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "The",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "soldier",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "helps",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Drake",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "climb",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "down",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "from",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "horse",
+              "tokenId": "w8"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b4-s1",
+          "text": "He opens the castle door and gives Drake a shove.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "He",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "opens",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "castle",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "door",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "and",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "gives",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Drake",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "a",
+              "tokenId": "w8"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "shove",
+              "tokenId": "w9"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b4-s2",
+          "text": "They pass paintings and statues and people in fancy clothes.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "They",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "pass",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "paintings",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "and",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "statues",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "and",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "people",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "in",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "fancy",
+              "tokenId": "w8"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "clothes",
+              "tokenId": "w9"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b4-s3",
+          "text": "The soldier stomps behind Drake as they walks through the halls.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "The",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "soldier",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "stomps",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "behind",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Drake",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "as",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "they",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "walks",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "through",
+              "tokenId": "w8"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w9"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "halls",
+              "tokenId": "w10"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b4-s4",
+          "text": "Drake wants to look at everything, but the soldier gives him a push whenever he slows down.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Drake",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "wants",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "to",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "look",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "at",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "everything",
+              "tokenId": "w5"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "but",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "soldier",
+              "tokenId": "w8"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "gives",
+              "tokenId": "w9"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "him",
+              "tokenId": "w10"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "a",
+              "tokenId": "w11"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "push",
+              "tokenId": "w12"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "whenever",
+              "tokenId": "w13"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "he",
+              "tokenId": "w14"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "slows",
+              "tokenId": "w15"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "down",
+              "tokenId": "w16"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b4-s5",
+          "text": "Then they come to some stairs.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Then",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "they",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "come",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "to",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "some",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "stairs",
+              "tokenId": "w5"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b4-s6",
+          "text": "They walks down...",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "They",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "walks",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "down",
+              "tokenId": "w2"
+            },
+            {
+              "type": "punctuation",
+              "value": "...",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b4-s7",
+          "text": "down...",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "down",
+              "tokenId": "w0"
+            },
+            {
+              "type": "punctuation",
+              "value": "...",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b4-s8",
+          "text": "down.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "down",
+              "tokenId": "w0"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b4-s9",
+          "text": "The soldier stops at a door.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "The",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "soldier",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "stops",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "at",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "a",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "door",
+              "tokenId": "w5"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b4-s10",
+          "text": "\"Where are we going?\"",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Where",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "are",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "we",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "going",
+              "tokenId": "w3"
+            },
+            {
+              "type": "punctuation",
+              "value": "?\"",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b4-s11",
+          "text": "Drake finally asks.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Drake",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "finally",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "asks",
+              "tokenId": "w2"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b4-s12",
+          "text": "\"We are not going anywhere,\" the soldier says.",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "We",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "are",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "not",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "going",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "anywhere",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": ",\"",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "soldier",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "says",
+              "tokenId": "w7"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b4-s13",
+          "text": "\"Good luck.\"",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Good",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "luck",
+              "tokenId": "w1"
+            },
+            {
+              "type": "punctuation",
+              "value": ".\"",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b4-s14",
+          "text": "Then he runs back up the stairs.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Then",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "he",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "runs",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "back",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "up",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "stairs",
+              "tokenId": "w6"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b4-s15",
+          "text": "\"Hey!",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Hey",
+              "tokenId": "w0"
+            },
+            {
+              "type": "punctuation",
+              "value": "!",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b4-s16",
+          "text": "What do you mean?\"",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "What",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "do",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "you",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "mean",
+              "tokenId": "w3"
+            },
+            {
+              "type": "punctuation",
+              "value": "?\"",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b4-s17",
+          "text": "Drake yells.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Drake",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "yells",
+              "tokenId": "w1"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b4-s18",
+          "text": "But he is all alone.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "But",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "he",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "is",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "all",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "alone",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-1-to-the-castle-page-14",
+      "type": "pageBreak",
+      "page": 14,
+      "label": "Page 14"
+    },
+    {
+      "id": "chapter-1-to-the-castle-b5",
+      "type": "paragraph",
+      "page": 14,
+      "text": "Drake looks at the big, stone door. He feels afraid. But more than that, he is curious. He pushes it open and sees... ... the face of a giant, red dragon! Drake blinks. He doesn't believe his eyes. Then- whoosh! - the dragon shoots a huge fireball from his mouth!",
+      "sentences": [
+        {
+          "sentenceId": "chapter-1-to-the-castle-b5-s0",
+          "text": "Drake looks at the big, stone door.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Drake",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "looks",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "at",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "big",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "stone",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "door",
+              "tokenId": "w6"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b5-s1",
+          "text": "He feels afraid.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "He",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "feels",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "afraid",
+              "tokenId": "w2"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b5-s2",
+          "text": "But more than that, he is curious.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "But",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "more",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "than",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "that",
+              "tokenId": "w3"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "he",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "is",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "curious",
+              "tokenId": "w6"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b5-s3",
+          "text": "He pushes it open and sees...",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "He",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "pushes",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "it",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "open",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "and",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "sees",
+              "tokenId": "w5"
+            },
+            {
+              "type": "punctuation",
+              "value": "...",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b5-s4",
+          "text": "...",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "...",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b5-s5",
+          "text": "the face of a giant, red dragon!",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "face",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "of",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "a",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "giant",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "red",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "dragon",
+              "tokenId": "w6"
+            },
+            {
+              "type": "punctuation",
+              "value": "!",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b5-s6",
+          "text": "Drake blinks.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Drake",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "blinks",
+              "tokenId": "w1"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b5-s7",
+          "text": "He doesn't believe his eyes.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "He",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "doesn't",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "believe",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "his",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "eyes",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b5-s8",
+          "text": "Then- whoosh!",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Then",
+              "tokenId": "w0"
+            },
+            {
+              "type": "punctuation",
+              "value": "-",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "whoosh",
+              "tokenId": "w1"
+            },
+            {
+              "type": "punctuation",
+              "value": "!",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-1-to-the-castle-b5-s9",
+          "text": "- the dragon shoots a huge fireball from his mouth!",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "-",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "dragon",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "shoots",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "a",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "huge",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "fireball",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "from",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "his",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "mouth",
+              "tokenId": "w8"
+            },
+            {
+              "type": "punctuation",
+              "value": "!",
+              "tokenId": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4268 @@
+{
+  "id": "chapter-14-trapped",
+  "title": "Chapter 14 - Trapped!",
+  "sourceFile": "books/dragon-master/source/markdown/chapter-14-trapped.md",
+  "blocks": [
+    {
+      "id": "chapter-14-trapped-page-82",
+      "type": "pageBreak",
+      "page": 82,
+      "label": "Page 82"
+    },
+    {
+      "id": "chapter-14-trapped-b0",
+      "type": "paragraph",
+      "page": 82,
+      "text": "TRAPS! rake ducks as dirt rains down. He closes his eyes tight. Then the shaking stops. Drake opens his eyes. All the candles have gone out. He looks behind him in the darkness. \"Worm, are you all right?\"",
+      "sentences": [
+        {
+          "sentenceId": "chapter-14-trapped-b0-s0",
+          "text": "TRAPS!",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "TRAPS",
+              "tokenId": "w0"
+            },
+            {
+              "type": "punctuation",
+              "value": "!",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-14-trapped-b0-s1",
+          "text": "rake ducks as dirt rains down.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "rake",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "ducks",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "as",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "dirt",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "rains",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "down",
+              "tokenId": "w5"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-14-trapped-b0-s2",
+          "text": "He closes his eyes tight.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "He",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "closes",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "his",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "eyes",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "tight",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-14-trapped-b0-s3",
+          "text": "Then the shaking stops.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Then",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "shaking",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "stops",
+              "tokenId": "w3"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-14-trapped-b0-s4",
+          "text": "Drake opens his eyes.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Drake",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "opens",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "his",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "eyes",
+              "tokenId": "w3"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-14-trapped-b0-s5",
+          "text": "All the candles have gone out.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "All",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "candles",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "have",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "gone",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "out",
+              "tokenId": "w5"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-14-trapped-b0-s6",
+          "text": "He looks behind him in the darkness.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "He",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "looks",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "behind",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "him",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "in",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "darkness",
+              "tokenId": "w6"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-14-trapped-b0-s7",
+          "text": "\"Worm, are you all right?\"",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Worm",
+              "tokenId": "w0"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "are",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "you",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "all",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "right",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": "?\"",
+              "tokenId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-14-trapped-page-83",
+      "type": "pageBreak",
+      "page": 83,
+      "label": "Page 83"
+    },
+    {
+      "id": "chapter-14-trapped-b1",
+      "type": "paragraph",
+      "page": 83,
+      "text": "Worm looks fine. In fact, he doesn't have any dust on him. Everybody else is pretty dirty. \"Is every body okay?\" Drake asks. Ana is on the ground. Bo helps her up. \"I'm fine,\" she says. \"That is scary, though!\" Rori walks over. \"I'm sorry,\" she says. \"I don't know why that weird ball of light makes Vulcan freak out.\" Drake looks around. \"Thankfully, it's gone now.\" \"We should get back,\" Bo says nervously.",
+      "sentences": [
+        {
+          "sentenceId": "chapter-14-trapped-b1-s0",
+          "text": "Worm looks fine.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Worm",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "looks",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "fine",
+              "tokenId": "w2"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-14-trapped-b1-s1",
+          "text": "In fact, he doesn't have any dust on him.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "In",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "fact",
+              "tokenId": "w1"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "he",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "doesn't",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "have",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "any",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "dust",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "on",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "him",
+              "tokenId": "w8"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-14-trapped-b1-s2",
+          "text": "Everybody else is pretty dirty.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Everybody",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "else",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "is",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "pretty",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "dirty",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-14-trapped-b1-s3",
+          "text": "\"Is every body okay?\"",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Is",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "every",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "body",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "okay",
+              "tokenId": "w3"
+            },
+            {
+              "type": "punctuation",
+              "value": "?\"",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-14-trapped-b1-s4",
+          "text": "Drake asks.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Drake",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "asks",
+              "tokenId": "w1"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-14-trapped-b1-s5",
+          "text": "Ana is on the ground.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Ana",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "is",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "on",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "ground",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-14-trapped-b1-s6",
+          "text": "Bo helps her up.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Bo",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "helps",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "her",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "up",
+              "tokenId": "w3"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-14-trapped-b1-s7",
+          "text": "\"I'm fine,\" she says.",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "I'm",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "fine",
+              "tokenId": "w1"
+            },
+            {
+              "type": "punctuation",
+              "value": ",\"",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "she",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "says",
+              "tokenId": "w3"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-14-trapped-b1-s8",
+          "text": "\"That is scary, though!\"",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "That",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "is",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "scary",
+              "tokenId": "w2"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "though",
+              "tokenId": "w3"
+            },
+            {
+              "type": "punctuation",
+              "value": "!\"",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-14-trapped-b1-s9",
+          "text": "Rori walks over.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Rori",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "walks",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "over",
+              "tokenId": "w2"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-14-trapped-b1-s10",
+          "text": "\"I'm sorry,\" she says.",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "I'm",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "sorry",
+              "tokenId": "w1"
+            },
+            {
+              "type": "punctuation",
+              "value": ",\"",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "she",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "says",
+              "tokenId": "w3"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-14-trapped-b1-s11",
+          "text": "\"I don't know why that weird ball of light makes Vulcan freak out.\"",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "I",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "don't",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "know",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "why",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "that",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "weird",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "ball",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "of",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "light",
+              "tokenId": "w8"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "makes",
+              "tokenId": "w9"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Vulcan",
+              "tokenId": "w10"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "freak",
+              "tokenId": "w11"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "out",
+              "tokenId": "w12"
+            },
+            {
+              "type": "punctuation",
+              "value": ".\"",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-14-trapped-b1-s12",
+          "text": "Drake looks around.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Drake",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "looks",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "around",
+              "tokenId": "w2"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-14-trapped-b1-s13",
+          "text": "\"Thankfully, it's gone now.\"",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Thankfully",
+              "tokenId": "w0"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "it's",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "gone",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "now",
+              "tokenId": "w3"
+            },
+            {
+              "type": "punctuation",
+              "value": ".\"",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-14-trapped-b1-s14",
+          "text": "\"We should get back,\" Bo says nervously.",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "We",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "should",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "get",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "back",
+              "tokenId": "w3"
+            },
+            {
+              "type": "punctuation",
+              "value": ",\"",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Bo",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "says",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "nervously",
+              "tokenId": "w6"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-14-trapped-page-84",
+      "type": "pageBreak",
+      "page": 84,
+      "label": "Page 84"
+    },
+    {
+      "id": "chapter-14-trapped-b2",
+      "type": "paragraph",
+      "page": 84,
+      "text": "Drake looks past Worm. The tunnel is blocks with rocks and dirt. \"I don't think we can,\" Drake says. \"The way outside is blocked, too,\" Rori says. \"We're trap!\" says Bo. He turns pale. Ana's dragon makes a sad sound. \"It's okay, Kepri,\" Ana says, stroking Kepri's snout. \"Can you give us some light, please?\" Kepri opens her mouth and a beautiful, white ball of light comes out. The light hung in the air.",
+      "sentences": [
+        {
+          "sentenceId": "chapter-14-trapped-b2-s0",
+          "text": "Drake looks past Worm.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Drake",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "looks",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "past",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Worm",
+              "tokenId": "w3"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-14-trapped-b2-s1",
+          "text": "The tunnel is blocks with rocks and dirt.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "The",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "tunnel",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "is",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "blocks",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "with",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "rocks",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "and",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "dirt",
+              "tokenId": "w7"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-14-trapped-b2-s2",
+          "text": "\"I don't think we can,\" Drake says.",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "I",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "don't",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "think",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "we",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "can",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": ",\"",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Drake",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "says",
+              "tokenId": "w6"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-14-trapped-b2-s3",
+          "text": "\"The way outside is blocked, too,\" Rori says.",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "The",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "way",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "outside",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "is",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "blocked",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "too",
+              "tokenId": "w5"
+            },
+            {
+              "type": "punctuation",
+              "value": ",\"",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Rori",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "says",
+              "tokenId": "w7"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-14-trapped-b2-s4",
+          "text": "\"We're trap!\"",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "We're",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "trap",
+              "tokenId": "w1"
+            },
+            {
+              "type": "punctuation",
+              "value": "!\"",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-14-trapped-b2-s5",
+          "text": "says Bo.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "says",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Bo",
+              "tokenId": "w1"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-14-trapped-b2-s6",
+          "text": "He turns pale.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "He",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "turns",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "pale",
+              "tokenId": "w2"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-14-trapped-b2-s7",
+          "text": "Ana's dragon makes a sad sound.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Ana's",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "dragon",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "makes",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "a",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "sad",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "sound",
+              "tokenId": "w5"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-14-trapped-b2-s8",
+          "text": "\"It's okay, Kepri,\" Ana says, stroking Kepri's snout.",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "It's",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "okay",
+              "tokenId": "w1"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Kepri",
+              "tokenId": "w2"
+            },
+            {
+              "type": "punctuation",
+              "value": ",\"",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Ana",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "says",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "stroking",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Kepri's",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "snout",
+              "tokenId": "w7"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-14-trapped-b2-s9",
+          "text": "\"Can you give us some light, please?\"",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Can",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "you",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "give",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "us",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "some",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "light",
+              "tokenId": "w5"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "please",
+              "tokenId": "w6"
+            },
+            {
+              "type": "punctuation",
+              "value": "?\"",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-14-trapped-b2-s10",
+          "text": "Kepri opens her mouth and a beautiful, white ball of light comes out.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Kepri",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "opens",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "her",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "mouth",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "and",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "a",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "beautiful",
+              "tokenId": "w6"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "white",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "ball",
+              "tokenId": "w8"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "of",
+              "tokenId": "w9"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "light",
+              "tokenId": "w10"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "comes",
+              "tokenId": "w11"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "out",
+              "tokenId": "w12"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-14-trapped-b2-s11",
+          "text": "The light hung in the air.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "The",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "light",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "hung",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "in",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "air",
+              "tokenId": "w5"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-14-trapped-page-85",
+      "type": "pageBreak",
+      "page": 85,
+      "label": "Page 85"
+    },
+    {
+      "id": "chapter-14-trapped-b3",
+      "type": "paragraph",
+      "page": 85,
+      "text": "\"Vulcan is strong,\" Rori says. \"He should be able to push through the rocks.\" Vulcan is calmer now that the red orb is gone. He pushes at the rock wall, but the rocks doesn't budge. \"Come on, Vulcan!\" Rori urges him. But Vulcan cann't break through. Bo speaks up. \"I can have Shu blast through the rocks with water\" Ana frowns. \"What if it doesn't work? Then the tunnel will fill with water.\" Everybody is quiet. They know Ana is right. They are stuck. Drake looks at Worm. \"Sorry I get you into this,\" he whispers.",
+      "sentences": [
+        {
+          "sentenceId": "chapter-14-trapped-b3-s0",
+          "text": "\"Vulcan is strong,\" Rori says.",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Vulcan",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "is",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "strong",
+              "tokenId": "w2"
+            },
+            {
+              "type": "punctuation",
+              "value": ",\"",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Rori",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "says",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-14-trapped-b3-s1",
+          "text": "\"He should be able to push through the rocks.\"",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "He",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "should",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "be",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "able",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "to",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "push",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "through",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "rocks",
+              "tokenId": "w8"
+            },
+            {
+              "type": "punctuation",
+              "value": ".\"",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-14-trapped-b3-s2",
+          "text": "Vulcan is calmer now that the red orb is gone.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Vulcan",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "is",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "calmer",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "now",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "that",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "red",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "orb",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "is",
+              "tokenId": "w8"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "gone",
+              "tokenId": "w9"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-14-trapped-b3-s3",
+          "text": "He pushes at the rock wall, but the rocks doesn't budge.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "He",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "pushes",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "at",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "rock",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "wall",
+              "tokenId": "w5"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "but",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "rocks",
+              "tokenId": "w8"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "doesn't",
+              "tokenId": "w9"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "budge",
+              "tokenId": "w10"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-14-trapped-b3-s4",
+          "text": "\"Come on, Vulcan!\"",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Come",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "on",
+              "tokenId": "w1"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Vulcan",
+              "tokenId": "w2"
+            },
+            {
+              "type": "punctuation",
+              "value": "!\"",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-14-trapped-b3-s5",
+          "text": "Rori urges him.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Rori",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "urges",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "him",
+              "tokenId": "w2"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-14-trapped-b3-s6",
+          "text": "But Vulcan cann't break through.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "But",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Vulcan",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "cann't",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "break",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "through",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-14-trapped-b3-s7",
+          "text": "Bo speaks up.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Bo",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "speaks",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "up",
+              "tokenId": "w2"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-14-trapped-b3-s8",
+          "text": "\"I can have Shu blast through the rocks with water\" Ana frowns.",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "I",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "can",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "have",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Shu",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "blast",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "through",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "rocks",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "with",
+              "tokenId": "w8"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "water",
+              "tokenId": "w9"
+            },
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Ana",
+              "tokenId": "w10"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "frowns",
+              "tokenId": "w11"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-14-trapped-b3-s9",
+          "text": "\"What if it doesn't work?",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "What",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "if",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "it",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "doesn't",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "work",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": "?",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-14-trapped-b3-s10",
+          "text": "Then the tunnel will fill with water.\"",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Then",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "tunnel",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "will",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "fill",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "with",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "water",
+              "tokenId": "w6"
+            },
+            {
+              "type": "punctuation",
+              "value": ".\"",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-14-trapped-b3-s11",
+          "text": "Everybody is quiet.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Everybody",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "is",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "quiet",
+              "tokenId": "w2"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-14-trapped-b3-s12",
+          "text": "They know Ana is right.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "They",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "know",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Ana",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "is",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "right",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-14-trapped-b3-s13",
+          "text": "They are stuck.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "They",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "are",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "stuck",
+              "tokenId": "w2"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-14-trapped-b3-s14",
+          "text": "Drake looks at Worm.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Drake",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "looks",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "at",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Worm",
+              "tokenId": "w3"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-14-trapped-b3-s15",
+          "text": "\"Sorry I get you into this,\" he whispers.",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Sorry",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "I",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "get",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "you",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "into",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "this",
+              "tokenId": "w5"
+            },
+            {
+              "type": "punctuation",
+              "value": ",\"",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "he",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "whispers",
+              "tokenId": "w7"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-14-trapped-page-86",
+      "type": "pageBreak",
+      "page": 86,
+      "label": "Page 86"
+    },
+    {
+      "id": "chapter-14-trapped-b4",
+      "type": "paragraph",
+      "page": 86,
+      "text": "Then Worm's green eyes start to glow. A green light sweeps from the top of Worm's head to the end of his tail.",
+      "sentences": [
+        {
+          "sentenceId": "chapter-14-trapped-b4-s0",
+          "text": "Then Worm's green eyes start to glow.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Then",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Worm's",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "green",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "eyes",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "start",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "to",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "glow",
+              "tokenId": "w6"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-14-trapped-b4-s1",
+          "text": "A green light sweeps from the top of Worm's head to the end of his tail.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "A",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "green",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "light",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "sweeps",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "from",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "top",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "of",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Worm's",
+              "tokenId": "w8"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "head",
+              "tokenId": "w9"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "to",
+              "tokenId": "w10"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w11"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "end",
+              "tokenId": "w12"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "of",
+              "tokenId": "w13"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "his",
+              "tokenId": "w14"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "tail",
+              "tokenId": "w15"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-14-trapped-page-87",
+      "type": "pageBreak",
+      "page": 87,
+      "label": "Page 87"
+    },
+    {
+      "id": "chapter-14-trapped-b5",
+      "type": "paragraph",
+      "page": 87,
+      "text": "Drake jumps back. \"Worm?\" He feels something warm on his chest. He looks down to see that his Dragon Stone is glowing, too! Ana, Rori, and Bo's mouths drop open. They stare at Worm and Drake. Worm's green glow fills the tunnel. \"Drake, it looks like your dragon's going to explode!\" Rori yells.",
+      "sentences": [
+        {
+          "sentenceId": "chapter-14-trapped-b5-s0",
+          "text": "Drake jumps back.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Drake",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "jumps",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "back",
+              "tokenId": "w2"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-14-trapped-b5-s1",
+          "text": "\"Worm?\"",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Worm",
+              "tokenId": "w0"
+            },
+            {
+              "type": "punctuation",
+              "value": "?\"",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-14-trapped-b5-s2",
+          "text": "He feels something warm on his chest.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "He",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "feels",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "something",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "warm",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "on",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "his",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "chest",
+              "tokenId": "w6"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-14-trapped-b5-s3",
+          "text": "He looks down to see that his Dragon Stone is glowing, too!",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "He",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "looks",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "down",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "to",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "see",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "that",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "his",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Dragon",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Stone",
+              "tokenId": "w8"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "is",
+              "tokenId": "w9"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "glowing",
+              "tokenId": "w10"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "too",
+              "tokenId": "w11"
+            },
+            {
+              "type": "punctuation",
+              "value": "!",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-14-trapped-b5-s4",
+          "text": "Ana, Rori, and Bo's mouths drop open.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Ana",
+              "tokenId": "w0"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Rori",
+              "tokenId": "w1"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "and",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Bo's",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "mouths",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "drop",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "open",
+              "tokenId": "w6"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-14-trapped-b5-s5",
+          "text": "They stare at Worm and Drake.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "They",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "stare",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "at",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Worm",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "and",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Drake",
+              "tokenId": "w5"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-14-trapped-b5-s6",
+          "text": "Worm's green glow fills the tunnel.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Worm's",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "green",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "glow",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "fills",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "tunnel",
+              "tokenId": "w5"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-14-trapped-b5-s7",
+          "text": "\"Drake, it looks like your dragon's going to explode!\"",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Drake",
+              "tokenId": "w0"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "it",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "looks",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "like",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "your",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "dragon's",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "going",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "to",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "explode",
+              "tokenId": "w8"
+            },
+            {
+              "type": "punctuation",
+              "value": "!\"",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-14-trapped-b5-s8",
+          "text": "Rori yells.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Rori",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "yells",
+              "tokenId": "w1"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

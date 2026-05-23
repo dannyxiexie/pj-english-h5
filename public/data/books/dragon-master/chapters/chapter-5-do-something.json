@@ -1,0 +1,5623 @@
+{
+  "id": "chapter-5-do-something",
+  "title": "Chapter 5 - Do Something!",
+  "sourceFile": "books/dragon-master/source/markdown/chapter-5-do-something.md",
+  "blocks": [
+    {
+      "id": "chapter-5-do-something-page-31",
+      "type": "pageBreak",
+      "page": 31,
+      "label": "Page 31"
+    },
+    {
+      "id": "chapter-5-do-something-b0",
+      "type": "paragraph",
+      "page": 31,
+      "text": "DO SOMETHING! he Training Room is one big, open space. Shields and long poles hung from the walls. Buckets hold water and sand. And at one end of the room is a round target. Straw stuffing pokes out from the sides.",
+      "sentences": [
+        {
+          "sentenceId": "chapter-5-do-something-b0-s0",
+          "text": "DO SOMETHING!",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "DO",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "SOMETHING",
+              "tokenId": "w1"
+            },
+            {
+              "type": "punctuation",
+              "value": "!",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b0-s1",
+          "text": "he Training Room is one big, open space.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "he",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Training",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Room",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "is",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "one",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "big",
+              "tokenId": "w5"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "open",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "space",
+              "tokenId": "w7"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b0-s2",
+          "text": "Shields and long poles hung from the walls.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Shields",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "and",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "long",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "poles",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "hung",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "from",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "walls",
+              "tokenId": "w7"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b0-s3",
+          "text": "Buckets hold water and sand.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Buckets",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "hold",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "water",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "and",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "sand",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b0-s4",
+          "text": "And at one end of the room is a round target.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "And",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "at",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "one",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "end",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "of",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "room",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "is",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "a",
+              "tokenId": "w8"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "round",
+              "tokenId": "w9"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "target",
+              "tokenId": "w10"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b0-s5",
+          "text": "Straw stuffing pokes out from the sides.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Straw",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "stuffing",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "pokes",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "out",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "from",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "sides",
+              "tokenId": "w6"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-5-do-something-page-32",
+      "type": "pageBreak",
+      "page": 32,
+      "label": "Page 32"
+    },
+    {
+      "id": "chapter-5-do-something-b1",
+      "type": "paragraph",
+      "page": 32,
+      "text": "Griffith points at the target. Sparks fly from his finger and a red bull's-eye shows up on the target. \"It's time for target practice!\" the wizard says. \"Me first!\" Rori calls out. \"Vulcan, come!\" The red dragon stomps forward. \"Vulcan, fire!\" Rori yells. The dragon's orange eyes glow. Then two streams of fire shoots from his nose. The streams twist together. The fire hits the bull's-eye. \"Perfect!\" Rori cheered. Then the straw burst into flames! Drake jumps back.",
+      "sentences": [
+        {
+          "sentenceId": "chapter-5-do-something-b1-s0",
+          "text": "Griffith points at the target.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Griffith",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "points",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "at",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "target",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b1-s1",
+          "text": "Sparks fly from his finger and a red bull's-eye shows up on the target.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Sparks",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "fly",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "from",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "his",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "finger",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "and",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "a",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "red",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "bull's",
+              "tokenId": "w8"
+            },
+            {
+              "type": "punctuation",
+              "value": "-",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "eye",
+              "tokenId": "w9"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "shows",
+              "tokenId": "w10"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "up",
+              "tokenId": "w11"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "on",
+              "tokenId": "w12"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w13"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "target",
+              "tokenId": "w14"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b1-s2",
+          "text": "\"It's time for target practice!\"",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "It's",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "time",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "for",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "target",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "practice",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": "!\"",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b1-s3",
+          "text": "the wizard says.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "wizard",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "says",
+              "tokenId": "w2"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b1-s4",
+          "text": "\"Me first!\"",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Me",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "first",
+              "tokenId": "w1"
+            },
+            {
+              "type": "punctuation",
+              "value": "!\"",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b1-s5",
+          "text": "Rori calls out.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Rori",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "calls",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "out",
+              "tokenId": "w2"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b1-s6",
+          "text": "\"Vulcan, come!\"",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Vulcan",
+              "tokenId": "w0"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "come",
+              "tokenId": "w1"
+            },
+            {
+              "type": "punctuation",
+              "value": "!\"",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b1-s7",
+          "text": "The red dragon stomps forward.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "The",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "red",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "dragon",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "stomps",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "forward",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b1-s8",
+          "text": "\"Vulcan, fire!\"",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Vulcan",
+              "tokenId": "w0"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "fire",
+              "tokenId": "w1"
+            },
+            {
+              "type": "punctuation",
+              "value": "!\"",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b1-s9",
+          "text": "Rori yells.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Rori",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "yells",
+              "tokenId": "w1"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b1-s10",
+          "text": "The dragon's orange eyes glow.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "The",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "dragon's",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "orange",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "eyes",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "glow",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b1-s11",
+          "text": "Then two streams of fire shoots from his nose.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Then",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "two",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "streams",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "of",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "fire",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "shoots",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "from",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "his",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "nose",
+              "tokenId": "w8"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b1-s12",
+          "text": "The streams twist together.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "The",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "streams",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "twist",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "together",
+              "tokenId": "w3"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b1-s13",
+          "text": "The fire hits the bull's-eye.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "The",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "fire",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "hits",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "bull's",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": "-",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "eye",
+              "tokenId": "w5"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b1-s14",
+          "text": "\"Perfect!\"",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Perfect",
+              "tokenId": "w0"
+            },
+            {
+              "type": "punctuation",
+              "value": "!\"",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b1-s15",
+          "text": "Rori cheered.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Rori",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "cheered",
+              "tokenId": "w1"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b1-s16",
+          "text": "Then the straw burst into flames!",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Then",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "straw",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "burst",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "into",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "flames",
+              "tokenId": "w5"
+            },
+            {
+              "type": "punctuation",
+              "value": "!",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b1-s17",
+          "text": "Drake jumps back.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Drake",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "jumps",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "back",
+              "tokenId": "w2"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-5-do-something-page-33",
+      "type": "pageBreak",
+      "page": 33,
+      "label": "Page 33"
+    },
+    {
+      "id": "chapter-5-do-something-b2",
+      "type": "paragraph",
+      "page": 33,
+      "text": "\"Good aim,\" says Griffith. \"Bo, can you help puts the fire out?\" \"Yes,\" says Bo. He looks at his dragon. \"Shu,\" he says simply. He doesn't yell like Rori. Shu swiftly crosses the room. Does her feet even touch the ground? wonders Drake. \"Water, please, Shu,\" Bo says. A stream of water sprays out of the blue dragon's mouth. The fire sizzles. Water droplets dances in the air, lights up by the torches.",
+      "sentences": [
+        {
+          "sentenceId": "chapter-5-do-something-b2-s0",
+          "text": "\"Good aim,\" says Griffith.",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Good",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "aim",
+              "tokenId": "w1"
+            },
+            {
+              "type": "punctuation",
+              "value": ",\"",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "says",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Griffith",
+              "tokenId": "w3"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b2-s1",
+          "text": "\"Bo, can you help puts the fire out?\"",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Bo",
+              "tokenId": "w0"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "can",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "you",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "help",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "puts",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "fire",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "out",
+              "tokenId": "w7"
+            },
+            {
+              "type": "punctuation",
+              "value": "?\"",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b2-s2",
+          "text": "\"Yes,\" says Bo.",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Yes",
+              "tokenId": "w0"
+            },
+            {
+              "type": "punctuation",
+              "value": ",\"",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "says",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Bo",
+              "tokenId": "w2"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b2-s3",
+          "text": "He looks at his dragon.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "He",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "looks",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "at",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "his",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "dragon",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b2-s4",
+          "text": "\"Shu,\" he says simply.",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Shu",
+              "tokenId": "w0"
+            },
+            {
+              "type": "punctuation",
+              "value": ",\"",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "he",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "says",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "simply",
+              "tokenId": "w3"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b2-s5",
+          "text": "He doesn't yell like Rori.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "He",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "doesn't",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "yell",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "like",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Rori",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b2-s6",
+          "text": "Shu swiftly crosses the room.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Shu",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "swiftly",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "crosses",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "room",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b2-s7",
+          "text": "Does her feet even touch the ground?",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Does",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "her",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "feet",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "even",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "touch",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "ground",
+              "tokenId": "w6"
+            },
+            {
+              "type": "punctuation",
+              "value": "?",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b2-s8",
+          "text": "wonders Drake.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "wonders",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Drake",
+              "tokenId": "w1"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b2-s9",
+          "text": "\"Water, please, Shu,\" Bo says.",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Water",
+              "tokenId": "w0"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "please",
+              "tokenId": "w1"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Shu",
+              "tokenId": "w2"
+            },
+            {
+              "type": "punctuation",
+              "value": ",\"",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Bo",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "says",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b2-s10",
+          "text": "A stream of water sprays out of the blue dragon's mouth.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "A",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "stream",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "of",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "water",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "sprays",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "out",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "of",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "blue",
+              "tokenId": "w8"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "dragon's",
+              "tokenId": "w9"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "mouth",
+              "tokenId": "w10"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b2-s11",
+          "text": "The fire sizzles.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "The",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "fire",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "sizzles",
+              "tokenId": "w2"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b2-s12",
+          "text": "Water droplets dances in the air, lights up by the torches.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Water",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "droplets",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "dances",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "in",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "air",
+              "tokenId": "w5"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "lights",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "up",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "by",
+              "tokenId": "w8"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w9"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "torches",
+              "tokenId": "w10"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-5-do-something-page-34",
+      "type": "pageBreak",
+      "page": 34,
+      "label": "Page 34"
+    },
+    {
+      "id": "chapter-5-do-something-b3",
+      "type": "paragraph",
+      "page": 34,
+      "text": "\"Kepri! Rainbow time!\" Ana cries. Kepri glides across the room. Drake thinks her white scales look like jewels. A soft beam of light comes out of Kepri's mouth. It grows wider and wider. When it hits the water droplets, it makes a rainbow! \"Wow,\" Drake says. \"Isn't she amazing?\" asks Bo. Ana smils Rori puts her hands on her hips. \"Now lets's see what Worm can do,\" she says Drake feels nervous. He looks at Worm. \"Um, Worm, are you ready?\" Drake asks. Worm stares back at him.",
+      "sentences": [
+        {
+          "sentenceId": "chapter-5-do-something-b3-s0",
+          "text": "\"Kepri!",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Kepri",
+              "tokenId": "w0"
+            },
+            {
+              "type": "punctuation",
+              "value": "!",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b3-s1",
+          "text": "Rainbow time!\"",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Rainbow",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "time",
+              "tokenId": "w1"
+            },
+            {
+              "type": "punctuation",
+              "value": "!\"",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b3-s2",
+          "text": "Ana cries.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Ana",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "cries",
+              "tokenId": "w1"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b3-s3",
+          "text": "Kepri glides across the room.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Kepri",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "glides",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "across",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "room",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b3-s4",
+          "text": "Drake thinks her white scales look like jewels.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Drake",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "thinks",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "her",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "white",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "scales",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "look",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "like",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "jewels",
+              "tokenId": "w7"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b3-s5",
+          "text": "A soft beam of light comes out of Kepri's mouth.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "A",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "soft",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "beam",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "of",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "light",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "comes",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "out",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "of",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Kepri's",
+              "tokenId": "w8"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "mouth",
+              "tokenId": "w9"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b3-s6",
+          "text": "It grows wider and wider.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "It",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "grows",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "wider",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "and",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "wider",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b3-s7",
+          "text": "When it hits the water droplets, it makes a rainbow!",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "When",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "it",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "hits",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "water",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "droplets",
+              "tokenId": "w5"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "it",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "makes",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "a",
+              "tokenId": "w8"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "rainbow",
+              "tokenId": "w9"
+            },
+            {
+              "type": "punctuation",
+              "value": "!",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b3-s8",
+          "text": "\"Wow,\" Drake says.",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Wow",
+              "tokenId": "w0"
+            },
+            {
+              "type": "punctuation",
+              "value": ",\"",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Drake",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "says",
+              "tokenId": "w2"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b3-s9",
+          "text": "\"Isn't she amazing?\"",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Isn't",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "she",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "amazing",
+              "tokenId": "w2"
+            },
+            {
+              "type": "punctuation",
+              "value": "?\"",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b3-s10",
+          "text": "asks Bo.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "asks",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Bo",
+              "tokenId": "w1"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b3-s11",
+          "text": "Ana smils Rori puts her hands on her hips.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Ana",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "smils",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Rori",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "puts",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "her",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "hands",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "on",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "her",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "hips",
+              "tokenId": "w8"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b3-s12",
+          "text": "\"Now lets's see what Worm can do,\" she says Drake feels nervous.",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Now",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "lets's",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "see",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "what",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Worm",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "can",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "do",
+              "tokenId": "w6"
+            },
+            {
+              "type": "punctuation",
+              "value": ",\"",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "she",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "says",
+              "tokenId": "w8"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Drake",
+              "tokenId": "w9"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "feels",
+              "tokenId": "w10"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "nervous",
+              "tokenId": "w11"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b3-s13",
+          "text": "He looks at Worm.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "He",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "looks",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "at",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Worm",
+              "tokenId": "w3"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b3-s14",
+          "text": "\"Um, Worm, are you ready?\"",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Um",
+              "tokenId": "w0"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Worm",
+              "tokenId": "w1"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "are",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "you",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "ready",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": "?\"",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b3-s15",
+          "text": "Drake asks.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Drake",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "asks",
+              "tokenId": "w1"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b3-s16",
+          "text": "Worm stares back at him.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Worm",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "stares",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "back",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "at",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "him",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-5-do-something-page-35",
+      "type": "pageBreak",
+      "page": 35,
+      "label": "Page 35"
+    },
+    {
+      "id": "chapter-5-do-something-b4",
+      "type": "paragraph",
+      "page": 35,
+      "text": "I guess that means yes, thinks Drake. \"Okay, Worm. Fire!\" Drake jumps back in case fire comes out of Worm's mouth. But Worm just lay there. \"Not all dragons can shoot fire,\" says Bo. Drake nods. \"Right. Okay, Worm. Water!\" But Worm doesn't shoot water. \"Hal\" Rori laughs. \"I know it. Worm can't do anything.\" Drake's cheeks grow hot with anger. \"He's just warming up,\" he says. \"Come on, Worm. Shoot light out of your mouth!\" Still nothing. \"You call that a dragon?\" Rori says. \"Please, Worm?\" Drake whispers to his dragon. \"Do something!\" Worm just blinks.",
+      "sentences": [
+        {
+          "sentenceId": "chapter-5-do-something-b4-s0",
+          "text": "I guess that means yes, thinks Drake.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "I",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "guess",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "that",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "means",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "yes",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "thinks",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Drake",
+              "tokenId": "w6"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b4-s1",
+          "text": "\"Okay, Worm.",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Okay",
+              "tokenId": "w0"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Worm",
+              "tokenId": "w1"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b4-s2",
+          "text": "Fire!\"",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Fire",
+              "tokenId": "w0"
+            },
+            {
+              "type": "punctuation",
+              "value": "!\"",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b4-s3",
+          "text": "Drake jumps back in case fire comes out of Worm's mouth.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Drake",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "jumps",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "back",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "in",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "case",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "fire",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "comes",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "out",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "of",
+              "tokenId": "w8"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Worm's",
+              "tokenId": "w9"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "mouth",
+              "tokenId": "w10"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b4-s4",
+          "text": "But Worm just lay there.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "But",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Worm",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "just",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "lay",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "there",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b4-s5",
+          "text": "\"Not all dragons can shoot fire,\" says Bo.",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Not",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "all",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "dragons",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "can",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "shoot",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "fire",
+              "tokenId": "w5"
+            },
+            {
+              "type": "punctuation",
+              "value": ",\"",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "says",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Bo",
+              "tokenId": "w7"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b4-s6",
+          "text": "Drake nods.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Drake",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "nods",
+              "tokenId": "w1"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b4-s7",
+          "text": "\"Right.",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Right",
+              "tokenId": "w0"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b4-s8",
+          "text": "Okay, Worm.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Okay",
+              "tokenId": "w0"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Worm",
+              "tokenId": "w1"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b4-s9",
+          "text": "Water!\"",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Water",
+              "tokenId": "w0"
+            },
+            {
+              "type": "punctuation",
+              "value": "!\"",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b4-s10",
+          "text": "But Worm doesn't shoot water.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "But",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Worm",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "doesn't",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "shoot",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "water",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b4-s11",
+          "text": "\"Hal\" Rori laughs.",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Hal",
+              "tokenId": "w0"
+            },
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Rori",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "laughs",
+              "tokenId": "w2"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b4-s12",
+          "text": "\"I know it.",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "I",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "know",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "it",
+              "tokenId": "w2"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b4-s13",
+          "text": "Worm can't do anything.\"",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Worm",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "can't",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "do",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "anything",
+              "tokenId": "w3"
+            },
+            {
+              "type": "punctuation",
+              "value": ".\"",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b4-s14",
+          "text": "Drake's cheeks grow hot with anger.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Drake's",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "cheeks",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "grow",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "hot",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "with",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "anger",
+              "tokenId": "w5"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b4-s15",
+          "text": "\"He's just warming up,\" he says.",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "He's",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "just",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "warming",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "up",
+              "tokenId": "w3"
+            },
+            {
+              "type": "punctuation",
+              "value": ",\"",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "he",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "says",
+              "tokenId": "w5"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b4-s16",
+          "text": "\"Come on, Worm.",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Come",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "on",
+              "tokenId": "w1"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Worm",
+              "tokenId": "w2"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b4-s17",
+          "text": "Shoot light out of your mouth!\"",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Shoot",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "light",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "out",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "of",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "your",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "mouth",
+              "tokenId": "w5"
+            },
+            {
+              "type": "punctuation",
+              "value": "!\"",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b4-s18",
+          "text": "Still nothing.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Still",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "nothing",
+              "tokenId": "w1"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b4-s19",
+          "text": "\"You call that a dragon?\"",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "You",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "call",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "that",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "a",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "dragon",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": "?\"",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b4-s20",
+          "text": "Rori says.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Rori",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "says",
+              "tokenId": "w1"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b4-s21",
+          "text": "\"Please, Worm?\"",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Please",
+              "tokenId": "w0"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Worm",
+              "tokenId": "w1"
+            },
+            {
+              "type": "punctuation",
+              "value": "?\"",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b4-s22",
+          "text": "Drake whispers to his dragon.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Drake",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "whispers",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "to",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "his",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "dragon",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b4-s23",
+          "text": "\"Do something!\"",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Do",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "something",
+              "tokenId": "w1"
+            },
+            {
+              "type": "punctuation",
+              "value": "!\"",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b4-s24",
+          "text": "Worm just blinks.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Worm",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "just",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "blinks",
+              "tokenId": "w2"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-5-do-something-page-36",
+      "type": "pageBreak",
+      "page": 36,
+      "label": "Page 36"
+    },
+    {
+      "id": "chapter-5-do-something-b5",
+      "type": "paragraph",
+      "page": 36,
+      "text": "\"Do not worry, Drake. Getting to know your dragon takes time, \" Griffith says. \"Target practice is over for today. Lets's go eat.\" Bo grabs Drake's elbow. \"I hope you're hungry, Drake! The Dragon Masters get as much food as we want,\" say Bo. Drake is hungry so this news make him feel a little better. But he has failed the training. How can I be a Dragon Master if my dragon won't do anything I ask it to do? he thinks. I'm only an onion farmer. I don't belong here.",
+      "sentences": [
+        {
+          "sentenceId": "chapter-5-do-something-b5-s0",
+          "text": "\"Do not worry, Drake.",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Do",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "not",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "worry",
+              "tokenId": "w2"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Drake",
+              "tokenId": "w3"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b5-s1",
+          "text": "Getting to know your dragon takes time, \" Griffith says.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Getting",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "to",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "know",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "your",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "dragon",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "takes",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "time",
+              "tokenId": "w6"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Griffith",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "says",
+              "tokenId": "w8"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b5-s2",
+          "text": "\"Target practice is over for today.",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Target",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "practice",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "is",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "over",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "for",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "today",
+              "tokenId": "w5"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b5-s3",
+          "text": "Lets's go eat.\"",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Lets's",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "go",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "eat",
+              "tokenId": "w2"
+            },
+            {
+              "type": "punctuation",
+              "value": ".\"",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b5-s4",
+          "text": "Bo grabs Drake's elbow.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Bo",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "grabs",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Drake's",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "elbow",
+              "tokenId": "w3"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b5-s5",
+          "text": "\"I hope you're hungry, Drake!",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "\"",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "I",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "hope",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "you're",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "hungry",
+              "tokenId": "w3"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Drake",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": "!",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b5-s6",
+          "text": "The Dragon Masters get as much food as we want,\" say Bo.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "The",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Dragon",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Masters",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "get",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "as",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "much",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "food",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "as",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "we",
+              "tokenId": "w8"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "want",
+              "tokenId": "w9"
+            },
+            {
+              "type": "punctuation",
+              "value": ",\"",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "say",
+              "tokenId": "w10"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Bo",
+              "tokenId": "w11"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b5-s7",
+          "text": "Drake is hungry so this news make him feel a little better.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Drake",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "is",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "hungry",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "so",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "this",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "news",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "make",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "him",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "feel",
+              "tokenId": "w8"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "a",
+              "tokenId": "w9"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "little",
+              "tokenId": "w10"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "better",
+              "tokenId": "w11"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b5-s8",
+          "text": "But he has failed the training.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "But",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "he",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "has",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "failed",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "training",
+              "tokenId": "w5"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b5-s9",
+          "text": "How can I be a Dragon Master if my dragon won't do anything I ask it to do?",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "How",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "can",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "I",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "be",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "a",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Dragon",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Master",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "if",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "my",
+              "tokenId": "w8"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "dragon",
+              "tokenId": "w9"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "won't",
+              "tokenId": "w10"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "do",
+              "tokenId": "w11"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "anything",
+              "tokenId": "w12"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "I",
+              "tokenId": "w13"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "ask",
+              "tokenId": "w14"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "it",
+              "tokenId": "w15"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "to",
+              "tokenId": "w16"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "do",
+              "tokenId": "w17"
+            },
+            {
+              "type": "punctuation",
+              "value": "?",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b5-s10",
+          "text": "he thinks.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "he",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "thinks",
+              "tokenId": "w1"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b5-s11",
+          "text": "I'm only an onion farmer.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "I'm",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "only",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "an",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "onion",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "farmer",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "chapter-5-do-something-b5-s12",
+          "text": "I don't belong here.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "I",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "don't",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "belong",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "here",
+              "tokenId": "w3"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

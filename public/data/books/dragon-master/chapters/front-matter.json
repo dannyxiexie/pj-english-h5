@@ -1,0 +1,4757 @@
+{
+  "id": "front-matter",
+  "title": "Front Matter",
+  "sourceFile": "books/dragon-master/source/markdown/front-matter.md",
+  "blocks": [
+    {
+      "id": "front-matter-page-1",
+      "type": "pageBreak",
+      "page": 1,
+      "label": "Page 1"
+    },
+    {
+      "id": "front-matter-b0",
+      "type": "paragraph",
+      "page": 1,
+      "text": "DRAGON BRANCHES MASTERS RISE OF THE EARTH DRAGON TRACEY MSCHOLASTIC",
+      "sentences": [
+        {
+          "sentenceId": "front-matter-b0-s0",
+          "text": "DRAGON BRANCHES MASTERS RISE OF THE EARTH DRAGON TRACEY MSCHOLASTIC",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "DRAGON",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "BRANCHES",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "MASTERS",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "RISE",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "OF",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "THE",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "EARTH",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "DRAGON",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "TRACEY",
+              "tokenId": "w8"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "MSCHOLASTIC",
+              "tokenId": "w9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "front-matter-page-2",
+      "type": "pageBreak",
+      "page": 2,
+      "label": "Page 2"
+    },
+    {
+      "id": "front-matter-b1",
+      "type": "paragraph",
+      "page": 2,
+      "text": "DRAGON BRANCHES MASTERS RISE OF THE EARTH DRAGON TRACEY MSCHOLASTIC",
+      "sentences": [
+        {
+          "sentenceId": "front-matter-b1-s0",
+          "text": "DRAGON BRANCHES MASTERS RISE OF THE EARTH DRAGON TRACEY MSCHOLASTIC",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "DRAGON",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "BRANCHES",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "MASTERS",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "RISE",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "OF",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "THE",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "EARTH",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "DRAGON",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "TRACEY",
+              "tokenId": "w8"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "MSCHOLASTIC",
+              "tokenId": "w9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "front-matter-page-3",
+      "type": "pageBreak",
+      "page": 3,
+      "label": "Page 3"
+    },
+    {
+      "id": "front-matter-page-4",
+      "type": "pageBreak",
+      "page": 4,
+      "label": "Page 4"
+    },
+    {
+      "id": "front-matter-b2",
+      "type": "paragraph",
+      "page": 4,
+      "text": "DRAGON MASTERS RISE Ra EARTH DRAGON TRACEY WEST ILLUSTRATES BY GRAHAM HOWELLS BRANCHES?' SCHOLASTIC INC.",
+      "sentences": [
+        {
+          "sentenceId": "front-matter-b2-s0",
+          "text": "DRAGON MASTERS RISE Ra EARTH DRAGON TRACEY WEST ILLUSTRATES BY GRAHAM HOWELLS BRANCHES?",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "DRAGON",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "MASTERS",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "RISE",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Ra",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "EARTH",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "DRAGON",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "TRACEY",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "WEST",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "ILLUSTRATES",
+              "tokenId": "w8"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "BY",
+              "tokenId": "w9"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "GRAHAM",
+              "tokenId": "w10"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "HOWELLS",
+              "tokenId": "w11"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "BRANCHES",
+              "tokenId": "w12"
+            },
+            {
+              "type": "punctuation",
+              "value": "?",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "front-matter-b2-s1",
+          "text": "' SCHOLASTIC INC.",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "'",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "SCHOLASTIC",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "INC",
+              "tokenId": "w1"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "front-matter-page-5",
+      "type": "pageBreak",
+      "page": 5,
+      "label": "Page 5"
+    },
+    {
+      "id": "front-matter-b3",
+      "type": "paragraph",
+      "page": 5,
+      "text": "DRAGON MASTERS • Reads All the Books ARRA DRAGON DRAGON MASTERS MASTERS SUSE OF THE BARTH DR VING THESUND TRACEY DRAGON DRAGON MASTERS MASTERS SECRET OF THE WATER DRAGON MAnA",
+      "sentences": [
+        {
+          "sentenceId": "front-matter-b3-s0",
+          "text": "DRAGON MASTERS • Reads All the Books ARRA DRAGON DRAGON MASTERS MASTERS SUSE OF THE BARTH DR VING THESUND TRACEY DRAGON DRAGON MASTERS MASTERS SECRET OF THE WATER DRAGON MAnA",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "DRAGON",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "MASTERS",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "•",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Reads",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "All",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Books",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "ARRA",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "DRAGON",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "DRAGON",
+              "tokenId": "w8"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "MASTERS",
+              "tokenId": "w9"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "MASTERS",
+              "tokenId": "w10"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "SUSE",
+              "tokenId": "w11"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "OF",
+              "tokenId": "w12"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "THE",
+              "tokenId": "w13"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "BARTH",
+              "tokenId": "w14"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "DR",
+              "tokenId": "w15"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "VING",
+              "tokenId": "w16"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "THESUND",
+              "tokenId": "w17"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "TRACEY",
+              "tokenId": "w18"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "DRAGON",
+              "tokenId": "w19"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "DRAGON",
+              "tokenId": "w20"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "MASTERS",
+              "tokenId": "w21"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "MASTERS",
+              "tokenId": "w22"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "SECRET",
+              "tokenId": "w23"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "OF",
+              "tokenId": "w24"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "THE",
+              "tokenId": "w25"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "WATER",
+              "tokenId": "w26"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "DRAGON",
+              "tokenId": "w27"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "MAnA",
+              "tokenId": "w28"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "front-matter-page-6",
+      "type": "pageBreak",
+      "page": 6,
+      "label": "Page 6"
+    },
+    {
+      "id": "front-matter-b4",
+      "type": "paragraph",
+      "page": 6,
+      "text": "TABLE OF CONTENTS 1. TO THE CASTLE! 2. THE DRAGON STONE 3. MORE DRAGONS! 4. WORM...... 5. DO SOMETHING! 6. A NEW FRIEND 7. A STRANGE DREAM 8. FLYING PRACTICE 9. WHISPERS... 10. WORM'S STORY 11. A NOISE IN THE NIGHT 12. A SNEAKY PLAN 13. TROUBLE IN THE TUNNEL 14. TRAPPEDI..... 15. WORM'S SURPRISE 16. JUST THE BEGINNING",
+      "sentences": [
+        {
+          "sentenceId": "front-matter-b4-s0",
+          "text": "TABLE OF CONTENTS 1.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "TABLE",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "OF",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "CONTENTS",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "1",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "front-matter-b4-s1",
+          "text": "TO THE CASTLE!",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "TO",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "THE",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "CASTLE",
+              "tokenId": "w2"
+            },
+            {
+              "type": "punctuation",
+              "value": "!",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "front-matter-b4-s2",
+          "text": "2.",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "2",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "front-matter-b4-s3",
+          "text": "THE DRAGON STONE 3.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "THE",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "DRAGON",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "STONE",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "3",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "front-matter-b4-s4",
+          "text": "MORE DRAGONS!",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "MORE",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "DRAGONS",
+              "tokenId": "w1"
+            },
+            {
+              "type": "punctuation",
+              "value": "!",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "front-matter-b4-s5",
+          "text": "4.",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "4",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "front-matter-b4-s6",
+          "text": "WORM......",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "WORM",
+              "tokenId": "w0"
+            },
+            {
+              "type": "punctuation",
+              "value": "......",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "front-matter-b4-s7",
+          "text": "5.",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "5",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "front-matter-b4-s8",
+          "text": "DO SOMETHING!",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "DO",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "SOMETHING",
+              "tokenId": "w1"
+            },
+            {
+              "type": "punctuation",
+              "value": "!",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "front-matter-b4-s9",
+          "text": "6.",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "6",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "front-matter-b4-s10",
+          "text": "A NEW FRIEND 7.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "A",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "NEW",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "FRIEND",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "7",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "front-matter-b4-s11",
+          "text": "A STRANGE DREAM 8.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "A",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "STRANGE",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "DREAM",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "8",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "front-matter-b4-s12",
+          "text": "FLYING PRACTICE 9.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "FLYING",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "PRACTICE",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "9",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "front-matter-b4-s13",
+          "text": "WHISPERS...",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "WHISPERS",
+              "tokenId": "w0"
+            },
+            {
+              "type": "punctuation",
+              "value": "...",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "front-matter-b4-s14",
+          "text": "10.",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "10",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "front-matter-b4-s15",
+          "text": "WORM'S STORY 11.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "WORM'S",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "STORY",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "11",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "front-matter-b4-s16",
+          "text": "A NOISE IN THE NIGHT 12.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "A",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "NOISE",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "IN",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "THE",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "NIGHT",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "12",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "front-matter-b4-s17",
+          "text": "A SNEAKY PLAN 13.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "A",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "SNEAKY",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "PLAN",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "13",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "front-matter-b4-s18",
+          "text": "TROUBLE IN THE TUNNEL 14.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "TROUBLE",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "IN",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "THE",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "TUNNEL",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "14",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "front-matter-b4-s19",
+          "text": "TRAPPEDI.....",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "TRAPPEDI",
+              "tokenId": "w0"
+            },
+            {
+              "type": "punctuation",
+              "value": ".....",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "front-matter-b4-s20",
+          "text": "15.",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "15",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "front-matter-b4-s21",
+          "text": "WORM'S SURPRISE 16.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "WORM'S",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "SURPRISE",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "16",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "front-matter-b4-s22",
+          "text": "JUST THE BEGINNING",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "JUST",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "THE",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "BEGINNING",
+              "tokenId": "w2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "front-matter-page-7",
+      "type": "pageBreak",
+      "page": 7,
+      "label": "Page 7"
+    },
+    {
+      "id": "front-matter-b5",
+      "type": "paragraph",
+      "page": 7,
+      "text": "FOR LAUREN, the girl who loves dragons -and still does. -TW All rights reserve under International and Pan-American Copyright Conventions. No part of this publication may be reproduced, transmits, downloads, decompiles, reverse engineers, or stores in or introduces into any information storage and retrieval system, in any formor by any means, whether electronic or mechanical, now known or hereafter invents, without the express written permission of the publisher. For information regarding permission, write to Scholastic Inc., Attention: Permissions Department, 557 Broadway: New York, NY 10012. Library of Congress Cataloging-in-Publication Data West, Tracey, 1965- author. Rise of the earth dragon / by Tracey West. pages cm. - (Dragon masters: 1) Eight-year-old Drake is snatched up by the King's soldiers and taken to the castle where he is told by the wizard Griffith that he has been chosen to be a Dragon Master like Ana, Rori, and Bo - and his first task will be to discover whether his dragon, Worm, has any special powers. ISBN 0-545-64623-5 (pbk.: alk. paper) - ISBN 0-545-64624-3 (hardcover: alk. paper) - ISBN 0-545-64633-2(ebook) 1. Dragons - Juvenile fiction. 2. Wizards - Juvenile fiction. 3. Magic -Juvenile fiction. [1. Dragons - Fiction. 2. Wizards - Fiction. 3. Magic - Fiction.] 1. Title. PZ7W51937Ri 2014 [Fic] - dc23 e-ISBN 978-0-545-64633-8 Text copyright © 2014 by Tracey West. Interior illustrations copyright © 2014 by Scholastic Inc. All rights reserve. Publishes by Scholastic Inc. SCHOLASTIC, BRANCHES, and associate logos are trademarks and/or register trademarks of Scholastic Inc. First Scholastic printing, September 2014 Illustrates by Graham Howells Edits by Katie Carella Book design by Jessica Meltzer",
+      "sentences": [
+        {
+          "sentenceId": "front-matter-b5-s0",
+          "text": "FOR LAUREN, the girl who loves dragons -and still does.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "FOR",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "LAUREN",
+              "tokenId": "w1"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "girl",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "who",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "loves",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "dragons",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "-",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "and",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "still",
+              "tokenId": "w8"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "does",
+              "tokenId": "w9"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "front-matter-b5-s1",
+          "text": "-TW All rights reserve under International and Pan-American Copyright Conventions.",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "-",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "TW",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "All",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "rights",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "reserve",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "under",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "International",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "and",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Pan-American",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Copyright",
+              "tokenId": "w8"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Conventions",
+              "tokenId": "w9"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "front-matter-b5-s2",
+          "text": "No part of this publication may be reproduced, transmits, downloads, decompiles, reverse engineers, or stores in or introduces into any information storage and retrieval system, in any formor by any means, whether electronic or mechanical, now known or hereafter invents, without the express written permission of the publisher.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "No",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "part",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "of",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "this",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "publication",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "may",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "be",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "reproduced",
+              "tokenId": "w7"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "transmits",
+              "tokenId": "w8"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "downloads",
+              "tokenId": "w9"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "decompiles",
+              "tokenId": "w10"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "reverse",
+              "tokenId": "w11"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "engineers",
+              "tokenId": "w12"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "or",
+              "tokenId": "w13"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "stores",
+              "tokenId": "w14"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "in",
+              "tokenId": "w15"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "or",
+              "tokenId": "w16"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "introduces",
+              "tokenId": "w17"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "into",
+              "tokenId": "w18"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "any",
+              "tokenId": "w19"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "information",
+              "tokenId": "w20"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "storage",
+              "tokenId": "w21"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "and",
+              "tokenId": "w22"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "retrieval",
+              "tokenId": "w23"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "system",
+              "tokenId": "w24"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "in",
+              "tokenId": "w25"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "any",
+              "tokenId": "w26"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "formor",
+              "tokenId": "w27"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "by",
+              "tokenId": "w28"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "any",
+              "tokenId": "w29"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "means",
+              "tokenId": "w30"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "whether",
+              "tokenId": "w31"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "electronic",
+              "tokenId": "w32"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "or",
+              "tokenId": "w33"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "mechanical",
+              "tokenId": "w34"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "now",
+              "tokenId": "w35"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "known",
+              "tokenId": "w36"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "or",
+              "tokenId": "w37"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "hereafter",
+              "tokenId": "w38"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "invents",
+              "tokenId": "w39"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "without",
+              "tokenId": "w40"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w41"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "express",
+              "tokenId": "w42"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "written",
+              "tokenId": "w43"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "permission",
+              "tokenId": "w44"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "of",
+              "tokenId": "w45"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w46"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "publisher",
+              "tokenId": "w47"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "front-matter-b5-s3",
+          "text": "For information regarding permission, write to Scholastic Inc.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "For",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "information",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "regarding",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "permission",
+              "tokenId": "w3"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "write",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "to",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Scholastic",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Inc",
+              "tokenId": "w7"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "front-matter-b5-s4",
+          "text": ", Attention: Permissions Department, 557 Broadway: New York, NY 10012.",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Attention",
+              "tokenId": "w0"
+            },
+            {
+              "type": "punctuation",
+              "value": ":",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Permissions",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Department",
+              "tokenId": "w2"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "557",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Broadway",
+              "tokenId": "w3"
+            },
+            {
+              "type": "punctuation",
+              "value": ":",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "New",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "York",
+              "tokenId": "w5"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "NY",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "10012",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "front-matter-b5-s5",
+          "text": "Library of Congress Cataloging-in-Publication Data West, Tracey, 1965- author.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Library",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "of",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Congress",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Cataloging-in",
+              "tokenId": "w3"
+            },
+            {
+              "type": "punctuation",
+              "value": "-",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Publication",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Data",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "West",
+              "tokenId": "w6"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Tracey",
+              "tokenId": "w7"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "1965",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "-",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "author",
+              "tokenId": "w8"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "front-matter-b5-s6",
+          "text": "Rise of the earth dragon / by Tracey West.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Rise",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "of",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "earth",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "dragon",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "/",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "by",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Tracey",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "West",
+              "tokenId": "w7"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "front-matter-b5-s7",
+          "text": "pages cm.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "pages",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "cm",
+              "tokenId": "w1"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "front-matter-b5-s8",
+          "text": "- (Dragon masters: 1) Eight-year-old Drake is snatched up by the King's soldiers and taken to the castle where he is told by the wizard Griffith that he has been chosen to be a Dragon Master like Ana, Rori, and Bo - and his first task will be to discover whether his dragon, Worm, has any special powers.",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "-",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "(",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Dragon",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "masters",
+              "tokenId": "w1"
+            },
+            {
+              "type": "punctuation",
+              "value": ":",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "1",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": ")",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Eight-year",
+              "tokenId": "w2"
+            },
+            {
+              "type": "punctuation",
+              "value": "-",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "old",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Drake",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "is",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "snatched",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "up",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "by",
+              "tokenId": "w8"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w9"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "King's",
+              "tokenId": "w10"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "soldiers",
+              "tokenId": "w11"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "and",
+              "tokenId": "w12"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "taken",
+              "tokenId": "w13"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "to",
+              "tokenId": "w14"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w15"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "castle",
+              "tokenId": "w16"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "where",
+              "tokenId": "w17"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "he",
+              "tokenId": "w18"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "is",
+              "tokenId": "w19"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "told",
+              "tokenId": "w20"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "by",
+              "tokenId": "w21"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "the",
+              "tokenId": "w22"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "wizard",
+              "tokenId": "w23"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Griffith",
+              "tokenId": "w24"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "that",
+              "tokenId": "w25"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "he",
+              "tokenId": "w26"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "has",
+              "tokenId": "w27"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "been",
+              "tokenId": "w28"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "chosen",
+              "tokenId": "w29"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "to",
+              "tokenId": "w30"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "be",
+              "tokenId": "w31"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "a",
+              "tokenId": "w32"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Dragon",
+              "tokenId": "w33"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Master",
+              "tokenId": "w34"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "like",
+              "tokenId": "w35"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Ana",
+              "tokenId": "w36"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Rori",
+              "tokenId": "w37"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "and",
+              "tokenId": "w38"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Bo",
+              "tokenId": "w39"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "-",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "and",
+              "tokenId": "w40"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "his",
+              "tokenId": "w41"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "first",
+              "tokenId": "w42"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "task",
+              "tokenId": "w43"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "will",
+              "tokenId": "w44"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "be",
+              "tokenId": "w45"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "to",
+              "tokenId": "w46"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "discover",
+              "tokenId": "w47"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "whether",
+              "tokenId": "w48"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "his",
+              "tokenId": "w49"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "dragon",
+              "tokenId": "w50"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Worm",
+              "tokenId": "w51"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "has",
+              "tokenId": "w52"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "any",
+              "tokenId": "w53"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "special",
+              "tokenId": "w54"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "powers",
+              "tokenId": "w55"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "front-matter-b5-s9",
+          "text": "ISBN 0-545-64623-5 (pbk.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "ISBN",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "0",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "-",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "545",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "-",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "64623",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "-",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "5",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "(",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "pbk",
+              "tokenId": "w1"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "front-matter-b5-s10",
+          "text": ": alk.",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": ":",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "alk",
+              "tokenId": "w0"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "front-matter-b5-s11",
+          "text": "paper) - ISBN 0-545-64624-3 (hardcover: alk.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "paper",
+              "tokenId": "w0"
+            },
+            {
+              "type": "punctuation",
+              "value": ")",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "-",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "ISBN",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "0",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "-",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "545",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "-",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "64624",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "-",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "3",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "(",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "hardcover",
+              "tokenId": "w2"
+            },
+            {
+              "type": "punctuation",
+              "value": ":",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "alk",
+              "tokenId": "w3"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "front-matter-b5-s12",
+          "text": "paper) - ISBN 0-545-64633-2(ebook) 1.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "paper",
+              "tokenId": "w0"
+            },
+            {
+              "type": "punctuation",
+              "value": ")",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "-",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "ISBN",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "0",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "-",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "545",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "-",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "64633",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "-",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "2",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "(",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "ebook",
+              "tokenId": "w2"
+            },
+            {
+              "type": "punctuation",
+              "value": ")",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "1",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "front-matter-b5-s13",
+          "text": "Dragons - Juvenile fiction.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Dragons",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "-",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Juvenile",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "fiction",
+              "tokenId": "w2"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "front-matter-b5-s14",
+          "text": "2.",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "2",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "front-matter-b5-s15",
+          "text": "Wizards - Juvenile fiction.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Wizards",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "-",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Juvenile",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "fiction",
+              "tokenId": "w2"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "front-matter-b5-s16",
+          "text": "3.",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "3",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "front-matter-b5-s17",
+          "text": "Magic -Juvenile fiction.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Magic",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "-",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Juvenile",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "fiction",
+              "tokenId": "w2"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "front-matter-b5-s18",
+          "text": "[1.",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "[",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "1",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "front-matter-b5-s19",
+          "text": "Dragons - Fiction.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Dragons",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "-",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Fiction",
+              "tokenId": "w1"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "front-matter-b5-s20",
+          "text": "2.",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "2",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "front-matter-b5-s21",
+          "text": "Wizards - Fiction.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Wizards",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "-",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Fiction",
+              "tokenId": "w1"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "front-matter-b5-s22",
+          "text": "3.",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "3",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "front-matter-b5-s23",
+          "text": "Magic - Fiction.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Magic",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "-",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Fiction",
+              "tokenId": "w1"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "front-matter-b5-s24",
+          "text": "] 1.",
+          "tokens": [
+            {
+              "type": "punctuation",
+              "value": "]",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "1",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "front-matter-b5-s25",
+          "text": "Title.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Title",
+              "tokenId": "w0"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "front-matter-b5-s26",
+          "text": "PZ7W51937Ri 2014 [Fic] - dc23 e-ISBN 978-0-545-64633-8 Text copyright © 2014 by Tracey West.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "PZ",
+              "tokenId": "w0"
+            },
+            {
+              "type": "punctuation",
+              "value": "7",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "W",
+              "tokenId": "w1"
+            },
+            {
+              "type": "punctuation",
+              "value": "51937",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Ri",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "2014",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "[",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Fic",
+              "tokenId": "w3"
+            },
+            {
+              "type": "punctuation",
+              "value": "]",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "-",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "dc",
+              "tokenId": "w4"
+            },
+            {
+              "type": "punctuation",
+              "value": "23",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "e-ISBN",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "978",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "-",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "0",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "-",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "545",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "-",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "64633",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "-",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "8",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Text",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "copyright",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "©",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "2014",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "by",
+              "tokenId": "w8"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Tracey",
+              "tokenId": "w9"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "West",
+              "tokenId": "w10"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "front-matter-b5-s27",
+          "text": "Interior illustrations copyright © 2014 by Scholastic Inc.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Interior",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "illustrations",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "copyright",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "©",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "2014",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "by",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Scholastic",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Inc",
+              "tokenId": "w5"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "front-matter-b5-s28",
+          "text": "All rights reserve.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "All",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "rights",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "reserve",
+              "tokenId": "w2"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "front-matter-b5-s29",
+          "text": "Publishes by Scholastic Inc.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "Publishes",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "by",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Scholastic",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Inc",
+              "tokenId": "w3"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "front-matter-b5-s30",
+          "text": "SCHOLASTIC, BRANCHES, and associate logos are trademarks and/or register trademarks of Scholastic Inc.",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "SCHOLASTIC",
+              "tokenId": "w0"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "BRANCHES",
+              "tokenId": "w1"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "and",
+              "tokenId": "w2"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "associate",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "logos",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "are",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "trademarks",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "and",
+              "tokenId": "w7"
+            },
+            {
+              "type": "punctuation",
+              "value": "/",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "or",
+              "tokenId": "w8"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "register",
+              "tokenId": "w9"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "trademarks",
+              "tokenId": "w10"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "of",
+              "tokenId": "w11"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Scholastic",
+              "tokenId": "w12"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Inc",
+              "tokenId": "w13"
+            },
+            {
+              "type": "punctuation",
+              "value": ".",
+              "tokenId": null
+            }
+          ]
+        },
+        {
+          "sentenceId": "front-matter-b5-s31",
+          "text": "First Scholastic printing, September 2014 Illustrates by Graham Howells Edits by Katie Carella Book design by Jessica Meltzer",
+          "tokens": [
+            {
+              "type": "word",
+              "value": "First",
+              "tokenId": "w0"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Scholastic",
+              "tokenId": "w1"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "printing",
+              "tokenId": "w2"
+            },
+            {
+              "type": "punctuation",
+              "value": ",",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "September",
+              "tokenId": "w3"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "punctuation",
+              "value": "2014",
+              "tokenId": null
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Illustrates",
+              "tokenId": "w4"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "by",
+              "tokenId": "w5"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Graham",
+              "tokenId": "w6"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Howells",
+              "tokenId": "w7"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Edits",
+              "tokenId": "w8"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "by",
+              "tokenId": "w9"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Katie",
+              "tokenId": "w10"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Carella",
+              "tokenId": "w11"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Book",
+              "tokenId": "w12"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "design",
+              "tokenId": "w13"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "by",
+              "tokenId": "w14"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Jessica",
+              "tokenId": "w15"
+            },
+            {
+              "type": "space",
+              "value": " ",
+              "tokenId": null
+            },
+            {
+              "type": "word",
+              "value": "Meltzer",
+              "tokenId": "w16"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

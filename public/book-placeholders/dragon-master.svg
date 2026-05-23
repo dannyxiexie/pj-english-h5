@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200" role="img" aria-label="Dragon Masters placeholder cover">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2a1840"/>
+      <stop offset="0.5" stop-color="#1d5663"/>
+      <stop offset="1" stop-color="#6c3b82"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="30%" r="55%">
+      <stop offset="0" stop-color="#ffe29a" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ffe29a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="1200" fill="url(#bg)"/>
+  <circle cx="450" cy="320" r="360" fill="url(#glow)"/>
+  <path d="M218 724c82-210 226-320 390-408-45 92-20 156 74 192-94 12-151 62-171 151 86-42 143-19 171 69-116-54-214-38-295 47-53 56-100 76-169 73 52-37 74-78 66-124-23 11-45 11-66 0z" fill="#fff8df" opacity="0.92"/>
+  <text x="450" y="165" text-anchor="middle" font-family="Georgia, serif" font-size="72" fill="#fff8df" font-weight="700">Dragon Masters</text>
+  <text x="450" y="250" text-anchor="middle" font-family="Georgia, serif" font-size="42" fill="#f7d889">Rise of the Earth Dragon</text>
+  <text x="450" y="1050" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" fill="#fff8df" opacity="0.82">Imported text edition</text>
+</svg>

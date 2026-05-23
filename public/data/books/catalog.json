@@ -1,0 +1,13 @@
+{
+  "importVersion": 2,
+  "books": [
+    {
+      "id": "dragon-master",
+      "title": "Dragon Masters: Rise of the Earth Dragon",
+      "subtitle": "Dragon Masters #1",
+      "cover": "/book-placeholders/dragon-master.svg",
+      "href": "dragon-master/book.json",
+      "chapterCount": 17
+    }
+  ]
+}

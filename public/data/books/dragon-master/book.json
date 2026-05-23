@@ -1,0 +1,151 @@
+{
+  "id": "dragon-master",
+  "title": "Dragon Masters: Rise of the Earth Dragon",
+  "subtitle": "Dragon Masters #1",
+  "cover": "/book-placeholders/dragon-master.svg",
+  "language": "en",
+  "importVersion": 2,
+  "source": {
+    "contentRoot": "books/dragon-master",
+    "markdownDir": "books/dragon-master/source/markdown",
+    "imageDir": "books/dragon-master/source/images"
+  },
+  "chapters": [
+    {
+      "id": "front-matter",
+      "title": "Front Matter",
+      "href": "chapters/front-matter.json",
+      "sourceFile": "books/dragon-master/source/markdown/front-matter.md",
+      "pageStart": 1,
+      "pageEnd": 7
+    },
+    {
+      "id": "chapter-1-to-the-castle",
+      "title": "Chapter 1 - To The Castle!",
+      "href": "chapters/chapter-1-to-the-castle.json",
+      "sourceFile": "books/dragon-master/source/markdown/chapter-1-to-the-castle.md",
+      "pageStart": 8,
+      "pageEnd": 14
+    },
+    {
+      "id": "chapter-2-the-dragon-stone",
+      "title": "Chapter 2 - The Dragon Stone",
+      "href": "chapters/chapter-2-the-dragon-stone.json",
+      "sourceFile": "books/dragon-master/source/markdown/chapter-2-the-dragon-stone.md",
+      "pageStart": 15,
+      "pageEnd": 21
+    },
+    {
+      "id": "chapter-3-more-dragons",
+      "title": "Chapter 3 - More Dragons!",
+      "href": "chapters/chapter-3-more-dragons.json",
+      "sourceFile": "books/dragon-master/source/markdown/chapter-3-more-dragons.md",
+      "pageStart": 22,
+      "pageEnd": 25
+    },
+    {
+      "id": "chapter-4-worm",
+      "title": "Chapter 4 - Worm",
+      "href": "chapters/chapter-4-worm.json",
+      "sourceFile": "books/dragon-master/source/markdown/chapter-4-worm.md",
+      "pageStart": 26,
+      "pageEnd": 30
+    },
+    {
+      "id": "chapter-5-do-something",
+      "title": "Chapter 5 - Do Something!",
+      "href": "chapters/chapter-5-do-something.json",
+      "sourceFile": "books/dragon-master/source/markdown/chapter-5-do-something.md",
+      "pageStart": 31,
+      "pageEnd": 36
+    },
+    {
+      "id": "chapter-6-anew-friend",
+      "title": "Chapter 6 - Anew Friend",
+      "href": "chapters/chapter-6-anew-friend.json",
+      "sourceFile": "books/dragon-master/source/markdown/chapter-6-anew-friend.md",
+      "pageStart": 37,
+      "pageEnd": 41
+    },
+    {
+      "id": "chapter-7-a-strange-dream",
+      "title": "Chapter 7 - A Strange Dream",
+      "href": "chapters/chapter-7-a-strange-dream.json",
+      "sourceFile": "books/dragon-master/source/markdown/chapter-7-a-strange-dream.md",
+      "pageStart": 42,
+      "pageEnd": 47
+    },
+    {
+      "id": "chapter-8-flying-practice",
+      "title": "Chapter 8 - Flying Practice",
+      "href": "chapters/chapter-8-flying-practice.json",
+      "sourceFile": "books/dragon-master/source/markdown/chapter-8-flying-practice.md",
+      "pageStart": 48,
+      "pageEnd": 55
+    },
+    {
+      "id": "chapter-9-whispers",
+      "title": "Chapter 9 - Whispers",
+      "href": "chapters/chapter-9-whispers.json",
+      "sourceFile": "books/dragon-master/source/markdown/chapter-9-whispers.md",
+      "pageStart": 56,
+      "pageEnd": 60
+    },
+    {
+      "id": "chapter-10-worm-s-story",
+      "title": "Chapter 10 - Worm's Story",
+      "href": "chapters/chapter-10-worm-s-story.json",
+      "sourceFile": "books/dragon-master/source/markdown/chapter-10-worm-s-story.md",
+      "pageStart": 61,
+      "pageEnd": 67
+    },
+    {
+      "id": "chapter-11-anoise-in-the-night",
+      "title": "Chapter 11 - Anoise In The Night",
+      "href": "chapters/chapter-11-anoise-in-the-night.json",
+      "sourceFile": "books/dragon-master/source/markdown/chapter-11-anoise-in-the-night.md",
+      "pageStart": 68,
+      "pageEnd": 71
+    },
+    {
+      "id": "chapter-12-a-sneaky-plan",
+      "title": "Chapter 12 - A Sneaky Plan",
+      "href": "chapters/chapter-12-a-sneaky-plan.json",
+      "sourceFile": "books/dragon-master/source/markdown/chapter-12-a-sneaky-plan.md",
+      "pageStart": 72,
+      "pageEnd": 77
+    },
+    {
+      "id": "chapter-13-trouble-in",
+      "title": "Chapter 13 - Trouble In",
+      "href": "chapters/chapter-13-trouble-in.json",
+      "sourceFile": "books/dragon-master/source/markdown/chapter-13-trouble-in.md",
+      "pageStart": 78,
+      "pageEnd": 81
+    },
+    {
+      "id": "chapter-14-trapped",
+      "title": "Chapter 14 - Trapped!",
+      "href": "chapters/chapter-14-trapped.json",
+      "sourceFile": "books/dragon-master/source/markdown/chapter-14-trapped.md",
+      "pageStart": 82,
+      "pageEnd": 87
+    },
+    {
+      "id": "chapter-15-worm-s-surprise",
+      "title": "Chapter 15 - Worm's Surprise",
+      "href": "chapters/chapter-15-worm-s-surprise.json",
+      "sourceFile": "books/dragon-master/source/markdown/chapter-15-worm-s-surprise.md",
+      "pageStart": 88,
+      "pageEnd": 91
+    },
+    {
+      "id": "chapter-16-just-the",
+      "title": "Chapter 16 - Just The",
+      "href": "chapters/chapter-16-just-the.json",
+      "sourceFile": "books/dragon-master/source/markdown/chapter-16-just-the.md",
+      "pageStart": 92,
+      "pageEnd": 101
+    }
+  ]
+}

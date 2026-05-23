@@ -1,0 +1,11 @@
+{
+  "id": "dragon-master",
+  "title": "Dragon Masters: Rise of the Earth Dragon",
+  "subtitle": "Dragon Masters #1",
+  "language": "en",
+  "cover": "/book-placeholders/dragon-master.svg",
+  "source": {
+    "markdownDir": "source/markdown",
+    "imageDir": "source/images"
+  }
+}
