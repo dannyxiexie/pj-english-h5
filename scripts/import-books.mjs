@@ -125,15 +125,15 @@ const parseMarkdown = (bookMeta, fileName, text, imageFiles) => {
       flushParagraphs();
       page = Number(pageMatch[1]);
       const imageFile = `${page}.png`;
-      if (imageFiles.has(imageFile)) {
-        blocks.push({
-          id: `${chapterId}-image-${page}`,
-          type: "image",
-          page,
-          src: `/book-assets/${bookMeta.id}/${imageFile}`,
-          alt: `${title} page ${page}`
-        });
-      }
+      const hasImage = imageFiles.has(imageFile);
+      blocks.push({
+        id: `${chapterId}-image-${page}`,
+        type: "image",
+        page,
+        src: hasImage ? `/book-assets/${bookMeta.id}/${imageFile}` : "",
+        alt: `${title} page ${page}`,
+        missing: !hasImage
+      });
       blocks.push({
         id: `${chapterId}-page-${page}`,
         type: "pageBreak",
@@ -211,6 +211,7 @@ async function importBook(bookDirName) {
       markdownDir: `books/${bookDirName}/${bookMeta.source.markdownDir}`,
       imageDir: `books/${bookDirName}/${bookMeta.source.imageDir}`
     },
+    characters: bookMeta.characters || [],
     chapters
   };
 

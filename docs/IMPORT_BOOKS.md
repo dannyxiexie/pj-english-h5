@@ -55,7 +55,7 @@ books/my-book-id/source/images/
 24.png
 ```
 
-如果某一页没有图片，可以不放。导入器只会插入存在的图片。
+如果某一页没有图片，可以不放。导入器仍会保留这一页的图片位置，阅读器里会显示缺图提示；补回图片并重新导入后会自动换成真实图片。
 
 ## 4. 配置书籍信息
 
@@ -71,11 +71,17 @@ books/my-book-id/source/images/
   "source": {
     "markdownDir": "source/markdown",
     "imageDir": "source/images"
-  }
+  },
+  "characters": [
+    { "id": "alice", "name": "Alice", "color": "#1f6f68" },
+    { "id": "king-roland", "name": "King Roland", "aliases": ["Roland"], "color": "#9d7a18" }
+  ]
 }
 ```
 
 `cover` 可以指向这本书图片文件夹里的某一张图，也可以指向 `public/` 下的占位封面。
+
+`characters` 是可选的人物表。`name` 和 `aliases` 会用于阅读页人物名标色；颜色可以在应用的设置页继续调整。
 
 ## 5. 运行导入
 

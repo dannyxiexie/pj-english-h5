@@ -4,6 +4,14 @@
   "sourceFile": "books/dragon-master/source/markdown/chapter-11-anoise-in-the-night.md",
   "blocks": [
     {
+      "id": "chapter-11-anoise-in-the-night-image-68",
+      "type": "image",
+      "page": 68,
+      "src": "",
+      "alt": "Chapter 11 - Anoise In The Night page 68",
+      "missing": true
+    },
+    {
       "id": "chapter-11-anoise-in-the-night-page-68",
       "type": "pageBreak",
       "page": 68,
@@ -532,6 +540,14 @@
           ]
         }
       ]
+    },
+    {
+      "id": "chapter-11-anoise-in-the-night-image-69",
+      "type": "image",
+      "page": 69,
+      "src": "",
+      "alt": "Chapter 11 - Anoise In The Night page 69",
+      "missing": true
     },
     {
       "id": "chapter-11-anoise-in-the-night-page-69",
@@ -1530,6 +1546,14 @@
       ]
     },
     {
+      "id": "chapter-11-anoise-in-the-night-image-70",
+      "type": "image",
+      "page": 70,
+      "src": "",
+      "alt": "Chapter 11 - Anoise In The Night page 70",
+      "missing": true
+    },
+    {
       "id": "chapter-11-anoise-in-the-night-page-70",
       "type": "pageBreak",
       "page": 70,
@@ -2411,6 +2435,14 @@
           ]
         }
       ]
+    },
+    {
+      "id": "chapter-11-anoise-in-the-night-image-71",
+      "type": "image",
+      "page": 71,
+      "src": "",
+      "alt": "Chapter 11 - Anoise In The Night page 71",
+      "missing": true
     },
     {
       "id": "chapter-11-anoise-in-the-night-page-71",

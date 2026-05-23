@@ -34,7 +34,9 @@ const localDefinitions = {
   bold: "勇敢的；大胆的。",
   symbol: "标志；象征。",
   tip: "尖端；末端；小建议；小费。",
-  tips: "尖端；末端；小建议；小费。"
+  tips: "尖端；末端；小建议；小费。",
+  scale: "鳞片；鱼、蛇、龙等身上的片状覆盖物；也可表示规模或刻度。",
+  scales: "鳞片；鱼、蛇、龙等身上的片状覆盖物；也可表示天平或刻度。"
 };
 
 const usageBank = {
@@ -106,6 +108,11 @@ const usageBank = {
     { phrase: "the tip of", meaning: "……的尖端；……的末端" },
     { phrase: "wing tips", meaning: "翅膀尖端" },
     { phrase: "at the tip of", meaning: "在……的尖端" }
+  ],
+  scale: [
+    { phrase: "dragon scales", meaning: "龙鳞" },
+    { phrase: "shiny scales", meaning: "发亮的鳞片" },
+    { phrase: "red scales", meaning: "红色鳞片" }
   ]
 };
 
@@ -199,6 +206,12 @@ const contextualDefinition = (word, sentence = "") => {
   }
   if ((normalized === "tips" || lemma === "tip") && /advice|help|idea|how/.test(lowerSentence)) {
     return "建议；小窍门。";
+  }
+  if (
+    (normalized === "scale" || normalized === "scales" || lemma === "scale") &&
+    /dragon|dragons|fish|snake|reptile|wing|wings|neck|tail|shiny|red|brown|white|yellow|blue/.test(lowerSentence)
+  ) {
+    return "鳞片；这里指龙身上一片片硬硬、发亮的外皮。";
   }
 
   return localDefinitions[normalized] || localDefinitions[lemma] || `结合这句话，可以先理解为“${word}”在当前语境中的具体动作、事物或状态。`;
@@ -330,7 +343,8 @@ const enrichUsage = async (payload, base) => {
   const lemma = bestLemma(word);
   const currentPhraseRows = phraseFromCurrentSentence(word, payload.sentence);
   const isTipOfWing = lemma === "tip" && /wing|wings/i.test(payload.sentence || "");
-  const shouldUseDatamuse = Boolean(usageBank[lemma]) || currentPhraseRows.length > 0;
+  const isCreatureScale = lemma === "scale" && /dragon|dragons|fish|snake|reptile|tail|shiny|red|brown|white|yellow|blue/i.test(payload.sentence || "");
+  const shouldUseDatamuse = !isCreatureScale && (Boolean(usageBank[lemma]) || currentPhraseRows.length > 0);
   const [dictionary, originalDictionary, datamuse] = await Promise.all([
     fetchDictionaryUsage(lemma),
     normalized && normalized !== lemma ? fetchDictionaryUsage(normalized) : Promise.resolve(null),
@@ -340,8 +354,8 @@ const enrichUsage = async (payload, base) => {
   const phrases = uniqueByPhrase([
     ...currentPhraseRows,
     ...(usageBank[lemma] || []),
-    ...(isTipOfWing ? [] : datamuse),
-    ...(isTipOfWing ? [] : phraseWindowsFromExamples(word, dictionary.examples))
+    ...(isTipOfWing || isCreatureScale ? [] : datamuse),
+    ...(isTipOfWing || isCreatureScale ? [] : phraseWindowsFromExamples(word, dictionary.examples))
   ]).slice(0, 3);
 
   return {

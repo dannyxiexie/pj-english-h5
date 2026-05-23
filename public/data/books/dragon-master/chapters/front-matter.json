@@ -4,6 +4,14 @@
   "sourceFile": "books/dragon-master/source/markdown/front-matter.md",
   "blocks": [
     {
+      "id": "front-matter-image-1",
+      "type": "image",
+      "page": 1,
+      "src": "",
+      "alt": "Front Matter page 1",
+      "missing": true
+    },
+    {
       "id": "front-matter-page-1",
       "type": "pageBreak",
       "page": 1,
@@ -117,6 +125,14 @@
           ]
         }
       ]
+    },
+    {
+      "id": "front-matter-image-2",
+      "type": "image",
+      "page": 2,
+      "src": "",
+      "alt": "Front Matter page 2",
+      "missing": true
     },
     {
       "id": "front-matter-page-2",
@@ -234,10 +250,26 @@
       ]
     },
     {
+      "id": "front-matter-image-3",
+      "type": "image",
+      "page": 3,
+      "src": "",
+      "alt": "Front Matter page 3",
+      "missing": true
+    },
+    {
       "id": "front-matter-page-3",
       "type": "pageBreak",
       "page": 3,
       "label": "Page 3"
+    },
+    {
+      "id": "front-matter-image-4",
+      "type": "image",
+      "page": 4,
+      "src": "",
+      "alt": "Front Matter page 4",
+      "missing": true
     },
     {
       "id": "front-matter-page-4",
@@ -424,6 +456,14 @@
           ]
         }
       ]
+    },
+    {
+      "id": "front-matter-image-5",
+      "type": "image",
+      "page": 5,
+      "src": "",
+      "alt": "Front Matter page 5",
+      "missing": true
     },
     {
       "id": "front-matter-page-5",
@@ -739,6 +779,14 @@
           ]
         }
       ]
+    },
+    {
+      "id": "front-matter-image-6",
+      "type": "image",
+      "page": 6,
+      "src": "",
+      "alt": "Front Matter page 6",
+      "missing": true
     },
     {
       "id": "front-matter-page-6",
@@ -1476,6 +1524,14 @@
           ]
         }
       ]
+    },
+    {
+      "id": "front-matter-image-7",
+      "type": "image",
+      "page": 7,
+      "src": "",
+      "alt": "Front Matter page 7",
+      "missing": true
     },
     {
       "id": "front-matter-page-7",

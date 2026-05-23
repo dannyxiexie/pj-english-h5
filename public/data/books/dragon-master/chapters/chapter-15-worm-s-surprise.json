@@ -4,6 +4,14 @@
   "sourceFile": "books/dragon-master/source/markdown/chapter-15-worm-s-surprise.md",
   "blocks": [
     {
+      "id": "chapter-15-worm-s-surprise-image-88",
+      "type": "image",
+      "page": 88,
+      "src": "",
+      "alt": "Chapter 15 - Worm's Surprise page 88",
+      "missing": true
+    },
+    {
       "id": "chapter-15-worm-s-surprise-page-88",
       "type": "pageBreak",
       "page": 88,
@@ -373,6 +381,14 @@
           ]
         }
       ]
+    },
+    {
+      "id": "chapter-15-worm-s-surprise-image-89",
+      "type": "image",
+      "page": 89,
+      "src": "",
+      "alt": "Chapter 15 - Worm's Surprise page 89",
+      "missing": true
     },
     {
       "id": "chapter-15-worm-s-surprise-page-89",
@@ -1167,6 +1183,14 @@
       ]
     },
     {
+      "id": "chapter-15-worm-s-surprise-image-90",
+      "type": "image",
+      "page": 90,
+      "src": "",
+      "alt": "Chapter 15 - Worm's Surprise page 90",
+      "missing": true
+    },
+    {
       "id": "chapter-15-worm-s-surprise-page-90",
       "type": "pageBreak",
       "page": 90,
@@ -1675,6 +1699,14 @@
           ]
         }
       ]
+    },
+    {
+      "id": "chapter-15-worm-s-surprise-image-91",
+      "type": "image",
+      "page": 91,
+      "src": "",
+      "alt": "Chapter 15 - Worm's Surprise page 91",
+      "missing": true
     },
     {
       "id": "chapter-15-worm-s-surprise-page-91",

@@ -4,6 +4,14 @@
   "sourceFile": "books/dragon-master/source/markdown/chapter-10-worm-s-story.md",
   "blocks": [
     {
+      "id": "chapter-10-worm-s-story-image-61",
+      "type": "image",
+      "page": 61,
+      "src": "",
+      "alt": "Chapter 10 - Worm's Story page 61",
+      "missing": true
+    },
+    {
       "id": "chapter-10-worm-s-story-page-61",
       "type": "pageBreak",
       "page": 61,
@@ -543,6 +551,14 @@
           ]
         }
       ]
+    },
+    {
+      "id": "chapter-10-worm-s-story-image-62",
+      "type": "image",
+      "page": 62,
+      "src": "",
+      "alt": "Chapter 10 - Worm's Story page 62",
+      "missing": true
     },
     {
       "id": "chapter-10-worm-s-story-page-62",
@@ -1195,6 +1211,14 @@
           ]
         }
       ]
+    },
+    {
+      "id": "chapter-10-worm-s-story-image-63",
+      "type": "image",
+      "page": 63,
+      "src": "",
+      "alt": "Chapter 10 - Worm's Story page 63",
+      "missing": true
     },
     {
       "id": "chapter-10-worm-s-story-page-63",
@@ -1871,6 +1895,14 @@
       ]
     },
     {
+      "id": "chapter-10-worm-s-story-image-64",
+      "type": "image",
+      "page": 64,
+      "src": "",
+      "alt": "Chapter 10 - Worm's Story page 64",
+      "missing": true
+    },
+    {
       "id": "chapter-10-worm-s-story-page-64",
       "type": "pageBreak",
       "page": 64,
@@ -2417,6 +2449,14 @@
       ]
     },
     {
+      "id": "chapter-10-worm-s-story-image-65",
+      "type": "image",
+      "page": 65,
+      "src": "",
+      "alt": "Chapter 10 - Worm's Story page 65",
+      "missing": true
+    },
+    {
       "id": "chapter-10-worm-s-story-page-65",
       "type": "pageBreak",
       "page": 65,
@@ -2749,6 +2789,14 @@
           ]
         }
       ]
+    },
+    {
+      "id": "chapter-10-worm-s-story-image-66",
+      "type": "image",
+      "page": 66,
+      "src": "",
+      "alt": "Chapter 10 - Worm's Story page 66",
+      "missing": true
     },
     {
       "id": "chapter-10-worm-s-story-page-66",
@@ -3509,6 +3557,14 @@
           ]
         }
       ]
+    },
+    {
+      "id": "chapter-10-worm-s-story-image-67",
+      "type": "image",
+      "page": 67,
+      "src": "",
+      "alt": "Chapter 10 - Worm's Story page 67",
+      "missing": true
     },
     {
       "id": "chapter-10-worm-s-story-page-67",

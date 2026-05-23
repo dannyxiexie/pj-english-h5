@@ -4,6 +4,14 @@
   "sourceFile": "books/dragon-master/source/markdown/chapter-14-trapped.md",
   "blocks": [
     {
+      "id": "chapter-14-trapped-image-82",
+      "type": "image",
+      "page": 82,
+      "src": "",
+      "alt": "Chapter 14 - Trapped! page 82",
+      "missing": true
+    },
+    {
       "id": "chapter-14-trapped-page-82",
       "type": "pageBreak",
       "page": 82,
@@ -454,6 +462,14 @@
           ]
         }
       ]
+    },
+    {
+      "id": "chapter-14-trapped-image-83",
+      "type": "image",
+      "page": 83,
+      "src": "",
+      "alt": "Chapter 14 - Trapped! page 83",
+      "missing": true
     },
     {
       "id": "chapter-14-trapped-page-83",
@@ -1365,6 +1381,14 @@
       ]
     },
     {
+      "id": "chapter-14-trapped-image-84",
+      "type": "image",
+      "page": 84,
+      "src": "",
+      "alt": "Chapter 14 - Trapped! page 84",
+      "missing": true
+    },
+    {
       "id": "chapter-14-trapped-page-84",
       "type": "pageBreak",
       "page": 84,
@@ -2254,6 +2278,14 @@
           ]
         }
       ]
+    },
+    {
+      "id": "chapter-14-trapped-image-85",
+      "type": "image",
+      "page": 85,
+      "src": "",
+      "alt": "Chapter 14 - Trapped! page 85",
+      "missing": true
     },
     {
       "id": "chapter-14-trapped-page-85",
@@ -3381,6 +3413,14 @@
       ]
     },
     {
+      "id": "chapter-14-trapped-image-86",
+      "type": "image",
+      "page": 86,
+      "src": "",
+      "alt": "Chapter 14 - Trapped! page 86",
+      "missing": true
+    },
+    {
       "id": "chapter-14-trapped-page-86",
       "type": "pageBreak",
       "page": 86,
@@ -3635,6 +3675,14 @@
           ]
         }
       ]
+    },
+    {
+      "id": "chapter-14-trapped-image-87",
+      "type": "image",
+      "page": 87,
+      "src": "",
+      "alt": "Chapter 14 - Trapped! page 87",
+      "missing": true
     },
     {
       "id": "chapter-14-trapped-page-87",

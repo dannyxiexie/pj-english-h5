@@ -4,6 +4,14 @@
   "sourceFile": "books/dragon-master/source/markdown/chapter-12-a-sneaky-plan.md",
   "blocks": [
     {
+      "id": "chapter-12-a-sneaky-plan-image-72",
+      "type": "image",
+      "page": 72,
+      "src": "",
+      "alt": "Chapter 12 - A Sneaky Plan page 72",
+      "missing": true
+    },
+    {
       "id": "chapter-12-a-sneaky-plan-page-72",
       "type": "pageBreak",
       "page": 72,
@@ -468,6 +476,14 @@
           ]
         }
       ]
+    },
+    {
+      "id": "chapter-12-a-sneaky-plan-image-73",
+      "type": "image",
+      "page": 73,
+      "src": "",
+      "alt": "Chapter 12 - A Sneaky Plan page 73",
+      "missing": true
     },
     {
       "id": "chapter-12-a-sneaky-plan-page-73",
@@ -1506,6 +1522,14 @@
           ]
         }
       ]
+    },
+    {
+      "id": "chapter-12-a-sneaky-plan-image-74",
+      "type": "image",
+      "page": 74,
+      "src": "",
+      "alt": "Chapter 12 - A Sneaky Plan page 74",
+      "missing": true
     },
     {
       "id": "chapter-12-a-sneaky-plan-page-74",
@@ -2620,6 +2644,14 @@
       ]
     },
     {
+      "id": "chapter-12-a-sneaky-plan-image-75",
+      "type": "image",
+      "page": 75,
+      "src": "",
+      "alt": "Chapter 12 - A Sneaky Plan page 75",
+      "missing": true
+    },
+    {
       "id": "chapter-12-a-sneaky-plan-page-75",
       "type": "pageBreak",
       "page": 75,
@@ -3287,6 +3319,14 @@
       ]
     },
     {
+      "id": "chapter-12-a-sneaky-plan-image-76",
+      "type": "image",
+      "page": 76,
+      "src": "",
+      "alt": "Chapter 12 - A Sneaky Plan page 76",
+      "missing": true
+    },
+    {
       "id": "chapter-12-a-sneaky-plan-page-76",
       "type": "pageBreak",
       "page": 76,
@@ -3939,6 +3979,14 @@
           ]
         }
       ]
+    },
+    {
+      "id": "chapter-12-a-sneaky-plan-image-77",
+      "type": "image",
+      "page": 77,
+      "src": "",
+      "alt": "Chapter 12 - A Sneaky Plan page 77",
+      "missing": true
     },
     {
       "id": "chapter-12-a-sneaky-plan-page-77",

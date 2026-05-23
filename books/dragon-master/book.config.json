@@ -7,5 +7,16 @@
   "source": {
     "markdownDir": "source/markdown",
     "imageDir": "source/images"
-  }
+  },
+  "characters": [
+    { "id": "drake", "name": "Drake", "color": "#1f6f68" },
+    { "id": "worm", "name": "Worm", "color": "#8a4f18" },
+    { "id": "griffith", "name": "Griffith", "color": "#6f43b8" },
+    { "id": "bo", "name": "Bo", "color": "#236eb8" },
+    { "id": "shu", "name": "Shu", "color": "#0f8a9d" },
+    { "id": "ana", "name": "Ana", "color": "#b3477b" },
+    { "id": "rori", "name": "Rori", "color": "#b85c23" },
+    { "id": "roland", "name": "King Roland", "aliases": ["Roland"], "color": "#9d7a18" },
+    { "id": "simon", "name": "Simon", "color": "#55627a" }
+  ]
 }

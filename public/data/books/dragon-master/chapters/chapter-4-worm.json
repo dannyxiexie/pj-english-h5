@@ -4,6 +4,14 @@
   "sourceFile": "books/dragon-master/source/markdown/chapter-4-worm.md",
   "blocks": [
     {
+      "id": "chapter-4-worm-image-26",
+      "type": "image",
+      "page": 26,
+      "src": "",
+      "alt": "Chapter 4 - Worm page 26",
+      "missing": true
+    },
+    {
       "id": "chapter-4-worm-page-26",
       "type": "pageBreak",
       "page": 26,
@@ -752,6 +760,14 @@
       ]
     },
     {
+      "id": "chapter-4-worm-image-27",
+      "type": "image",
+      "page": 27,
+      "src": "",
+      "alt": "Chapter 4 - Worm page 27",
+      "missing": true
+    },
+    {
       "id": "chapter-4-worm-page-27",
       "type": "pageBreak",
       "page": 27,
@@ -1206,6 +1222,14 @@
           ]
         }
       ]
+    },
+    {
+      "id": "chapter-4-worm-image-28",
+      "type": "image",
+      "page": 28,
+      "src": "",
+      "alt": "Chapter 4 - Worm page 28",
+      "missing": true
     },
     {
       "id": "chapter-4-worm-page-28",
@@ -2104,6 +2128,14 @@
           ]
         }
       ]
+    },
+    {
+      "id": "chapter-4-worm-image-29",
+      "type": "image",
+      "page": 29,
+      "src": "",
+      "alt": "Chapter 4 - Worm page 29",
+      "missing": true
     },
     {
       "id": "chapter-4-worm-page-29",
@@ -3087,6 +3119,14 @@
           ]
         }
       ]
+    },
+    {
+      "id": "chapter-4-worm-image-30",
+      "type": "image",
+      "page": 30,
+      "src": "",
+      "alt": "Chapter 4 - Worm page 30",
+      "missing": true
     },
     {
       "id": "chapter-4-worm-page-30",

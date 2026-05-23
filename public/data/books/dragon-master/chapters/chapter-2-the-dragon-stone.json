@@ -4,6 +4,14 @@
   "sourceFile": "books/dragon-master/source/markdown/chapter-2-the-dragon-stone.md",
   "blocks": [
     {
+      "id": "chapter-2-the-dragon-stone-image-15",
+      "type": "image",
+      "page": 15,
+      "src": "",
+      "alt": "Chapter 2 - The Dragon Stone page 15",
+      "missing": true
+    },
+    {
       "id": "chapter-2-the-dragon-stone-page-15",
       "type": "pageBreak",
       "page": 15,
@@ -382,6 +390,14 @@
           ]
         }
       ]
+    },
+    {
+      "id": "chapter-2-the-dragon-stone-image-16",
+      "type": "image",
+      "page": 16,
+      "src": "",
+      "alt": "Chapter 2 - The Dragon Stone page 16",
+      "missing": true
     },
     {
       "id": "chapter-2-the-dragon-stone-page-16",
@@ -1722,6 +1738,14 @@
       ]
     },
     {
+      "id": "chapter-2-the-dragon-stone-image-17",
+      "type": "image",
+      "page": 17,
+      "src": "",
+      "alt": "Chapter 2 - The Dragon Stone page 17",
+      "missing": true
+    },
+    {
       "id": "chapter-2-the-dragon-stone-page-17",
       "type": "pageBreak",
       "page": 17,
@@ -2746,6 +2770,14 @@
       ]
     },
     {
+      "id": "chapter-2-the-dragon-stone-image-18",
+      "type": "image",
+      "page": 18,
+      "src": "",
+      "alt": "Chapter 2 - The Dragon Stone page 18",
+      "missing": true
+    },
+    {
       "id": "chapter-2-the-dragon-stone-page-18",
       "type": "pageBreak",
       "page": 18,
@@ -3253,6 +3285,14 @@
           ]
         }
       ]
+    },
+    {
+      "id": "chapter-2-the-dragon-stone-image-19",
+      "type": "image",
+      "page": 19,
+      "src": "",
+      "alt": "Chapter 2 - The Dragon Stone page 19",
+      "missing": true
     },
     {
       "id": "chapter-2-the-dragon-stone-page-19",
@@ -4194,6 +4234,14 @@
           ]
         }
       ]
+    },
+    {
+      "id": "chapter-2-the-dragon-stone-image-20",
+      "type": "image",
+      "page": 20,
+      "src": "",
+      "alt": "Chapter 2 - The Dragon Stone page 20",
+      "missing": true
     },
     {
       "id": "chapter-2-the-dragon-stone-page-20",
@@ -5505,6 +5553,14 @@
           ]
         }
       ]
+    },
+    {
+      "id": "chapter-2-the-dragon-stone-image-21",
+      "type": "image",
+      "page": 21,
+      "src": "",
+      "alt": "Chapter 2 - The Dragon Stone page 21",
+      "missing": true
     },
     {
       "id": "chapter-2-the-dragon-stone-page-21",

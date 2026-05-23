@@ -4,6 +4,14 @@
   "sourceFile": "books/dragon-master/source/markdown/chapter-6-anew-friend.md",
   "blocks": [
     {
+      "id": "chapter-6-anew-friend-image-37",
+      "type": "image",
+      "page": 37,
+      "src": "",
+      "alt": "Chapter 6 - Anew Friend page 37",
+      "missing": true
+    },
+    {
       "id": "chapter-6-anew-friend-page-37",
       "type": "pageBreak",
       "page": 37,
@@ -561,6 +569,14 @@
           ]
         }
       ]
+    },
+    {
+      "id": "chapter-6-anew-friend-image-38",
+      "type": "image",
+      "page": 38,
+      "src": "",
+      "alt": "Chapter 6 - Anew Friend page 38",
+      "missing": true
     },
     {
       "id": "chapter-6-anew-friend-page-38",
@@ -1431,6 +1447,14 @@
           ]
         }
       ]
+    },
+    {
+      "id": "chapter-6-anew-friend-image-39",
+      "type": "image",
+      "page": 39,
+      "src": "",
+      "alt": "Chapter 6 - Anew Friend page 39",
+      "missing": true
     },
     {
       "id": "chapter-6-anew-friend-page-39",
@@ -2771,6 +2795,14 @@
       ]
     },
     {
+      "id": "chapter-6-anew-friend-image-40",
+      "type": "image",
+      "page": 40,
+      "src": "",
+      "alt": "Chapter 6 - Anew Friend page 40",
+      "missing": true
+    },
+    {
       "id": "chapter-6-anew-friend-page-40",
       "type": "pageBreak",
       "page": 40,
@@ -4010,6 +4042,14 @@
           ]
         }
       ]
+    },
+    {
+      "id": "chapter-6-anew-friend-image-41",
+      "type": "image",
+      "page": 41,
+      "src": "",
+      "alt": "Chapter 6 - Anew Friend page 41",
+      "missing": true
     },
     {
       "id": "chapter-6-anew-friend-page-41",

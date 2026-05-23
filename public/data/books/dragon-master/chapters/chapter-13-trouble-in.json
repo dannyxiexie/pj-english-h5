@@ -4,6 +4,14 @@
   "sourceFile": "books/dragon-master/source/markdown/chapter-13-trouble-in.md",
   "blocks": [
     {
+      "id": "chapter-13-trouble-in-image-78",
+      "type": "image",
+      "page": 78,
+      "src": "",
+      "alt": "Chapter 13 - Trouble In page 78",
+      "missing": true
+    },
+    {
       "id": "chapter-13-trouble-in-page-78",
       "type": "pageBreak",
       "page": 78,
@@ -756,6 +764,14 @@
           ]
         }
       ]
+    },
+    {
+      "id": "chapter-13-trouble-in-image-79",
+      "type": "image",
+      "page": 79,
+      "src": "",
+      "alt": "Chapter 13 - Trouble In page 79",
+      "missing": true
     },
     {
       "id": "chapter-13-trouble-in-page-79",
@@ -2035,6 +2051,14 @@
       ]
     },
     {
+      "id": "chapter-13-trouble-in-image-80",
+      "type": "image",
+      "page": 80,
+      "src": "",
+      "alt": "Chapter 13 - Trouble In page 80",
+      "missing": true
+    },
+    {
       "id": "chapter-13-trouble-in-page-80",
       "type": "pageBreak",
       "page": 80,
@@ -2946,6 +2970,14 @@
           ]
         }
       ]
+    },
+    {
+      "id": "chapter-13-trouble-in-image-81",
+      "type": "image",
+      "page": 81,
+      "src": "",
+      "alt": "Chapter 13 - Trouble In page 81",
+      "missing": true
     },
     {
       "id": "chapter-13-trouble-in-page-81",

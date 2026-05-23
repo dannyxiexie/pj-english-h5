@@ -4,6 +4,14 @@
   "sourceFile": "books/dragon-master/source/markdown/chapter-5-do-something.md",
   "blocks": [
     {
+      "id": "chapter-5-do-something-image-31",
+      "type": "image",
+      "page": 31,
+      "src": "",
+      "alt": "Chapter 5 - Do Something! page 31",
+      "missing": true
+    },
+    {
       "id": "chapter-5-do-something-page-31",
       "type": "pageBreak",
       "page": 31,
@@ -467,6 +475,14 @@
           ]
         }
       ]
+    },
+    {
+      "id": "chapter-5-do-something-image-32",
+      "type": "image",
+      "page": 32,
+      "src": "",
+      "alt": "Chapter 5 - Do Something! page 32",
+      "missing": true
     },
     {
       "id": "chapter-5-do-something-page-32",
@@ -1426,6 +1442,14 @@
       ]
     },
     {
+      "id": "chapter-5-do-something-image-33",
+      "type": "image",
+      "page": 33,
+      "src": "",
+      "alt": "Chapter 5 - Do Something! page 33",
+      "missing": true
+    },
+    {
       "id": "chapter-5-do-something-page-33",
       "type": "pageBreak",
       "page": 33,
@@ -2311,6 +2335,14 @@
           ]
         }
       ]
+    },
+    {
+      "id": "chapter-5-do-something-image-34",
+      "type": "image",
+      "page": 34,
+      "src": "",
+      "alt": "Chapter 5 - Do Something! page 34",
+      "missing": true
     },
     {
       "id": "chapter-5-do-something-page-34",
@@ -3357,6 +3389,14 @@
           ]
         }
       ]
+    },
+    {
+      "id": "chapter-5-do-something-image-35",
+      "type": "image",
+      "page": 35,
+      "src": "",
+      "alt": "Chapter 5 - Do Something! page 35",
+      "missing": true
     },
     {
       "id": "chapter-5-do-something-page-35",
@@ -4581,6 +4621,14 @@
           ]
         }
       ]
+    },
+    {
+      "id": "chapter-5-do-something-image-36",
+      "type": "image",
+      "page": 36,
+      "src": "",
+      "alt": "Chapter 5 - Do Something! page 36",
+      "missing": true
     },
     {
       "id": "chapter-5-do-something-page-36",

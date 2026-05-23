@@ -4,6 +4,14 @@
   "sourceFile": "books/dragon-master/source/markdown/chapter-9-whispers.md",
   "blocks": [
     {
+      "id": "chapter-9-whispers-image-56",
+      "type": "image",
+      "page": 56,
+      "src": "",
+      "alt": "Chapter 9 - Whispers page 56",
+      "missing": true
+    },
+    {
       "id": "chapter-9-whispers-page-56",
       "type": "pageBreak",
       "page": 56,
@@ -578,6 +586,14 @@
           ]
         }
       ]
+    },
+    {
+      "id": "chapter-9-whispers-image-57",
+      "type": "image",
+      "page": 57,
+      "src": "",
+      "alt": "Chapter 9 - Whispers page 57",
+      "missing": true
     },
     {
       "id": "chapter-9-whispers-page-57",
@@ -1576,6 +1592,14 @@
       ]
     },
     {
+      "id": "chapter-9-whispers-image-58",
+      "type": "image",
+      "page": 58,
+      "src": "",
+      "alt": "Chapter 9 - Whispers page 58",
+      "missing": true
+    },
+    {
       "id": "chapter-9-whispers-page-58",
       "type": "pageBreak",
       "page": 58,
@@ -2040,6 +2064,14 @@
           ]
         }
       ]
+    },
+    {
+      "id": "chapter-9-whispers-image-59",
+      "type": "image",
+      "page": 59,
+      "src": "",
+      "alt": "Chapter 9 - Whispers page 59",
+      "missing": true
     },
     {
       "id": "chapter-9-whispers-page-59",
@@ -2784,6 +2816,14 @@
           ]
         }
       ]
+    },
+    {
+      "id": "chapter-9-whispers-image-60",
+      "type": "image",
+      "page": 60,
+      "src": "",
+      "alt": "Chapter 9 - Whispers page 60",
+      "missing": true
     },
     {
       "id": "chapter-9-whispers-page-60",

@@ -17,7 +17,7 @@ import {
 import "../styles.css";
 
 const APP_STORAGE_PREFIX = "family-reader:v2";
-const LOOKUP_CACHE_VERSION = "lookup-v2";
+const LOOKUP_CACHE_VERSION = "lookup-v3";
 const LONG_PRESS_MS = 520;
 
 const presets = {
@@ -26,8 +26,6 @@ const presets = {
     fontSize: 22,
     lineHeight: 1.75,
     paragraphGap: 18,
-    pageWidth: 760,
-    imageWidth: 78,
     panelWidth: 360
   },
   shared: {
@@ -35,24 +33,27 @@ const presets = {
     fontSize: 27,
     lineHeight: 1.82,
     paragraphGap: 24,
-    pageWidth: 860,
-    imageWidth: 88,
     panelWidth: 390
+  }
+};
+
+const orientations = {
+  portrait: {
+    label: "竖屏",
+    pageWidth: 820,
+    imageWidth: 92
   },
-  projection: {
-    label: "投屏",
-    fontSize: 34,
-    lineHeight: 1.9,
-    paragraphGap: 30,
-    pageWidth: 1120,
-    imageWidth: 96,
-    panelWidth: 430
+  landscape: {
+    label: "横屏",
+    pageWidth: 1180,
+    imageWidth: 86
   }
 };
 
 const defaultSettings = {
   preset: "shared",
-  custom: { ...presets.shared },
+  orientation: "portrait",
+  custom: { ...presets.shared, ...orientations.portrait },
   theme: "light",
   showPageNumbers: true,
   autoClosePanel: false
@@ -84,6 +85,12 @@ const setStored = (storageKey, value) => {
 };
 
 const normalizeWord = (word = "") => word.toLowerCase().replace(/[^a-z'-]/g, "");
+const normalizeCharacterWord = (word = "") => normalizeWord(word).replace(/(?:'s|')$/i, "");
+const characterKey = (character) =>
+  (character.id || character.name || "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/(^-|-$)/g, "");
 
 const hashText = (text = "") => {
   let hash = 0;
@@ -146,6 +153,7 @@ function App() {
   const [view, setView] = useState("reader");
   const bookStoragePrefix = selectedBookId ? `${APP_STORAGE_PREFIX}:books:${selectedBookId}` : `${APP_STORAGE_PREFIX}:books:none`;
   const [settings, setSettings] = useStoredState("displaySettings", defaultSettings, bookStoragePrefix);
+  const [characterSettings, setCharacterSettings] = useStoredState("characterSettings", {}, bookStoragePrefix);
   const [progress, setProgress] = useStoredState("progress", {}, bookStoragePrefix);
   const [vocabulary, setVocabulary] = useStoredState("vocabulary", {}, bookStoragePrefix);
   const [lookupCache, setLookupCache] = useStoredState("lookupCache", {}, bookStoragePrefix);
@@ -157,6 +165,29 @@ function App() {
   const restoredRef = useRef(false);
 
   const activeSettings = settings.preset === "custom" ? settings.custom : presets[settings.preset] || presets.shared;
+  const activeOrientation = orientations[settings.orientation] || orientations.portrait;
+  const effectiveSettings = {
+    ...activeOrientation,
+    ...activeSettings,
+    pageWidth: settings.preset === "custom" ? settings.custom.pageWidth : activeOrientation.pageWidth,
+    imageWidth: settings.preset === "custom" ? settings.custom.imageWidth : activeOrientation.imageWidth
+  };
+
+  const characterMap = useMemo(() => {
+    const rows = book?.characters || [];
+    const map = new Map();
+    for (const character of rows) {
+      const id = characterKey(character);
+      const color = characterSettings[id]?.color || character.color;
+      const names = [character.name, ...(character.aliases || [])];
+      for (const name of names) {
+        if (String(name).trim().includes(" ")) continue;
+        const normalized = normalizeCharacterWord(name);
+        if (normalized) map.set(normalized, { color, name: character.name });
+      }
+    }
+    return map;
+  }, [book, characterSettings]);
 
   useEffect(() => {
     fetch("/data/books/catalog.json")
@@ -170,6 +201,8 @@ function App() {
       setChapter(null);
       return;
     }
+    const savedProgress = getStored(fullStorageKey(`${APP_STORAGE_PREFIX}:books:${selectedBookId}`, "progress"), {});
+    if (savedProgress.chapterId) setProgress(savedProgress);
     setBook(null);
     setChapter(null);
     setLookup(null);
@@ -178,7 +211,7 @@ function App() {
       .then((response) => response.json())
       .then((data) => {
         setBook(data);
-        const savedIndex = data.chapters.findIndex((item) => item.id === progress.chapterId);
+        const savedIndex = data.chapters.findIndex((item) => item.id === savedProgress.chapterId);
         setChapterIndex(savedIndex >= 0 ? savedIndex : 0);
       });
   }, [selectedBookId]);
@@ -197,6 +230,11 @@ function App() {
     restoredRef.current = true;
     const shouldRestore = progress.chapterId === chapter.id;
     requestAnimationFrame(() => {
+      if (shouldRestore && progress.blockId && blockRefs.current.has(progress.blockId)) {
+        blockRefs.current.get(progress.blockId)?.scrollIntoView({ block: "start" });
+        scrollRef.current?.scrollBy({ top: -24 });
+        return;
+      }
       scrollRef.current?.scrollTo({ top: shouldRestore ? progress.scrollOffset || 0 : 0 });
       if (!shouldRestore) {
         setProgress({
@@ -223,12 +261,12 @@ function App() {
   }, [chapter]);
 
   const appStyle = {
-    "--reader-font-size": `${activeSettings.fontSize}px`,
-    "--reader-line-height": activeSettings.lineHeight,
-    "--paragraph-gap": `${activeSettings.paragraphGap}px`,
-    "--page-width": `${activeSettings.pageWidth}px`,
-    "--image-width": `${activeSettings.imageWidth}%`,
-    "--panel-width": `${activeSettings.panelWidth}px`
+    "--reader-font-size": `${effectiveSettings.fontSize}px`,
+    "--reader-line-height": effectiveSettings.lineHeight,
+    "--paragraph-gap": `${effectiveSettings.paragraphGap}px`,
+    "--page-width": `${effectiveSettings.pageWidth}px`,
+    "--image-width": `${effectiveSettings.imageWidth}%`,
+    "--panel-width": `${effectiveSettings.panelWidth}px`
   };
 
   const saveProgress = useCallback(() => {
@@ -398,6 +436,7 @@ function App() {
       bookId: book?.id,
       progress,
       displaySettings: settings,
+      characterSettings,
       vocabulary,
       lookupCache
     };
@@ -415,6 +454,7 @@ function App() {
     const data = JSON.parse(await file.text());
     if (data.progress) setProgress(data.progress);
     if (data.displaySettings) setSettings(data.displaySettings);
+    if (data.characterSettings) setCharacterSettings(data.characterSettings);
     if (data.vocabulary) setVocabulary(data.vocabulary);
     if (data.lookupCache) setLookupCache(data.lookupCache);
   };
@@ -432,10 +472,7 @@ function App() {
     return (
       <Bookshelf
         catalog={catalog}
-        onOpen={(bookId) => {
-          setSelectedBookId(bookId);
-          setChapterIndex(0);
-        }}
+        onOpen={(bookId) => setSelectedBookId(bookId)}
       />
     );
   }
@@ -450,7 +487,7 @@ function App() {
   }
 
   return (
-    <div className={`app view-${view} theme-${settings.theme || "light"}`} style={appStyle}>
+    <div className={`app view-${view} theme-${settings.theme || "light"} orientation-${settings.orientation || "portrait"}`} style={appStyle}>
       <header className="app-header">
         <div className="brand">
           <BookOpen size={24} />
@@ -493,6 +530,17 @@ function App() {
                 下一章 <ChevronRight size={18} />
               </button>
               <div className="preset-group">
+                {Object.entries(orientations).map(([key, item]) => (
+                  <button
+                    key={key}
+                    className={settings.orientation === key ? "active" : ""}
+                    onClick={() => setSettings((current) => ({ ...current, orientation: key }))}
+                  >
+                    {item.label}
+                  </button>
+                ))}
+              </div>
+              <div className="preset-group">
                 {Object.entries(presets).map(([key, preset]) => (
                   <button
                     key={key}
@@ -514,6 +562,7 @@ function App() {
                     block={block}
                     settings={settings}
                     blockRefs={blockRefs}
+                    characterMap={characterMap}
                     onWordDown={beginLongPress}
                     onWordCancel={cancelLongPress}
                   />
@@ -540,6 +589,9 @@ function App() {
         <SettingsPage
           settings={settings}
           setSettings={setSettings}
+          book={book}
+          characterSettings={characterSettings}
+          setCharacterSettings={setCharacterSettings}
           progress={progress}
           vocabulary={vocabulary}
           onExport={exportData}
@@ -589,12 +641,22 @@ function Bookshelf({ catalog, onOpen }) {
   );
 }
 
-function Block({ block, settings, blockRefs, onWordDown, onWordCancel }) {
+function Block({ block, settings, blockRefs, characterMap, onWordDown, onWordCancel }) {
   const register = (element) => {
     if (element) blockRefs.current.set(block.id, element);
   };
 
   if (block.type === "image") {
+    if (block.missing) {
+      return (
+        <figure className="illustration-block missing-illustration" data-block-id={block.id} ref={register}>
+          <div>
+            <strong>{block.alt || `Page ${block.page} illustration`}</strong>
+            <span>这页图片文件还没有放回书籍图片目录。</span>
+          </div>
+        </figure>
+      );
+    }
     return (
       <figure className="illustration-block" data-block-id={block.id} ref={register}>
         <img src={block.src} alt={block.alt} loading="lazy" />
@@ -626,9 +688,12 @@ function Block({ block, settings, blockRefs, onWordDown, onWordCancel }) {
         <span className="sentence" key={sentence.sentenceId}>
           {sentence.tokens.map((token, index) => {
             if (token.type !== "word") return <span key={`${sentence.sentenceId}-${index}`}>{token.value}</span>;
+            const character = characterMap.get(normalizeCharacterWord(token.value));
             return (
               <span
-                className="word-token"
+                className={`word-token ${character ? "character-token" : ""}`}
+                style={character ? { "--character-color": character.color } : undefined}
+                title={character ? `人物：${character.name}` : undefined}
                 key={`${sentence.sentenceId}-${token.tokenId}`}
                 onPointerDown={(event) => onWordDown(event, token.value, sentence.sentenceId)}
                 onPointerUp={onWordCancel}
@@ -824,7 +889,7 @@ function VocabularyPage({ vocabulary, setVocabulary, onPlay }) {
   );
 }
 
-function SettingsPage({ settings, setSettings, progress, vocabulary, onExport, onImport }) {
+function SettingsPage({ settings, setSettings, book, characterSettings, setCharacterSettings, progress, vocabulary, onExport, onImport }) {
   const custom = settings.custom;
   const updateCustom = (key, value) => {
     setSettings((current) => ({
@@ -832,6 +897,24 @@ function SettingsPage({ settings, setSettings, progress, vocabulary, onExport, o
       preset: "custom",
       custom: { ...current.custom, [key]: value }
     }));
+  };
+  const setCharacterColor = (character, color) => {
+    const id = characterKey(character);
+    setCharacterSettings((current) => ({
+      ...current,
+      [id]: {
+        ...(current[id] || {}),
+        color
+      }
+    }));
+  };
+  const resetCharacterColor = (character) => {
+    const id = characterKey(character);
+    setCharacterSettings((current) => {
+      const next = { ...current };
+      delete next[id];
+      return next;
+    });
   };
 
   return (
@@ -843,6 +926,17 @@ function SettingsPage({ settings, setSettings, progress, vocabulary, onExport, o
 
       <section className="settings-section">
         <h2>阅读预设</h2>
+        <div className="preset-large">
+          {Object.entries(orientations).map(([key, item]) => (
+            <button
+              key={key}
+              className={settings.orientation === key ? "active" : ""}
+              onClick={() => setSettings((current) => ({ ...current, orientation: key }))}
+            >
+              {item.label}
+            </button>
+          ))}
+        </div>
         <div className="preset-large">
           {Object.entries(presets).map(([key, preset]) => (
             <button key={key} className={settings.preset === key ? "active" : ""} onClick={() => setSettings((current) => ({ ...current, preset: key }))}>
@@ -869,6 +963,28 @@ function SettingsPage({ settings, setSettings, progress, vocabulary, onExport, o
               <small>{desc}</small>
             </button>
           ))}
+        </div>
+      </section>
+
+      <section className="settings-section">
+        <h2>人物颜色</h2>
+        <div className="character-settings">
+          {(book?.characters || []).map((character) => {
+            const id = characterKey(character);
+            const color = characterSettings[id]?.color || character.color;
+            return (
+              <label className="character-row" key={id || character.name}>
+                <span>
+                  <i style={{ "--character-color": color }} />
+                  {character.name}
+                </span>
+                <input type="color" value={color} onChange={(event) => setCharacterColor(character, event.target.value)} />
+                <button type="button" onClick={() => resetCharacterColor(character)}>
+                  重置
+                </button>
+              </label>
+            );
+          })}
         </div>
       </section>
 

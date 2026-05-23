@@ -4,6 +4,14 @@
   "sourceFile": "books/dragon-master/source/markdown/chapter-3-more-dragons.md",
   "blocks": [
     {
+      "id": "chapter-3-more-dragons-image-22",
+      "type": "image",
+      "page": 22,
+      "src": "",
+      "alt": "Chapter 3 - More Dragons! page 22",
+      "missing": true
+    },
+    {
       "id": "chapter-3-more-dragons-page-22",
       "type": "pageBreak",
       "page": 22,
@@ -508,6 +516,14 @@
           ]
         }
       ]
+    },
+    {
+      "id": "chapter-3-more-dragons-image-23",
+      "type": "image",
+      "page": 23,
+      "src": "",
+      "alt": "Chapter 3 - More Dragons! page 23",
+      "missing": true
     },
     {
       "id": "chapter-3-more-dragons-page-23",
@@ -1421,6 +1437,14 @@
           ]
         }
       ]
+    },
+    {
+      "id": "chapter-3-more-dragons-image-24",
+      "type": "image",
+      "page": 24,
+      "src": "",
+      "alt": "Chapter 3 - More Dragons! page 24",
+      "missing": true
     },
     {
       "id": "chapter-3-more-dragons-page-24",
@@ -2459,6 +2483,14 @@
           ]
         }
       ]
+    },
+    {
+      "id": "chapter-3-more-dragons-image-25",
+      "type": "image",
+      "page": 25,
+      "src": "",
+      "alt": "Chapter 3 - More Dragons! page 25",
+      "missing": true
     },
     {
       "id": "chapter-3-more-dragons-page-25",

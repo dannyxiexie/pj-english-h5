@@ -4,6 +4,14 @@
   "sourceFile": "books/dragon-master/source/markdown/chapter-7-a-strange-dream.md",
   "blocks": [
     {
+      "id": "chapter-7-a-strange-dream-image-42",
+      "type": "image",
+      "page": 42,
+      "src": "",
+      "alt": "Chapter 7 - A Strange Dream page 42",
+      "missing": true
+    },
+    {
       "id": "chapter-7-a-strange-dream-page-42",
       "type": "pageBreak",
       "page": 42,
@@ -466,6 +474,14 @@
           ]
         }
       ]
+    },
+    {
+      "id": "chapter-7-a-strange-dream-image-43",
+      "type": "image",
+      "page": 43,
+      "src": "",
+      "alt": "Chapter 7 - A Strange Dream page 43",
+      "missing": true
     },
     {
       "id": "chapter-7-a-strange-dream-page-43",
@@ -1488,6 +1504,14 @@
           ]
         }
       ]
+    },
+    {
+      "id": "chapter-7-a-strange-dream-image-44",
+      "type": "image",
+      "page": 44,
+      "src": "",
+      "alt": "Chapter 7 - A Strange Dream page 44",
+      "missing": true
     },
     {
       "id": "chapter-7-a-strange-dream-page-44",
@@ -2558,6 +2582,14 @@
       ]
     },
     {
+      "id": "chapter-7-a-strange-dream-image-45",
+      "type": "image",
+      "page": 45,
+      "src": "",
+      "alt": "Chapter 7 - A Strange Dream page 45",
+      "missing": true
+    },
+    {
       "id": "chapter-7-a-strange-dream-page-45",
       "type": "pageBreak",
       "page": 45,
@@ -2950,6 +2982,14 @@
           ]
         }
       ]
+    },
+    {
+      "id": "chapter-7-a-strange-dream-image-46",
+      "type": "image",
+      "page": 46,
+      "src": "",
+      "alt": "Chapter 7 - A Strange Dream page 46",
+      "missing": true
     },
     {
       "id": "chapter-7-a-strange-dream-page-46",
@@ -3471,6 +3511,14 @@
           ]
         }
       ]
+    },
+    {
+      "id": "chapter-7-a-strange-dream-image-47",
+      "type": "image",
+      "page": 47,
+      "src": "",
+      "alt": "Chapter 7 - A Strange Dream page 47",
+      "missing": true
     },
     {
       "id": "chapter-7-a-strange-dream-page-47",

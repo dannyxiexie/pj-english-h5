@@ -162,6 +162,14 @@ button.active,
   grid-template-columns: minmax(0, 1fr) var(--panel-width);
 }
 
+.app.orientation-landscape .reader-controls {
+  justify-content: center;
+}
+
+.app.orientation-landscape .book-page {
+  padding-top: 26px;
+}
+
 .bookshelf {
   flex: 1;
   overflow: auto;
@@ -343,6 +351,19 @@ button.active,
   background: var(--accent-soft);
 }
 
+.character-token {
+  color: var(--character-color);
+  font-weight: 800;
+  text-decoration-line: underline;
+  text-decoration-color: color-mix(in srgb, var(--character-color) 42%, transparent);
+  text-decoration-thickness: 0.12em;
+  text-underline-offset: 0.16em;
+}
+
+.character-token:active {
+  background: color-mix(in srgb, var(--character-color) 16%, transparent);
+}
+
 .illustration-block {
   width: var(--image-width);
   max-width: 100%;
@@ -355,6 +376,34 @@ button.active,
   border-radius: 8px;
   box-shadow: 0 12px 30px rgba(39, 51, 67, 0.16);
   background: var(--surface);
+}
+
+.missing-illustration {
+  min-height: clamp(160px, 26vw, 280px);
+  border: 1px dashed color-mix(in srgb, var(--border) 70%, var(--accent));
+  border-radius: 8px;
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--chip) 92%, transparent), color-mix(in srgb, var(--surface) 88%, transparent));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: var(--muted);
+}
+
+.missing-illustration div {
+  max-width: 420px;
+  padding: 22px;
+}
+
+.missing-illustration strong,
+.missing-illustration span {
+  display: block;
+}
+
+.missing-illustration strong {
+  margin-bottom: 8px;
+  color: var(--text);
 }
 
 .page-break {
@@ -550,6 +599,47 @@ button.active,
   gap: 10px;
 }
 
+.character-settings {
+  display: grid;
+  gap: 10px;
+}
+
+.character-row {
+  min-height: 48px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 54px auto;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 0;
+  border-top: 1px solid var(--border);
+}
+
+.character-row:first-child {
+  border-top: 0;
+}
+
+.character-row span {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+  font-weight: 800;
+}
+
+.character-row i {
+  width: 18px;
+  height: 18px;
+  border-radius: 999px;
+  background: var(--character-color);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--character-color) 18%, transparent);
+}
+
+.character-row input[type="color"] {
+  width: 48px;
+  height: 36px;
+  padding: 2px;
+}
+
 .theme-choice {
   min-height: 88px;
   padding: 14px;
@@ -739,7 +829,7 @@ button.active,
   color: var(--muted);
 }
 
-@media (max-width: 980px) {
+@media (max-width: 1200px) {
   .reader-shell {
     grid-template-columns: minmax(0, 1fr);
   }

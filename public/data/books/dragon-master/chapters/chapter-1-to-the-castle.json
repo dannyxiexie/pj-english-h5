@@ -4,6 +4,14 @@
   "sourceFile": "books/dragon-master/source/markdown/chapter-1-to-the-castle.md",
   "blocks": [
     {
+      "id": "chapter-1-to-the-castle-image-8",
+      "type": "image",
+      "page": 8,
+      "src": "",
+      "alt": "Chapter 1 - To The Castle! page 8",
+      "missing": true
+    },
+    {
       "id": "chapter-1-to-the-castle-page-8",
       "type": "pageBreak",
       "page": 8,
@@ -760,6 +768,14 @@
           ]
         }
       ]
+    },
+    {
+      "id": "chapter-1-to-the-castle-image-9",
+      "type": "image",
+      "page": 9,
+      "src": "",
+      "alt": "Chapter 1 - To The Castle! page 9",
+      "missing": true
     },
     {
       "id": "chapter-1-to-the-castle-page-9",
@@ -1758,6 +1774,14 @@
       ]
     },
     {
+      "id": "chapter-1-to-the-castle-image-10",
+      "type": "image",
+      "page": 10,
+      "src": "",
+      "alt": "Chapter 1 - To The Castle! page 10",
+      "missing": true
+    },
+    {
       "id": "chapter-1-to-the-castle-page-10",
       "type": "pageBreak",
       "page": 10,
@@ -2640,6 +2664,14 @@
           ]
         }
       ]
+    },
+    {
+      "id": "chapter-1-to-the-castle-image-11",
+      "type": "image",
+      "page": 11,
+      "src": "",
+      "alt": "Chapter 1 - To The Castle! page 11",
+      "missing": true
     },
     {
       "id": "chapter-1-to-the-castle-page-11",
@@ -3780,10 +3812,26 @@
       ]
     },
     {
+      "id": "chapter-1-to-the-castle-image-12",
+      "type": "image",
+      "page": 12,
+      "src": "",
+      "alt": "Chapter 1 - To The Castle! page 12",
+      "missing": true
+    },
+    {
       "id": "chapter-1-to-the-castle-page-12",
       "type": "pageBreak",
       "page": 12,
       "label": "Page 12"
+    },
+    {
+      "id": "chapter-1-to-the-castle-image-13",
+      "type": "image",
+      "page": 13,
+      "src": "",
+      "alt": "Chapter 1 - To The Castle! page 13",
+      "missing": true
     },
     {
       "id": "chapter-1-to-the-castle-page-13",
@@ -5042,6 +5090,14 @@
           ]
         }
       ]
+    },
+    {
+      "id": "chapter-1-to-the-castle-image-14",
+      "type": "image",
+      "page": 14,
+      "src": "",
+      "alt": "Chapter 1 - To The Castle! page 14",
+      "missing": true
     },
     {
       "id": "chapter-1-to-the-castle-page-14",
