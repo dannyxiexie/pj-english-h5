@@ -2,6 +2,7 @@ import express from "express";
 import "dotenv/config";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { allowedLanHosts } from "./vite.config.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = process.cwd();
@@ -492,7 +493,11 @@ if (isProduction) {
   const { createServer } = await import("vite");
   const vite = await createServer({
     root,
-    server: { middlewareMode: true },
+    server: {
+      middlewareMode: true,
+      host: "0.0.0.0",
+      allowedHosts: allowedLanHosts
+    },
     appType: "spa"
   });
   app.use(vite.middlewares);

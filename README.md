@@ -15,7 +15,13 @@ npm run import:books
 npm start
 ```
 
-Mac 上打开 `http://localhost:4173`。iPad/iPhone 和 Mac 在同一个局域网时，可以打开 `http://你的MacIP:4173`。
+Mac 上打开 `http://localhost:4173`。iPad/iPhone 和 Mac 在同一个局域网时，推荐使用固定主机名访问：
+
+```text
+http://dannyxiedemac-mini.local:4173
+```
+
+如果这个地址能在 iPad Safari 打开，就可以通过 Safari 分享按钮选择“添加到主屏幕”。以后从主屏幕图标进入即可。前提是 Mac mini 开着，并且本项目的阅读服务正在运行。
 
 ## 当前书籍
 
