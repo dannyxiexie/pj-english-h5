@@ -21,15 +21,15 @@
       "id": "chapter-8-flying-practice-b0",
       "type": "paragraph",
       "page": 48,
-      "text": "FLYING PRACTICE After breakfast the next morning, Drake goes back underground with Griffith and the other Dragon Masters. \"Why do we train all the way down here?\" Drake asks as they walk.",
+      "text": "After breakfast the next morning, Drake goes back underground with Griffith and the other Dragon Masters. \"Why do we train all the way down here?\" Drake asks as they walk.",
       "sentences": [
         {
           "sentenceId": "chapter-8-flying-practice-b0-s0",
-          "text": "FLYING PRACTICE After breakfast the next morning, Drake goes back underground with Griffith and the other Dragon Masters.",
+          "text": "After breakfast the next morning, Drake goes back underground with Griffith and the other Dragon Masters.",
           "tokens": [
             {
               "type": "word",
-              "value": "FLYING",
+              "value": "After",
               "tokenId": "w0"
             },
             {
@@ -39,7 +39,7 @@
             },
             {
               "type": "word",
-              "value": "PRACTICE",
+              "value": "breakfast",
               "tokenId": "w1"
             },
             {
@@ -49,7 +49,7 @@
             },
             {
               "type": "word",
-              "value": "After",
+              "value": "the",
               "tokenId": "w2"
             },
             {
@@ -59,7 +59,7 @@
             },
             {
               "type": "word",
-              "value": "breakfast",
+              "value": "next",
               "tokenId": "w3"
             },
             {
@@ -69,28 +69,8 @@
             },
             {
               "type": "word",
-              "value": "the",
-              "tokenId": "w4"
-            },
-            {
-              "type": "space",
-              "value": " ",
-              "tokenId": null
-            },
-            {
-              "type": "word",
-              "value": "next",
-              "tokenId": "w5"
-            },
-            {
-              "type": "space",
-              "value": " ",
-              "tokenId": null
-            },
-            {
-              "type": "word",
               "value": "morning",
-              "tokenId": "w6"
+              "tokenId": "w4"
             },
             {
               "type": "punctuation",
@@ -105,7 +85,7 @@
             {
               "type": "word",
               "value": "Drake",
-              "tokenId": "w7"
+              "tokenId": "w5"
             },
             {
               "type": "space",
@@ -115,7 +95,7 @@
             {
               "type": "word",
               "value": "goes",
-              "tokenId": "w8"
+              "tokenId": "w6"
             },
             {
               "type": "space",
@@ -125,7 +105,7 @@
             {
               "type": "word",
               "value": "back",
-              "tokenId": "w9"
+              "tokenId": "w7"
             },
             {
               "type": "space",
@@ -135,7 +115,7 @@
             {
               "type": "word",
               "value": "underground",
-              "tokenId": "w10"
+              "tokenId": "w8"
             },
             {
               "type": "space",
@@ -145,7 +125,7 @@
             {
               "type": "word",
               "value": "with",
-              "tokenId": "w11"
+              "tokenId": "w9"
             },
             {
               "type": "space",
@@ -155,7 +135,7 @@
             {
               "type": "word",
               "value": "Griffith",
-              "tokenId": "w12"
+              "tokenId": "w10"
             },
             {
               "type": "space",
@@ -165,7 +145,7 @@
             {
               "type": "word",
               "value": "and",
-              "tokenId": "w13"
+              "tokenId": "w11"
             },
             {
               "type": "space",
@@ -175,7 +155,7 @@
             {
               "type": "word",
               "value": "the",
-              "tokenId": "w14"
+              "tokenId": "w12"
             },
             {
               "type": "space",
@@ -185,7 +165,7 @@
             {
               "type": "word",
               "value": "other",
-              "tokenId": "w15"
+              "tokenId": "w13"
             },
             {
               "type": "space",
@@ -195,7 +175,7 @@
             {
               "type": "word",
               "value": "Dragon",
-              "tokenId": "w16"
+              "tokenId": "w14"
             },
             {
               "type": "space",
@@ -205,7 +185,7 @@
             {
               "type": "word",
               "value": "Masters",
-              "tokenId": "w17"
+              "tokenId": "w15"
             },
             {
               "type": "punctuation",

@@ -21,15 +21,15 @@
       "id": "chapter-12-a-sneaky-plan-b0",
       "type": "paragraph",
       "page": 72,
-      "text": "A SNEAKY PLAN he two figures turn around. It is Rori and Anal \"What do you want?\" Drake asks. \"Go back to sleep,\" Rori snaps. \"Why should I?\" he snaps back. Drake is tired of Rori being so bossy.",
+      "text": "he two figures turn around. It is Rori and Anal \"What do you want?\" Drake asks. \"Go back to sleep,\" Rori snaps. \"Why should I?\" he snaps back. Drake is tired of Rori being so bossy.",
       "sentences": [
         {
           "sentenceId": "chapter-12-a-sneaky-plan-b0-s0",
-          "text": "A SNEAKY PLAN he two figures turn around.",
+          "text": "he two figures turn around.",
           "tokens": [
             {
               "type": "word",
-              "value": "A",
+              "value": "he",
               "tokenId": "w0"
             },
             {
@@ -39,7 +39,7 @@
             },
             {
               "type": "word",
-              "value": "SNEAKY",
+              "value": "two",
               "tokenId": "w1"
             },
             {
@@ -49,7 +49,7 @@
             },
             {
               "type": "word",
-              "value": "PLAN",
+              "value": "figures",
               "tokenId": "w2"
             },
             {
@@ -59,7 +59,7 @@
             },
             {
               "type": "word",
-              "value": "he",
+              "value": "turn",
               "tokenId": "w3"
             },
             {
@@ -69,38 +69,8 @@
             },
             {
               "type": "word",
-              "value": "two",
-              "tokenId": "w4"
-            },
-            {
-              "type": "space",
-              "value": " ",
-              "tokenId": null
-            },
-            {
-              "type": "word",
-              "value": "figures",
-              "tokenId": "w5"
-            },
-            {
-              "type": "space",
-              "value": " ",
-              "tokenId": null
-            },
-            {
-              "type": "word",
-              "value": "turn",
-              "tokenId": "w6"
-            },
-            {
-              "type": "space",
-              "value": " ",
-              "tokenId": null
-            },
-            {
-              "type": "word",
               "value": "around",
-              "tokenId": "w7"
+              "tokenId": "w4"
             },
             {
               "type": "punctuation",

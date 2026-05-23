@@ -21,15 +21,15 @@
       "id": "chapter-4-worm-b0",
       "type": "paragraph",
       "page": 26,
-      "text": "WORM rake peers inside the dark cave. A dragon sits inside. Well, this creature kind of looks like a dragon, Drake thinks. The dragon has brown scales that aren't shiny. He has two tiny wings. He has big, green eyes, and little ears. And he doesn't have legs! He looks like a big snake. The only dragon-like thing about him seems to be his long snout.",
+      "text": "rake peers inside the dark cave. A dragon sits inside. Well, this creature kind of looks like a dragon, Drake thinks. The dragon has brown scales that aren't shiny. He has two tiny wings. He has big, green eyes, and little ears. And he doesn't have legs! He looks like a big snake. The only dragon-like thing about him seems to be his long snout.",
       "sentences": [
         {
           "sentenceId": "chapter-4-worm-b0-s0",
-          "text": "WORM rake peers inside the dark cave.",
+          "text": "rake peers inside the dark cave.",
           "tokens": [
             {
               "type": "word",
-              "value": "WORM",
+              "value": "rake",
               "tokenId": "w0"
             },
             {
@@ -39,7 +39,7 @@
             },
             {
               "type": "word",
-              "value": "rake",
+              "value": "peers",
               "tokenId": "w1"
             },
             {
@@ -49,7 +49,7 @@
             },
             {
               "type": "word",
-              "value": "peers",
+              "value": "inside",
               "tokenId": "w2"
             },
             {
@@ -59,7 +59,7 @@
             },
             {
               "type": "word",
-              "value": "inside",
+              "value": "the",
               "tokenId": "w3"
             },
             {
@@ -69,7 +69,7 @@
             },
             {
               "type": "word",
-              "value": "the",
+              "value": "dark",
               "tokenId": "w4"
             },
             {
@@ -79,18 +79,8 @@
             },
             {
               "type": "word",
-              "value": "dark",
-              "tokenId": "w5"
-            },
-            {
-              "type": "space",
-              "value": " ",
-              "tokenId": null
-            },
-            {
-              "type": "word",
               "value": "cave",
-              "tokenId": "w6"
+              "tokenId": "w5"
             },
             {
               "type": "punctuation",

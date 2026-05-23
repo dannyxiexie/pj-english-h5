@@ -21,36 +21,10 @@
       "id": "chapter-3-more-dragons-b0",
       "type": "paragraph",
       "page": 22,
-      "text": "MORE DRAGONS! rake's mind is spinning as he leaves the wizard's workshop. He follows Griffith to a big underground room. There are no windows. Torches hung on the walls. Drake sees Rori and Vulcan. He also sees two more kids - and two more dragons!",
+      "text": "rake's mind is spinning as he leaves the wizard's workshop. He follows Griffith to a big underground room. There are no windows. Torches hung on the walls. Drake sees Rori and Vulcan. He also sees two more kids - and two more dragons!",
       "sentences": [
         {
           "sentenceId": "chapter-3-more-dragons-b0-s0",
-          "text": "MORE DRAGONS!",
-          "tokens": [
-            {
-              "type": "word",
-              "value": "MORE",
-              "tokenId": "w0"
-            },
-            {
-              "type": "space",
-              "value": " ",
-              "tokenId": null
-            },
-            {
-              "type": "word",
-              "value": "DRAGONS",
-              "tokenId": "w1"
-            },
-            {
-              "type": "punctuation",
-              "value": "!",
-              "tokenId": null
-            }
-          ]
-        },
-        {
-          "sentenceId": "chapter-3-more-dragons-b0-s1",
           "text": "rake's mind is spinning as he leaves the wizard's workshop.",
           "tokens": [
             {
@@ -156,7 +130,7 @@
           ]
         },
         {
-          "sentenceId": "chapter-3-more-dragons-b0-s2",
+          "sentenceId": "chapter-3-more-dragons-b0-s1",
           "text": "He follows Griffith to a big underground room.",
           "tokens": [
             {
@@ -242,7 +216,7 @@
           ]
         },
         {
-          "sentenceId": "chapter-3-more-dragons-b0-s3",
+          "sentenceId": "chapter-3-more-dragons-b0-s2",
           "text": "There are no windows.",
           "tokens": [
             {
@@ -288,7 +262,7 @@
           ]
         },
         {
-          "sentenceId": "chapter-3-more-dragons-b0-s4",
+          "sentenceId": "chapter-3-more-dragons-b0-s3",
           "text": "Torches hung on the walls.",
           "tokens": [
             {
@@ -344,7 +318,7 @@
           ]
         },
         {
-          "sentenceId": "chapter-3-more-dragons-b0-s5",
+          "sentenceId": "chapter-3-more-dragons-b0-s4",
           "text": "Drake sees Rori and Vulcan.",
           "tokens": [
             {
@@ -400,7 +374,7 @@
           ]
         },
         {
-          "sentenceId": "chapter-3-more-dragons-b0-s6",
+          "sentenceId": "chapter-3-more-dragons-b0-s5",
           "text": "He also sees two more kids - and two more dragons!",
           "tokens": [
             {

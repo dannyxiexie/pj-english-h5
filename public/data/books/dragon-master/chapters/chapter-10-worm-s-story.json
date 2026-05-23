@@ -21,15 +21,15 @@
       "id": "chapter-10-worm-s-story-b0",
       "type": "paragraph",
       "page": 61,
-      "text": "WORM'S STORY rake steps inside Worm's dark cave. Worm opens one eye. \"I need to shine your scales,\" Drake says. He is carrying a brush, a basket, and towels. Drake looks at Worm's brown scales. \"They're not shiny,\" he says. \"But I'll clean them anyway.\"",
+      "text": "rake steps inside Worm's dark cave. Worm opens one eye. \"I need to shine your scales,\" Drake says. He is carrying a brush, a basket, and towels. Drake looks at Worm's brown scales. \"They're not shiny,\" he says. \"But I'll clean them anyway.\"",
       "sentences": [
         {
           "sentenceId": "chapter-10-worm-s-story-b0-s0",
-          "text": "WORM'S STORY rake steps inside Worm's dark cave.",
+          "text": "rake steps inside Worm's dark cave.",
           "tokens": [
             {
               "type": "word",
-              "value": "WORM'S",
+              "value": "rake",
               "tokenId": "w0"
             },
             {
@@ -39,7 +39,7 @@
             },
             {
               "type": "word",
-              "value": "STORY",
+              "value": "steps",
               "tokenId": "w1"
             },
             {
@@ -49,7 +49,7 @@
             },
             {
               "type": "word",
-              "value": "rake",
+              "value": "inside",
               "tokenId": "w2"
             },
             {
@@ -59,7 +59,7 @@
             },
             {
               "type": "word",
-              "value": "steps",
+              "value": "Worm's",
               "tokenId": "w3"
             },
             {
@@ -69,7 +69,7 @@
             },
             {
               "type": "word",
-              "value": "inside",
+              "value": "dark",
               "tokenId": "w4"
             },
             {
@@ -79,28 +79,8 @@
             },
             {
               "type": "word",
-              "value": "Worm's",
-              "tokenId": "w5"
-            },
-            {
-              "type": "space",
-              "value": " ",
-              "tokenId": null
-            },
-            {
-              "type": "word",
-              "value": "dark",
-              "tokenId": "w6"
-            },
-            {
-              "type": "space",
-              "value": " ",
-              "tokenId": null
-            },
-            {
-              "type": "word",
               "value": "cave",
-              "tokenId": "w7"
+              "tokenId": "w5"
             },
             {
               "type": "punctuation",

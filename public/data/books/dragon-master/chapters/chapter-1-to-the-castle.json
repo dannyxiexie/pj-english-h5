@@ -21,46 +21,10 @@
       "id": "chapter-1-to-the-castle-b0",
       "type": "paragraph",
       "page": 8,
-      "text": "TO THE CASTLE! rake doesn't see the king's soldier coming. He is busy digging in the onion patch. He pulls out a fat, white onion. A worm crawls on it. Drake doesn't mind the worm. He is the son of a farmer. His family has been growing onions in the Kingdom of Bracken forever. He will spend his life digging up onions, whether he wants to or not.",
+      "text": "rake doesn't see the king's soldier coming. He is busy digging in the onion patch. He pulls out a fat, white onion. A worm crawls on it. Drake doesn't mind the worm. He is the son of a farmer. His family has been growing onions in the Kingdom of Bracken forever. He will spend his life digging up onions, whether he wants to or not.",
       "sentences": [
         {
           "sentenceId": "chapter-1-to-the-castle-b0-s0",
-          "text": "TO THE CASTLE!",
-          "tokens": [
-            {
-              "type": "word",
-              "value": "TO",
-              "tokenId": "w0"
-            },
-            {
-              "type": "space",
-              "value": " ",
-              "tokenId": null
-            },
-            {
-              "type": "word",
-              "value": "THE",
-              "tokenId": "w1"
-            },
-            {
-              "type": "space",
-              "value": " ",
-              "tokenId": null
-            },
-            {
-              "type": "word",
-              "value": "CASTLE",
-              "tokenId": "w2"
-            },
-            {
-              "type": "punctuation",
-              "value": "!",
-              "tokenId": null
-            }
-          ]
-        },
-        {
-          "sentenceId": "chapter-1-to-the-castle-b0-s1",
           "text": "rake doesn't see the king's soldier coming.",
           "tokens": [
             {
@@ -136,7 +100,7 @@
           ]
         },
         {
-          "sentenceId": "chapter-1-to-the-castle-b0-s2",
+          "sentenceId": "chapter-1-to-the-castle-b0-s1",
           "text": "He is busy digging in the onion patch.",
           "tokens": [
             {
@@ -222,7 +186,7 @@
           ]
         },
         {
-          "sentenceId": "chapter-1-to-the-castle-b0-s3",
+          "sentenceId": "chapter-1-to-the-castle-b0-s2",
           "text": "He pulls out a fat, white onion.",
           "tokens": [
             {
@@ -303,7 +267,7 @@
           ]
         },
         {
-          "sentenceId": "chapter-1-to-the-castle-b0-s4",
+          "sentenceId": "chapter-1-to-the-castle-b0-s3",
           "text": "A worm crawls on it.",
           "tokens": [
             {
@@ -359,7 +323,7 @@
           ]
         },
         {
-          "sentenceId": "chapter-1-to-the-castle-b0-s5",
+          "sentenceId": "chapter-1-to-the-castle-b0-s4",
           "text": "Drake doesn't mind the worm.",
           "tokens": [
             {
@@ -415,7 +379,7 @@
           ]
         },
         {
-          "sentenceId": "chapter-1-to-the-castle-b0-s6",
+          "sentenceId": "chapter-1-to-the-castle-b0-s5",
           "text": "He is the son of a farmer.",
           "tokens": [
             {
@@ -491,7 +455,7 @@
           ]
         },
         {
-          "sentenceId": "chapter-1-to-the-castle-b0-s7",
+          "sentenceId": "chapter-1-to-the-castle-b0-s6",
           "text": "His family has been growing onions in the Kingdom of Bracken forever.",
           "tokens": [
             {
@@ -617,7 +581,7 @@
           ]
         },
         {
-          "sentenceId": "chapter-1-to-the-castle-b0-s8",
+          "sentenceId": "chapter-1-to-the-castle-b0-s7",
           "text": "He will spend his life digging up onions, whether he wants to or not.",
           "tokens": [
             {

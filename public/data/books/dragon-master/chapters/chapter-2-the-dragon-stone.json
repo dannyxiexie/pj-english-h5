@@ -21,15 +21,15 @@
       "id": "chapter-2-the-dragon-stone-b0",
       "type": "paragraph",
       "page": 15,
-      "text": "THE DRAGON STONE Lrake dove away from the door. The fireball just misses him! \"Vulcan, stand down!\" he hears someone yell. Drake stands up. A red-haired girl is standing in the doorway.",
+      "text": "Lrake dove away from the door. The fireball just misses him! \"Vulcan, stand down!\" he hears someone yell. Drake stands up. A red-haired girl is standing in the doorway.",
       "sentences": [
         {
           "sentenceId": "chapter-2-the-dragon-stone-b0-s0",
-          "text": "THE DRAGON STONE Lrake dove away from the door.",
+          "text": "Lrake dove away from the door.",
           "tokens": [
             {
               "type": "word",
-              "value": "THE",
+              "value": "Lrake",
               "tokenId": "w0"
             },
             {
@@ -39,7 +39,7 @@
             },
             {
               "type": "word",
-              "value": "DRAGON",
+              "value": "dove",
               "tokenId": "w1"
             },
             {
@@ -49,7 +49,7 @@
             },
             {
               "type": "word",
-              "value": "STONE",
+              "value": "away",
               "tokenId": "w2"
             },
             {
@@ -59,7 +59,7 @@
             },
             {
               "type": "word",
-              "value": "Lrake",
+              "value": "from",
               "tokenId": "w3"
             },
             {
@@ -69,7 +69,7 @@
             },
             {
               "type": "word",
-              "value": "dove",
+              "value": "the",
               "tokenId": "w4"
             },
             {
@@ -79,38 +79,8 @@
             },
             {
               "type": "word",
-              "value": "away",
-              "tokenId": "w5"
-            },
-            {
-              "type": "space",
-              "value": " ",
-              "tokenId": null
-            },
-            {
-              "type": "word",
-              "value": "from",
-              "tokenId": "w6"
-            },
-            {
-              "type": "space",
-              "value": " ",
-              "tokenId": null
-            },
-            {
-              "type": "word",
-              "value": "the",
-              "tokenId": "w7"
-            },
-            {
-              "type": "space",
-              "value": " ",
-              "tokenId": null
-            },
-            {
-              "type": "word",
               "value": "door",
-              "tokenId": "w8"
+              "tokenId": "w5"
             },
             {
               "type": "punctuation",

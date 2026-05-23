@@ -55,6 +55,26 @@ const tokenize = (sentence) => {
   });
 };
 
+const stripRepeatedChapterHeading = (paragraph, title, isFirstParagraph) => {
+  if (!isFirstParagraph || !/^Chapter\s+\d+/i.test(title)) return paragraph;
+  const shortTitle = title.replace(/^Chapter\s+\d+\s*-\s*/i, "").trim();
+  const words = shortTitle.match(/[A-Za-z']+/g) || [];
+  const paragraphWords = paragraph.match(/[A-Za-z']+/g) || [];
+  const titlePrefix =
+    words.length &&
+    words.every((word, index) => paragraphWords[index]?.toLowerCase() === word.toLowerCase());
+
+  if (titlePrefix) {
+    const pattern = new RegExp(`^\\s*${words.map((word) => word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("[\\s\\W]+")}\\W*`, "i");
+    const stripped = paragraph.replace(pattern, "").trim();
+    const extraHeading = stripped.match(/^([A-Z][A-Z'!-]*(?:\s+[A-Z][A-Z'!-]*){0,5})(?=\s+[A-Z]?[a-z])/);
+    return extraHeading ? stripped.slice(extraHeading[0].length).trim() : stripped;
+  }
+
+  const leadingAllCaps = paragraph.match(/^([A-Z][A-Z'!-]*(?:\s+[A-Z][A-Z'!-]*){0,5})(?=\s+[A-Z]?[a-z])/);
+  return leadingAllCaps ? paragraph.slice(leadingAllCaps[0].length).trim() : paragraph;
+};
+
 const readBookMeta = async (bookDirName) => {
   const metaPath = path.join(booksRoot, bookDirName, "book.config.json");
   try {
@@ -86,6 +106,7 @@ const parseMarkdown = (bookMeta, fileName, text, imageFiles) => {
   let page = null;
   let buffer = [];
   let blockIndex = 0;
+  let paragraphIndex = 0;
 
   const flushParagraphs = () => {
     const joined = buffer.join("\n").trim();
@@ -97,7 +118,10 @@ const parseMarkdown = (bookMeta, fileName, text, imageFiles) => {
       .filter(Boolean)
       .filter((item) => item !== "_No OCR text on this page._");
 
-    for (const paragraph of paragraphs) {
+    for (const rawParagraph of paragraphs) {
+      const paragraph = stripRepeatedChapterHeading(rawParagraph, title, paragraphIndex === 0);
+      paragraphIndex += 1;
+      if (!paragraph) continue;
       const sentences = splitSentences(paragraph).map((sentence, sentenceIndex) => ({
         sentenceId: `${chapterId}-b${blockIndex}-s${sentenceIndex}`,
         text: sentence,

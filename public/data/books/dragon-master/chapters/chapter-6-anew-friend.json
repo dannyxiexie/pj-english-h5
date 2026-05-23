@@ -21,15 +21,15 @@
       "id": "chapter-6-anew-friend-b0",
       "type": "paragraph",
       "page": 37,
-      "text": "ANEW FRIEND here is so much food on the dining room table! Roast chicken. Potatoes. Carrots. Bread. Cheese. It is more food than Drake has seen in his life. \"Pass the potatoes, please,\" Drake says. Griffith points to the plate of potatoes. Sparks fly from his finger.",
+      "text": "here is so much food on the dining room table! Roast chicken. Potatoes. Carrots. Bread. Cheese. It is more food than Drake has seen in his life. \"Pass the potatoes, please,\" Drake says. Griffith points to the plate of potatoes. Sparks fly from his finger.",
       "sentences": [
         {
           "sentenceId": "chapter-6-anew-friend-b0-s0",
-          "text": "ANEW FRIEND here is so much food on the dining room table!",
+          "text": "here is so much food on the dining room table!",
           "tokens": [
             {
               "type": "word",
-              "value": "ANEW",
+              "value": "here",
               "tokenId": "w0"
             },
             {
@@ -39,7 +39,7 @@
             },
             {
               "type": "word",
-              "value": "FRIEND",
+              "value": "is",
               "tokenId": "w1"
             },
             {
@@ -49,7 +49,7 @@
             },
             {
               "type": "word",
-              "value": "here",
+              "value": "so",
               "tokenId": "w2"
             },
             {
@@ -59,7 +59,7 @@
             },
             {
               "type": "word",
-              "value": "is",
+              "value": "much",
               "tokenId": "w3"
             },
             {
@@ -69,7 +69,7 @@
             },
             {
               "type": "word",
-              "value": "so",
+              "value": "food",
               "tokenId": "w4"
             },
             {
@@ -79,7 +79,7 @@
             },
             {
               "type": "word",
-              "value": "much",
+              "value": "on",
               "tokenId": "w5"
             },
             {
@@ -89,7 +89,7 @@
             },
             {
               "type": "word",
-              "value": "food",
+              "value": "the",
               "tokenId": "w6"
             },
             {
@@ -99,7 +99,7 @@
             },
             {
               "type": "word",
-              "value": "on",
+              "value": "dining",
               "tokenId": "w7"
             },
             {
@@ -109,7 +109,7 @@
             },
             {
               "type": "word",
-              "value": "the",
+              "value": "room",
               "tokenId": "w8"
             },
             {
@@ -119,28 +119,8 @@
             },
             {
               "type": "word",
-              "value": "dining",
-              "tokenId": "w9"
-            },
-            {
-              "type": "space",
-              "value": " ",
-              "tokenId": null
-            },
-            {
-              "type": "word",
-              "value": "room",
-              "tokenId": "w10"
-            },
-            {
-              "type": "space",
-              "value": " ",
-              "tokenId": null
-            },
-            {
-              "type": "word",
               "value": "table",
-              "tokenId": "w11"
+              "tokenId": "w9"
             },
             {
               "type": "punctuation",

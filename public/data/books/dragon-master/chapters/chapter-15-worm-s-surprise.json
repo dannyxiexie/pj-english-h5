@@ -21,15 +21,15 @@
       "id": "chapter-15-worm-s-surprise-b0",
       "type": "paragraph",
       "page": 88,
-      "text": "WORM'S SURPRISE Worm didhit explode. Instead, the dragon closes his eyes. Then the rocks blocking the tunnel begins to shake. \"What's happening?!\" Bo yells. \"Is Worm doing that?\" asks Ana.",
+      "text": "Worm didhit explode. Instead, the dragon closes his eyes. Then the rocks blocking the tunnel begins to shake. \"What's happening?!\" Bo yells. \"Is Worm doing that?\" asks Ana.",
       "sentences": [
         {
           "sentenceId": "chapter-15-worm-s-surprise-b0-s0",
-          "text": "WORM'S SURPRISE Worm didhit explode.",
+          "text": "Worm didhit explode.",
           "tokens": [
             {
               "type": "word",
-              "value": "WORM'S",
+              "value": "Worm",
               "tokenId": "w0"
             },
             {
@@ -39,7 +39,7 @@
             },
             {
               "type": "word",
-              "value": "SURPRISE",
+              "value": "didhit",
               "tokenId": "w1"
             },
             {
@@ -49,28 +49,8 @@
             },
             {
               "type": "word",
-              "value": "Worm",
-              "tokenId": "w2"
-            },
-            {
-              "type": "space",
-              "value": " ",
-              "tokenId": null
-            },
-            {
-              "type": "word",
-              "value": "didhit",
-              "tokenId": "w3"
-            },
-            {
-              "type": "space",
-              "value": " ",
-              "tokenId": null
-            },
-            {
-              "type": "word",
               "value": "explode",
-              "tokenId": "w4"
+              "tokenId": "w2"
             },
             {
               "type": "punctuation",

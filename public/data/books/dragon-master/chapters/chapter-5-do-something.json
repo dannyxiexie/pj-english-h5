@@ -21,36 +21,10 @@
       "id": "chapter-5-do-something-b0",
       "type": "paragraph",
       "page": 31,
-      "text": "DO SOMETHING! he Training Room is one big, open space. Shields and long poles hung from the walls. Buckets hold water and sand. And at one end of the room is a round target. Straw stuffing pokes out from the sides.",
+      "text": "he Training Room is one big, open space. Shields and long poles hung from the walls. Buckets hold water and sand. And at one end of the room is a round target. Straw stuffing pokes out from the sides.",
       "sentences": [
         {
           "sentenceId": "chapter-5-do-something-b0-s0",
-          "text": "DO SOMETHING!",
-          "tokens": [
-            {
-              "type": "word",
-              "value": "DO",
-              "tokenId": "w0"
-            },
-            {
-              "type": "space",
-              "value": " ",
-              "tokenId": null
-            },
-            {
-              "type": "word",
-              "value": "SOMETHING",
-              "tokenId": "w1"
-            },
-            {
-              "type": "punctuation",
-              "value": "!",
-              "tokenId": null
-            }
-          ]
-        },
-        {
-          "sentenceId": "chapter-5-do-something-b0-s1",
           "text": "he Training Room is one big, open space.",
           "tokens": [
             {
@@ -141,7 +115,7 @@
           ]
         },
         {
-          "sentenceId": "chapter-5-do-something-b0-s2",
+          "sentenceId": "chapter-5-do-something-b0-s1",
           "text": "Shields and long poles hung from the walls.",
           "tokens": [
             {
@@ -227,7 +201,7 @@
           ]
         },
         {
-          "sentenceId": "chapter-5-do-something-b0-s3",
+          "sentenceId": "chapter-5-do-something-b0-s2",
           "text": "Buckets hold water and sand.",
           "tokens": [
             {
@@ -283,7 +257,7 @@
           ]
         },
         {
-          "sentenceId": "chapter-5-do-something-b0-s4",
+          "sentenceId": "chapter-5-do-something-b0-s3",
           "text": "And at one end of the room is a round target.",
           "tokens": [
             {
@@ -399,7 +373,7 @@
           ]
         },
         {
-          "sentenceId": "chapter-5-do-something-b0-s5",
+          "sentenceId": "chapter-5-do-something-b0-s4",
           "text": "Straw stuffing pokes out from the sides.",
           "tokens": [
             {

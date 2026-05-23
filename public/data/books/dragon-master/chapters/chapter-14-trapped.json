@@ -21,26 +21,10 @@
       "id": "chapter-14-trapped-b0",
       "type": "paragraph",
       "page": 82,
-      "text": "TRAPS! rake ducks as dirt rains down. He closes his eyes tight. Then the shaking stops. Drake opens his eyes. All the candles have gone out. He looks behind him in the darkness. \"Worm, are you all right?\"",
+      "text": "rake ducks as dirt rains down. He closes his eyes tight. Then the shaking stops. Drake opens his eyes. All the candles have gone out. He looks behind him in the darkness. \"Worm, are you all right?\"",
       "sentences": [
         {
           "sentenceId": "chapter-14-trapped-b0-s0",
-          "text": "TRAPS!",
-          "tokens": [
-            {
-              "type": "word",
-              "value": "TRAPS",
-              "tokenId": "w0"
-            },
-            {
-              "type": "punctuation",
-              "value": "!",
-              "tokenId": null
-            }
-          ]
-        },
-        {
-          "sentenceId": "chapter-14-trapped-b0-s1",
           "text": "rake ducks as dirt rains down.",
           "tokens": [
             {
@@ -106,7 +90,7 @@
           ]
         },
         {
-          "sentenceId": "chapter-14-trapped-b0-s2",
+          "sentenceId": "chapter-14-trapped-b0-s1",
           "text": "He closes his eyes tight.",
           "tokens": [
             {
@@ -162,7 +146,7 @@
           ]
         },
         {
-          "sentenceId": "chapter-14-trapped-b0-s3",
+          "sentenceId": "chapter-14-trapped-b0-s2",
           "text": "Then the shaking stops.",
           "tokens": [
             {
@@ -208,7 +192,7 @@
           ]
         },
         {
-          "sentenceId": "chapter-14-trapped-b0-s4",
+          "sentenceId": "chapter-14-trapped-b0-s3",
           "text": "Drake opens his eyes.",
           "tokens": [
             {
@@ -254,7 +238,7 @@
           ]
         },
         {
-          "sentenceId": "chapter-14-trapped-b0-s5",
+          "sentenceId": "chapter-14-trapped-b0-s4",
           "text": "All the candles have gone out.",
           "tokens": [
             {
@@ -320,7 +304,7 @@
           ]
         },
         {
-          "sentenceId": "chapter-14-trapped-b0-s6",
+          "sentenceId": "chapter-14-trapped-b0-s5",
           "text": "He looks behind him in the darkness.",
           "tokens": [
             {
@@ -396,7 +380,7 @@
           ]
         },
         {
-          "sentenceId": "chapter-14-trapped-b0-s7",
+          "sentenceId": "chapter-14-trapped-b0-s6",
           "text": "\"Worm, are you all right?\"",
           "tokens": [
             {

@@ -21,15 +21,15 @@
       "id": "chapter-13-trouble-in-b0",
       "type": "paragraph",
       "page": 78,
-      "text": "TROUBLE IN THE TUNNEL Lid Worm just speak to me... through his thoughts? Drake does not know what to think. But he has a feeling those words of warning has come from Worm. \"Drake, what's the matter?\" Ana asks. \"It's ... I'm not sure,\" he says. What will they think if I tell them I just hear words in my head? \"Worm doesn't want to go.\"",
+      "text": "Lid Worm just speak to me... through his thoughts? Drake does not know what to think. But he has a feeling those words of warning has come from Worm. \"Drake, what's the matter?\" Ana asks. \"It's ... I'm not sure,\" he says. What will they think if I tell them I just hear words in my head? \"Worm doesn't want to go.\"",
       "sentences": [
         {
           "sentenceId": "chapter-13-trouble-in-b0-s0",
-          "text": "TROUBLE IN THE TUNNEL Lid Worm just speak to me...",
+          "text": "Lid Worm just speak to me...",
           "tokens": [
             {
               "type": "word",
-              "value": "TROUBLE",
+              "value": "Lid",
               "tokenId": "w0"
             },
             {
@@ -39,7 +39,7 @@
             },
             {
               "type": "word",
-              "value": "IN",
+              "value": "Worm",
               "tokenId": "w1"
             },
             {
@@ -49,7 +49,7 @@
             },
             {
               "type": "word",
-              "value": "THE",
+              "value": "just",
               "tokenId": "w2"
             },
             {
@@ -59,7 +59,7 @@
             },
             {
               "type": "word",
-              "value": "TUNNEL",
+              "value": "speak",
               "tokenId": "w3"
             },
             {
@@ -69,7 +69,7 @@
             },
             {
               "type": "word",
-              "value": "Lid",
+              "value": "to",
               "tokenId": "w4"
             },
             {
@@ -79,48 +79,8 @@
             },
             {
               "type": "word",
-              "value": "Worm",
-              "tokenId": "w5"
-            },
-            {
-              "type": "space",
-              "value": " ",
-              "tokenId": null
-            },
-            {
-              "type": "word",
-              "value": "just",
-              "tokenId": "w6"
-            },
-            {
-              "type": "space",
-              "value": " ",
-              "tokenId": null
-            },
-            {
-              "type": "word",
-              "value": "speak",
-              "tokenId": "w7"
-            },
-            {
-              "type": "space",
-              "value": " ",
-              "tokenId": null
-            },
-            {
-              "type": "word",
-              "value": "to",
-              "tokenId": "w8"
-            },
-            {
-              "type": "space",
-              "value": " ",
-              "tokenId": null
-            },
-            {
-              "type": "word",
               "value": "me",
-              "tokenId": "w9"
+              "tokenId": "w5"
             },
             {
               "type": "punctuation",

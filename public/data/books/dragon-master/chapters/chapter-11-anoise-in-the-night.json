@@ -21,15 +21,15 @@
       "id": "chapter-11-anoise-in-the-night-b0",
       "type": "paragraph",
       "page": 68,
-      "text": "ANOISE IN THE NIGHT Lood job cleaning Worm's scales, Drake,\" Griffith says, walking into the cave. Drake isn't going to say anything about what Worm has shown him. Not yet. But he does have a question for Griffith. \"How does the dragons get here?\" he asks.",
+      "text": "Lood job cleaning Worm's scales, Drake,\" Griffith says, walking into the cave. Drake isn't going to say anything about what Worm has shown him. Not yet. But he does have a question for Griffith. \"How does the dragons get here?\" he asks.",
       "sentences": [
         {
           "sentenceId": "chapter-11-anoise-in-the-night-b0-s0",
-          "text": "ANOISE IN THE NIGHT Lood job cleaning Worm's scales, Drake,\" Griffith says, walking into the cave.",
+          "text": "Lood job cleaning Worm's scales, Drake,\" Griffith says, walking into the cave.",
           "tokens": [
             {
               "type": "word",
-              "value": "ANOISE",
+              "value": "Lood",
               "tokenId": "w0"
             },
             {
@@ -39,7 +39,7 @@
             },
             {
               "type": "word",
-              "value": "IN",
+              "value": "job",
               "tokenId": "w1"
             },
             {
@@ -49,7 +49,7 @@
             },
             {
               "type": "word",
-              "value": "THE",
+              "value": "cleaning",
               "tokenId": "w2"
             },
             {
@@ -59,7 +59,7 @@
             },
             {
               "type": "word",
-              "value": "NIGHT",
+              "value": "Worm's",
               "tokenId": "w3"
             },
             {
@@ -69,48 +69,8 @@
             },
             {
               "type": "word",
-              "value": "Lood",
-              "tokenId": "w4"
-            },
-            {
-              "type": "space",
-              "value": " ",
-              "tokenId": null
-            },
-            {
-              "type": "word",
-              "value": "job",
-              "tokenId": "w5"
-            },
-            {
-              "type": "space",
-              "value": " ",
-              "tokenId": null
-            },
-            {
-              "type": "word",
-              "value": "cleaning",
-              "tokenId": "w6"
-            },
-            {
-              "type": "space",
-              "value": " ",
-              "tokenId": null
-            },
-            {
-              "type": "word",
-              "value": "Worm's",
-              "tokenId": "w7"
-            },
-            {
-              "type": "space",
-              "value": " ",
-              "tokenId": null
-            },
-            {
-              "type": "word",
               "value": "scales",
-              "tokenId": "w8"
+              "tokenId": "w4"
             },
             {
               "type": "punctuation",
@@ -125,7 +85,7 @@
             {
               "type": "word",
               "value": "Drake",
-              "tokenId": "w9"
+              "tokenId": "w5"
             },
             {
               "type": "punctuation",
@@ -140,7 +100,7 @@
             {
               "type": "word",
               "value": "Griffith",
-              "tokenId": "w10"
+              "tokenId": "w6"
             },
             {
               "type": "space",
@@ -150,7 +110,7 @@
             {
               "type": "word",
               "value": "says",
-              "tokenId": "w11"
+              "tokenId": "w7"
             },
             {
               "type": "punctuation",
@@ -165,7 +125,7 @@
             {
               "type": "word",
               "value": "walking",
-              "tokenId": "w12"
+              "tokenId": "w8"
             },
             {
               "type": "space",
@@ -175,7 +135,7 @@
             {
               "type": "word",
               "value": "into",
-              "tokenId": "w13"
+              "tokenId": "w9"
             },
             {
               "type": "space",
@@ -185,7 +145,7 @@
             {
               "type": "word",
               "value": "the",
-              "tokenId": "w14"
+              "tokenId": "w10"
             },
             {
               "type": "space",
@@ -195,7 +155,7 @@
             {
               "type": "word",
               "value": "cave",
-              "tokenId": "w15"
+              "tokenId": "w11"
             },
             {
               "type": "punctuation",

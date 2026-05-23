@@ -21,15 +21,15 @@
       "id": "chapter-9-whispers-b0",
       "type": "paragraph",
       "page": 56,
-      "text": "WHISPERS And that is how to shine a dragon's scales,\" Griffith is saying later that week. \"Remember, brush one scale at a time. No shortcuts.\" Rori sighs. \"When can we go out again?\" Drake is glad Rori has asked. They have been stuck in the Training Room for three days.",
+      "text": "And that is how to shine a dragon's scales,\" Griffith is saying later that week. \"Remember, brush one scale at a time. No shortcuts.\" Rori sighs. \"When can we go out again?\" Drake is glad Rori has asked. They have been stuck in the Training Room for three days.",
       "sentences": [
         {
           "sentenceId": "chapter-9-whispers-b0-s0",
-          "text": "WHISPERS And that is how to shine a dragon's scales,\" Griffith is saying later that week.",
+          "text": "And that is how to shine a dragon's scales,\" Griffith is saying later that week.",
           "tokens": [
             {
               "type": "word",
-              "value": "WHISPERS",
+              "value": "And",
               "tokenId": "w0"
             },
             {
@@ -39,7 +39,7 @@
             },
             {
               "type": "word",
-              "value": "And",
+              "value": "that",
               "tokenId": "w1"
             },
             {
@@ -49,7 +49,7 @@
             },
             {
               "type": "word",
-              "value": "that",
+              "value": "is",
               "tokenId": "w2"
             },
             {
@@ -59,7 +59,7 @@
             },
             {
               "type": "word",
-              "value": "is",
+              "value": "how",
               "tokenId": "w3"
             },
             {
@@ -69,7 +69,7 @@
             },
             {
               "type": "word",
-              "value": "how",
+              "value": "to",
               "tokenId": "w4"
             },
             {
@@ -79,7 +79,7 @@
             },
             {
               "type": "word",
-              "value": "to",
+              "value": "shine",
               "tokenId": "w5"
             },
             {
@@ -89,7 +89,7 @@
             },
             {
               "type": "word",
-              "value": "shine",
+              "value": "a",
               "tokenId": "w6"
             },
             {
@@ -99,7 +99,7 @@
             },
             {
               "type": "word",
-              "value": "a",
+              "value": "dragon's",
               "tokenId": "w7"
             },
             {
@@ -109,18 +109,8 @@
             },
             {
               "type": "word",
-              "value": "dragon's",
-              "tokenId": "w8"
-            },
-            {
-              "type": "space",
-              "value": " ",
-              "tokenId": null
-            },
-            {
-              "type": "word",
               "value": "scales",
-              "tokenId": "w9"
+              "tokenId": "w8"
             },
             {
               "type": "punctuation",
@@ -135,7 +125,7 @@
             {
               "type": "word",
               "value": "Griffith",
-              "tokenId": "w10"
+              "tokenId": "w9"
             },
             {
               "type": "space",
@@ -145,7 +135,7 @@
             {
               "type": "word",
               "value": "is",
-              "tokenId": "w11"
+              "tokenId": "w10"
             },
             {
               "type": "space",
@@ -155,7 +145,7 @@
             {
               "type": "word",
               "value": "saying",
-              "tokenId": "w12"
+              "tokenId": "w11"
             },
             {
               "type": "space",
@@ -165,7 +155,7 @@
             {
               "type": "word",
               "value": "later",
-              "tokenId": "w13"
+              "tokenId": "w12"
             },
             {
               "type": "space",
@@ -175,7 +165,7 @@
             {
               "type": "word",
               "value": "that",
-              "tokenId": "w14"
+              "tokenId": "w13"
             },
             {
               "type": "space",
@@ -185,7 +175,7 @@
             {
               "type": "word",
               "value": "week",
-              "tokenId": "w15"
+              "tokenId": "w14"
             },
             {
               "type": "punctuation",

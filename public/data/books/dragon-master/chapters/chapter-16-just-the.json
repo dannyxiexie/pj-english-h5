@@ -21,15 +21,15 @@
       "id": "chapter-16-just-the-b0",
       "type": "paragraph",
       "page": 92,
-      "text": "JUST THE BEGINNING he group walks back through the tunnel in silence. Six of the king's guards are waiting for them in the Training Room. One steps forward as soon as they enter the room. \"King Roland wants a report!\" he barks. The Dragon Masters all looks to Griffith.",
+      "text": "he group walks back through the tunnel in silence. Six of the king's guards are waiting for them in the Training Room. One steps forward as soon as they enter the room. \"King Roland wants a report!\" he barks. The Dragon Masters all looks to Griffith.",
       "sentences": [
         {
           "sentenceId": "chapter-16-just-the-b0-s0",
-          "text": "JUST THE BEGINNING he group walks back through the tunnel in silence.",
+          "text": "he group walks back through the tunnel in silence.",
           "tokens": [
             {
               "type": "word",
-              "value": "JUST",
+              "value": "he",
               "tokenId": "w0"
             },
             {
@@ -39,7 +39,7 @@
             },
             {
               "type": "word",
-              "value": "THE",
+              "value": "group",
               "tokenId": "w1"
             },
             {
@@ -49,7 +49,7 @@
             },
             {
               "type": "word",
-              "value": "BEGINNING",
+              "value": "walks",
               "tokenId": "w2"
             },
             {
@@ -59,7 +59,7 @@
             },
             {
               "type": "word",
-              "value": "he",
+              "value": "back",
               "tokenId": "w3"
             },
             {
@@ -69,7 +69,7 @@
             },
             {
               "type": "word",
-              "value": "group",
+              "value": "through",
               "tokenId": "w4"
             },
             {
@@ -79,7 +79,7 @@
             },
             {
               "type": "word",
-              "value": "walks",
+              "value": "the",
               "tokenId": "w5"
             },
             {
@@ -89,7 +89,7 @@
             },
             {
               "type": "word",
-              "value": "back",
+              "value": "tunnel",
               "tokenId": "w6"
             },
             {
@@ -99,7 +99,7 @@
             },
             {
               "type": "word",
-              "value": "through",
+              "value": "in",
               "tokenId": "w7"
             },
             {
@@ -109,38 +109,8 @@
             },
             {
               "type": "word",
-              "value": "the",
-              "tokenId": "w8"
-            },
-            {
-              "type": "space",
-              "value": " ",
-              "tokenId": null
-            },
-            {
-              "type": "word",
-              "value": "tunnel",
-              "tokenId": "w9"
-            },
-            {
-              "type": "space",
-              "value": " ",
-              "tokenId": null
-            },
-            {
-              "type": "word",
-              "value": "in",
-              "tokenId": "w10"
-            },
-            {
-              "type": "space",
-              "value": " ",
-              "tokenId": null
-            },
-            {
-              "type": "word",
               "value": "silence",
-              "tokenId": "w11"
+              "tokenId": "w8"
             },
             {
               "type": "punctuation",
