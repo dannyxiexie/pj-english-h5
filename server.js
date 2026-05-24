@@ -182,6 +182,9 @@ const inferPartOfSpeech = (word, sentence, dictionaryPart = "") => {
   ]);
   if (adjectiveFollowers.has(next)) return "形容词 adjective";
   if (normalized.endsWith("ing") || (normalized.endsWith("ed") && normalized !== "red")) return "动词 verb";
+  if (normalized.endsWith("s") && /noun/.test(formattedDictionaryPart) && ["are", "were"].includes(previous)) {
+    return "名词 noun";
+  }
   if (["am", "are", "is", "was", "were", "be", "been", "being", "can", "could", "do", "does", "did", "will", "would", "shall", "should", "may", "might", "must"].includes(previous)) {
     return "动词 verb";
   }
@@ -293,7 +296,6 @@ const dictionaryLemma = (word) => {
 const translationQuery = (lemma, partOfSpeech) => {
   if (!lemma) return "";
   if (/verb/.test(partOfSpeech)) return `to ${lemma}`;
-  if (/noun/.test(partOfSpeech)) return `a ${lemma}`;
   return lemma;
 };
 

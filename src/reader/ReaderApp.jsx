@@ -19,7 +19,7 @@ import {
 import "../styles.css";
 
 const APP_STORAGE_PREFIX = "family-reader:v2";
-const LOOKUP_CACHE_VERSION = "lookup-v6";
+const LOOKUP_CACHE_VERSION = "lookup-v7";
 const LONG_PRESS_MS = 520;
 
 const presets = {
