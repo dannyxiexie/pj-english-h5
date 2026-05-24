@@ -137,6 +137,11 @@ const cleanMeaning = (meaning = "") =>
     .replace(/[；;]\s*结合这句话使用。?$/u, "")
     .replace(/\s+/g, " ")
     .trim();
+const cleanTranslatedMeaning = (meaning = "", partOfSpeech = "") => {
+  const cleaned = cleanMeaning(meaning);
+  if (/adjective/.test(partOfSpeech)) return cleaned.replace(/^一个/u, "");
+  return cleaned;
+};
 const formatPartOfSpeech = (partOfSpeech = "") => {
   const normalized = String(partOfSpeech).toLowerCase().trim();
   if (!normalized) return "";
@@ -149,10 +154,38 @@ const inferPartOfSpeech = (word, sentence, dictionaryPart = "") => {
   const previous = words[index - 1] || "";
   const next = words[index + 1] || "";
   const beforePrevious = words[index - 2] || "";
-  if (normalized.endsWith("ing") || normalized.endsWith("ed")) return "动词 verb";
+  const formattedDictionaryPart = formatPartOfSpeech(dictionaryPart);
+  const adjectiveFollowers = new Set([
+    "red",
+    "blue",
+    "white",
+    "brown",
+    "yellow",
+    "green",
+    "black",
+    "long",
+    "thick",
+    "tiny",
+    "big",
+    "small",
+    "scale",
+    "scales",
+    "tail",
+    "wing",
+    "wings",
+    "dragon",
+    "stone",
+    "hair",
+    "beard",
+    "room",
+    "cave"
+  ]);
+  if (adjectiveFollowers.has(next)) return "形容词 adjective";
+  if (normalized.endsWith("ing") || (normalized.endsWith("ed") && normalized !== "red")) return "动词 verb";
   if (["am", "are", "is", "was", "were", "be", "been", "being", "can", "could", "do", "does", "did", "will", "would", "shall", "should", "may", "might", "must"].includes(previous)) {
     return "动词 verb";
   }
+  if (/adjective/.test(formattedDictionaryPart)) return formattedDictionaryPart;
   if (normalized.endsWith("s") && ["he", "she", "it", "this", "that", "drake", "worm", "griffith", "bo", "ana", "rori", "shu"].includes(previous)) {
     return "动词 verb";
   }
@@ -163,7 +196,7 @@ const inferPartOfSpeech = (word, sentence, dictionaryPart = "") => {
     return "名词 noun";
   }
   if (normalized.endsWith("s") && ["me", "you", "him", "her", "it", "us", "them"].includes(next)) return "动词 verb";
-  return formatPartOfSpeech(dictionaryPart);
+  return formattedDictionaryPart;
 };
 
 const particles = new Set([
@@ -449,7 +482,7 @@ const enrichUsage = async (payload, base) => {
       : await fetchChineseTranslation(translationQuery(lookupLemma, partOfSpeech));
   const contextualMeaning =
     translatedWord && isGenericMeaning(base.contextualMeaning)
-      ? translatedWord
+      ? cleanTranslatedMeaning(translatedWord, partOfSpeech)
       : cleanMeaning(base.contextualMeaning);
   const phrases = uniqueByPhrase([
     ...currentPhraseRows,

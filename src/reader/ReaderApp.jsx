@@ -19,7 +19,7 @@ import {
 import "../styles.css";
 
 const APP_STORAGE_PREFIX = "family-reader:v2";
-const LOOKUP_CACHE_VERSION = "lookup-v5";
+const LOOKUP_CACHE_VERSION = "lookup-v6";
 const LONG_PRESS_MS = 520;
 
 const presets = {
@@ -597,19 +597,38 @@ function App() {
             <article className="reader-scroll" ref={scrollRef} onScroll={saveProgress}>
               <div className="book-page">
                 <h1>{chapter.title}</h1>
-                {chapter.blocks.map((block) => (
-                  <Block
-                    key={block.id}
-                    block={block}
-                    settings={settings}
-                    blockRefs={blockRefs}
-                    colorMap={colorMap}
-                    vocabulary={vocabulary}
-                    onOpenImage={setPreviewImage}
-                    onWordDown={beginLongPress}
-                    onWordCancel={cancelLongPress}
-                  />
-                ))}
+                {chapter.blocks.map((block, index) => {
+                  const nextBlock = chapter.blocks[index + 1];
+                  const previousBlock = chapter.blocks[index - 1];
+                  if ((settings.imageDisplay || "thumbnail") === "thumbnail" && block.type === "image" && nextBlock?.type === "pageBreak") {
+                    return (
+                      <PageMarker
+                        key={`${block.id}-${nextBlock.id}`}
+                        imageBlock={block}
+                        pageBlock={nextBlock}
+                        settings={settings}
+                        blockRefs={blockRefs}
+                        onOpenImage={setPreviewImage}
+                      />
+                    );
+                  }
+                  if ((settings.imageDisplay || "thumbnail") === "thumbnail" && block.type === "pageBreak" && previousBlock?.type === "image") {
+                    return null;
+                  }
+                  return (
+                    <Block
+                      key={block.id}
+                      block={block}
+                      settings={settings}
+                      blockRefs={blockRefs}
+                      colorMap={colorMap}
+                      vocabulary={vocabulary}
+                      onOpenImage={setPreviewImage}
+                      onWordDown={beginLongPress}
+                      onWordCancel={cancelLongPress}
+                    />
+                  );
+                })}
               </div>
             </article>
           </section>
@@ -759,6 +778,31 @@ function Block({ block, settings, blockRefs, colorMap, vocabulary, onOpenImage, 
         </span>
       ))}
     </p>
+  );
+}
+
+function PageMarker({ imageBlock, pageBlock, settings, blockRefs, onOpenImage }) {
+  const register = (element) => {
+    if (!element) return;
+    blockRefs.current.set(imageBlock.id, element);
+    blockRefs.current.set(pageBlock.id, element);
+  };
+
+  if (!settings.showPageNumbers && imageBlock.missing) {
+    return <span data-block-id={imageBlock.id} ref={register} />;
+  }
+
+  return (
+    <div className="page-visual-marker" data-block-id={pageBlock.id} ref={register}>
+      {settings.showPageNumbers && <span className="page-break compact-page-break">{pageBlock.label}</span>}
+      {!imageBlock.missing ? (
+        <button className="page-thumbnail-button" type="button" onClick={() => onOpenImage(imageBlock)} aria-label={`展开 ${pageBlock.label} 图片`}>
+          <img src={imageBlock.src} alt={imageBlock.alt} loading="lazy" />
+        </button>
+      ) : (
+        <span className="page-thumbnail-missing">缺图</span>
+      )}
+    </div>
   );
 }
 
