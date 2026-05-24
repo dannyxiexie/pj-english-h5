@@ -380,12 +380,84 @@ button.active,
   margin: 18px auto 22px;
 }
 
-.illustration-block img {
+.illustration-button {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 8px;
+  background: var(--surface);
+  display: block;
+  overflow: hidden;
+  box-shadow: 0 12px 30px rgba(39, 51, 67, 0.16);
+}
+
+.illustration-button img {
   width: 100%;
   display: block;
-  border-radius: 8px;
-  box-shadow: 0 12px 30px rgba(39, 51, 67, 0.16);
   background: var(--surface);
+}
+
+.illustration-thumbnail .illustration-button {
+  height: clamp(120px, 16vh, 180px);
+}
+
+.orientation-landscape .illustration-thumbnail .illustration-button {
+  height: clamp(96px, 15vh, 140px);
+}
+
+.illustration-thumbnail img {
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.illustration-button span {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  min-height: 26px;
+  padding: 4px 9px;
+  border-radius: 999px;
+  background: rgba(20, 24, 31, 0.72);
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.illustration-button:active span {
+  background: var(--accent);
+}
+
+.image-preview {
+  position: fixed;
+  inset: 0;
+  z-index: 30;
+  padding: 52px 22px 22px;
+  background: rgba(12, 15, 20, 0.86);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-preview img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.36);
+}
+
+.preview-close {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  background: rgba(255, 255, 255, 0.92);
+  color: #17202a;
+  border-color: transparent;
 }
 
 .missing-illustration {

@@ -57,6 +57,7 @@ const defaultSettings = {
   orientation: "portrait",
   custom: { ...presets.shared, ...orientations.portrait },
   theme: "light",
+  imageDisplay: "thumbnail",
   showPageNumbers: true,
   autoClosePanel: false
 };
@@ -163,6 +164,7 @@ function App() {
   const [lookupCache, setLookupCache] = useStoredState("lookupCache", {}, bookStoragePrefix);
   const [lookup, setLookup] = useState(null);
   const [lookupState, setLookupState] = useState("idle");
+  const [previewImage, setPreviewImage] = useState(null);
   const scrollRef = useRef(null);
   const blockRefs = useRef(new Map());
   const longPressRef = useRef(null);
@@ -250,6 +252,15 @@ function App() {
       .then((response) => response.json())
       .then(setChapter);
   }, [book, chapterIndex]);
+
+  useEffect(() => {
+    if (!previewImage) return undefined;
+    const closeOnEscape = (event) => {
+      if (event.key === "Escape") setPreviewImage(null);
+    };
+    window.addEventListener("keydown", closeOnEscape);
+    return () => window.removeEventListener("keydown", closeOnEscape);
+  }, [previewImage]);
 
   useEffect(() => {
     if (!chapter || restoredRef.current || !scrollRef.current) return;
@@ -594,6 +605,7 @@ function App() {
                     blockRefs={blockRefs}
                     colorMap={colorMap}
                     vocabulary={vocabulary}
+                    onOpenImage={setPreviewImage}
                     onWordDown={beginLongPress}
                     onWordCancel={cancelLongPress}
                   />
@@ -627,6 +639,7 @@ function App() {
           onImport={importData}
         />
       )}
+      {previewImage && <ImagePreview image={previewImage} onClose={() => setPreviewImage(null)} />}
     </div>
   );
 }
@@ -670,12 +683,15 @@ function Bookshelf({ catalog, onOpen }) {
   );
 }
 
-function Block({ block, settings, blockRefs, colorMap, vocabulary, onWordDown, onWordCancel }) {
+function Block({ block, settings, blockRefs, colorMap, vocabulary, onOpenImage, onWordDown, onWordCancel }) {
   const register = (element) => {
     if (element) blockRefs.current.set(block.id, element);
   };
 
   if (block.type === "image") {
+    if (settings.imageDisplay === "hidden") {
+      return <span data-block-id={block.id} ref={register} />;
+    }
     if (block.missing) {
       return (
         <figure className="illustration-block missing-illustration" data-block-id={block.id} ref={register}>
@@ -686,9 +702,13 @@ function Block({ block, settings, blockRefs, colorMap, vocabulary, onWordDown, o
         </figure>
       );
     }
+    const mode = settings.imageDisplay || "thumbnail";
     return (
-      <figure className="illustration-block" data-block-id={block.id} ref={register}>
-        <img src={block.src} alt={block.alt} loading="lazy" />
+      <figure className={`illustration-block illustration-${mode}`} data-block-id={block.id} ref={register}>
+        <button className="illustration-button" type="button" onClick={() => onOpenImage(block)} aria-label="展开图片">
+          <img src={block.src} alt={block.alt} loading="lazy" />
+          {mode === "thumbnail" && <span>点击查看大图</span>}
+        </button>
       </figure>
     );
   }
@@ -739,6 +759,17 @@ function Block({ block, settings, blockRefs, colorMap, vocabulary, onWordDown, o
         </span>
       ))}
     </p>
+  );
+}
+
+function ImagePreview({ image, onClose }) {
+  return (
+    <div className="image-preview" role="dialog" aria-modal="true" aria-label="图片预览" onClick={onClose}>
+      <button className="icon-button preview-close" onClick={onClose} aria-label="关闭图片">
+        <X size={22} />
+      </button>
+      <img src={image.src} alt={image.alt} onClick={(event) => event.stopPropagation()} />
+    </div>
   );
 }
 
@@ -1094,6 +1125,25 @@ function SettingsPage({ settings, setSettings, progress, vocabulary, onExport, o
             >
               <span>{label}</span>
               <small>{desc}</small>
+            </button>
+          ))}
+        </div>
+      </section>
+
+      <section className="settings-section">
+        <h2>图片显示</h2>
+        <div className="preset-large">
+          {[
+            ["thumbnail", "缩略图"],
+            ["full", "完整图片"],
+            ["hidden", "隐藏图片"]
+          ].map(([key, label]) => (
+            <button
+              key={key}
+              className={(settings.imageDisplay || "thumbnail") === key ? "active" : ""}
+              onClick={() => setSettings((current) => ({ ...current, imageDisplay: key }))}
+            >
+              {label}
             </button>
           ))}
         </div>
